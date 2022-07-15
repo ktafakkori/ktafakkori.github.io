@@ -1,7 +1,7 @@
 ---
 title: "Optimization by PYOMO in Python: A complete working example"
 layout: post
-description: Learning
+description: Learning how to use PYOMO and code an optimization model in Python.
 categories:
   - Exact Optimization
 tags:
