@@ -216,4 +216,4 @@ Based on the discussed steps, a generic optimization pipeline is as follows:
 
 ### Conclusion
 
-In this article, I proposed a working example for optimization with PYOMO in Python. Then, introduced an optimization pipeline that is generic and can be applied when an operations research scientist is modeling, solving, and analyzing an optimization problem. If the content was helpful, consider supporting the project FELOOP by donations or sharing the content with your colleagues and friends! Also, feel free to contact me if there are any questions.
+In this article, I proposed a working example for optimization with PYOMO in Python. Then, introduced an optimization pipeline that is generic and can be applied when an operations research scientist is modeling, solving, and analyzing an optimization problem. If the content was helpful, consider supporting the project FELOOP or sharing the content with your colleagues and friends! Also, feel free to contact me if there are any questions.
