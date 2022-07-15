@@ -22,7 +22,7 @@
              {%- if site.copyright -%}
             <li>&copy; {{ site.copyright }} {{ 'now' | date: "%Y" }}</li>
             {%- endif -%}
-            <p class="rss-subscribe"><a href="{{ "/feed.xml" | relative_url }}">RSS Subscription</a></p>
+            {%- if site.rss -%}<li><a href="https://ktafakkori.github.io/feed.xml"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg> <span>{{ site.rss | escape }}</span></a></li>{%- endif -%}
         </ul>
       </div>
 

@@ -42,7 +42,7 @@ $$
 \begin{aligned}
   & \min && \sum\limits_{t = 1}^{\left| T \right|}w_t\lVert g_t-b_t \rVert^2 \\
   &&& g_t = y_t \quad \forall t \in T \\
-  &&& y_t = \sum_{i}^{|I|} a_{ti}x_i + z \quad \forall t \in T \\
+  &&& y_t = \sum_{i=1}^{|I|} a_{ti}x_i + z \quad \forall t \in T \\
   &&& g_t, y_t, x_i, z \in \mathbb{R} \\
   \end{aligned}
 $$

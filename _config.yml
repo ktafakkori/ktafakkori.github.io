@@ -43,3 +43,5 @@ title-logo: "/images/title-logo.png"
 
 
 permalink: /:title/
+
+rss: RSS Subscription
