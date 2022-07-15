@@ -1,5 +1,5 @@
 ---
-title: "Root of similarities between machine learning and operations research"
+title: "The root of similarities between machine learning and operations research"
 layout: post
 description: Understanding similarities between machine learning and operations research.
 categories:
