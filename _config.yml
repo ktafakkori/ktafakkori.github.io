@@ -37,7 +37,5 @@ paginate_path: "/page:num/"
 
 title-logo: "/images/title-logo.png"
 
-permalinks:
-    category: /:categories/:title/
-    tag: /:tags/:title/
 
+permalink: /:title/
