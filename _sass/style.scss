@@ -1110,19 +1110,7 @@ pre.highlight>button:focus {
 }
 
 :root {
-    --primary-bg-color: rgb(18, 14, 24);
-    --secondary-bg-color: rgb(89, 82, 82);
-    --primary-text-color: rgb(215, 211, 211);
-    --secondary-text-color: rgb(238, 234, 234);
-    --primary-table-color: rgb(25, 20, 56);
-    --primary-codebg-color: rgb(25, 19, 69);
-    --primary-terminalbg-color: rgb(25, 19, 69);
-    --primary-codetext-color: rgb(230, 229, 238);
-    --primary-terminaltext-color: rgb(212, 212, 220);
-    --table-header-color: rgb(25, 19, 69);
-}
 
-body.active {
     --primary-bg-color: #e8f4f8;
     --secondary-bg-color: rgb(27, 28, 30);
     --primary-text-color: rgb(4, 0, 0);
@@ -1133,6 +1121,22 @@ body.active {
     --primary-codetext-color: rgb(26, 26, 29);
     --primary-terminaltext-color: rgb(212, 212, 220);
     --table-header-color: rgb(55, 131, 230);
+}
+
+body.active {
+
+    --primary-bg-color: rgb(18, 14, 24);
+    --secondary-bg-color: rgb(89, 82, 82);
+    --primary-text-color: rgb(215, 211, 211);
+    --secondary-text-color: rgb(238, 234, 234);
+    --primary-table-color: rgb(25, 20, 56);
+    --primary-codebg-color: rgb(25, 19, 69);
+    --primary-terminalbg-color: rgb(25, 19, 69);
+    --primary-codetext-color: rgb(230, 229, 238);
+    --primary-terminaltext-color: rgb(212, 212, 220);
+    --table-header-color: rgb(25, 19, 69);
+
+
 }
 
 body {
