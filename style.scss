@@ -224,8 +224,8 @@ blockquote {
 pre,
 code {
     @include relative-font-size(0.9375);
-    border: 1px solid $grey-color-light;
-    border-radius: 3px;
+    border: 1px solid var(--primary-codetext-color);
+    border-radius: 4px;
 }
 
 code {
@@ -310,7 +310,7 @@ table {
 
     tr {
         &:nth-child(even) {
-            background-color: var(--primary-bg-color);
+            background-color: var(--primary-table-color);
         }
     }
 
@@ -320,7 +320,7 @@ table {
     }
 
     th {
-        background-color: var(--secondary-bg-color);
+        background-color: var(--table-header-color);
         border: 1px solid darken($grey-color-light, 4%);
         border-bottom-color: darken($grey-color-light, 12%);
     }
@@ -597,8 +597,8 @@ table {
 
 .highlight,
 .highlight .w {
-    color: #fffffe;
-    background-color: #180b31;
+    color: var(--primary-terminaltext-color);
+    background-color: var(--primary-terminalbg-color);
 }
 
 .highlight .err {
@@ -1108,8 +1108,8 @@ pre.highlight>button:focus {
 
 .share-page {
     text-align: center;
-    background: rgb(71, 169, 249);
-    color: rgb(12, 8, 8);
+    background: var(--table-header-color);
+    color: var(--primary-codetext-color);
     padding: 8px 15px;
     border-radius: 5px;
     margin: 1.5 * $spacing-unit 0;
@@ -1141,17 +1141,24 @@ pre.highlight>button:focus {
     margin: 0 !important;
 }
 
+/* Code color */
 .highlighter-rouge {
-    color: #e4e4e5;
-    background-color: #180b31;
+    color: var(--primary-codetext-color);
+    background-color: var(--primary-codebg-color);
 }
 
 
 :root {
-    --primary-bg-color: rgb(25, 21, 33);
+    --primary-bg-color: rgb(18, 14, 24);
     --secondary-bg-color: rgb(89, 82, 82);
     --primary-text-color: rgb(215, 211, 211);
     --secondary-text-color: rgb(238, 234, 234);
+    --primary-table-color: rgb(25, 20, 56);
+    --primary-codebg-color: rgb(25, 19, 69);
+    --primary-terminalbg-color: rgb(25, 19, 69);
+    --primary-codetext-color: rgb(230, 229, 238);
+    --primary-terminaltext-color: rgb(212, 212, 220);
+    --table-header-color:  rgb(23, 5, 164);
 }
 
 body.active {
@@ -1159,6 +1166,12 @@ body.active {
     --secondary-bg-color: rgb(198, 200, 202);
     --primary-text-color: rgb(4, 0, 0);
     --secondary-text-color: #999;
+    --primary-table-color: rgb(227, 223, 255);
+    --primary-codebg-color: rgb(205, 222, 254);
+    --primary-terminalbg-color: rgb(25, 19, 69);
+    --primary-codetext-color: rgb(26, 26, 29);
+    --primary-terminaltext-color: rgb(212, 212, 220);
+    --table-header-color:  rgb(55, 131, 230);
 }
 
 body {

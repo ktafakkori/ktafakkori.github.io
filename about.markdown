@@ -17,3 +17,8 @@ I have a deep understanding of the mechanics of a system. I can aid you in desig
 I am currently studying artificial intelligence technologies such as machine learning, deep learning, etc., to leverage them in contribution to the operations research (OR) and management science (MS) fields (and contrariwise) both in theory and practice. 
 
 Moreover, I have experience working with different programming languages such as MATLAB, Python, and C++.
+
+You can reach me by the following terminals (sorted by preference):
+<p><a href = "https://www.linkedin.com/in/keivan-tafakkori/"><i class='fa fa-linkedin-square'></i> Linkedin</a></p>
+<p><a href = "https://twitter.com/KTafakkori"><i class='fa fa-twitter'> Twitter</i></a></p>
+
