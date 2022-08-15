@@ -1,0 +1,77 @@
+---
+layout: default
+---
+
+<p align="center">
+  <iframe
+    width="100%"
+    height="315"
+    src="https://www.youtube.com/embed/e5Vl2arxF5Q?rel=0"
+    frameborder="0"
+    allow="autoplay; encrypted-media"
+    allowfullscreen
+  >
+  </iframe>
+</p>
+
+
+<!-- This loops through the paginated posts -->
+<h2 class="post-list-heading">{{ page.list_title | default: "Blog Posts" }}</h2>
+<ul class="post-list">
+  {%- for post in paginator.posts -%}
+  <li>
+    {%- if post.image -%}
+    <img
+      src="{{- post.image | relative_url -}}"
+      alt=""
+      class="blog-roll-image"
+    />
+    {%- else -%} {%- assign postImage = "images/image-default.jpg" -%}
+    <img
+      src="{{- postImage | relative_url -}}"
+      alt=""
+      class="blog-roll-image"
+    />
+    {%- endif -%} {%- assign date_format = site.minima.date_format | default:
+    "%b %-d, %Y" -%}
+    <span class="post-meta">
+      {{ post.date | date: date_format }} | Reading:{% assign words =
+      post.content | strip_html | number_of_words %} {{ words | divided_by: 180
+      | plus: 1 }}m</span
+    >
+    <a class="post-link" href="{{ post.url | relative_url }}"
+      >{{ post.title | escape }}</a
+    >
+    <span class="post-description"> {{ post.description }} </span>
+    <!-- {%- if site.show_excerpts -%}
+    {{ post.excerpt }}
+    {%- endif -%} -->
+  </li>
+  {%- endfor -%}
+</ul>
+
+<!-- Pagination links -->
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+  {% if paginator.previous_page %}
+  <a href="{{ paginator.previous_page_path | relative_url }}"
+    >&laquo; Prev&nbsp</a
+  >
+  {% else %}
+  <span>&laquo; Prev&nbsp</span>
+  {% endif %} {% for page in (1..paginator.total_pages) %} {% if page ==
+  paginator.page %}
+  <em>{{ page }}&nbsp</em>
+  {% elsif page == 1 %}
+  <a href="/">{{ page }}&nbsp</a>
+  {% else %}
+  <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}"
+    >{{ page }}&nbsp</a
+  >
+  {% endif %} {% endfor %} {% if paginator.next_page %}
+  <a href="{{ paginator.next_page_path | relative_url }}">Next &raquo;</a>
+  {% else %}
+  <span> Next &raquo;</span>
+  {% endif %}
+</div>
+{% endif %}

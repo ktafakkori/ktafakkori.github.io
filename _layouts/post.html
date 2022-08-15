@@ -1,0 +1,155 @@
+---
+layout: default
+---
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      processEscapes: true
+    }
+  });
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+  
+<article class="post h-entry" itemscope
+  itemtype="http://schema.org/BlogPosting">
+
+
+  <header class="post-header">
+    <h2 class="post-title p-name" itemprop="name headline">{{ page.title |
+      escape }}</h2>
+    <p class="post-meta">
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}"
+        itemprop="datePublished">
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y"
+        -%}
+        {{ page.date | date: date_format }}
+      </time>
+      {%- if page.author -%}
+      • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span
+          class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
+      {%- endif -%}
+
+      {%- if page.image -%}
+      <img src="{{- page.image | relative_url -}}" alt=""
+        class="featured-image-post">
+      {%- else -%}
+      {%- assign postImage = "/assets/images/image-default.jpg" -%}
+      <img src="{{- postImage | relative_url -}}" alt=""
+        class="featured-image-post">
+      {%- endif -%}
+    </header>
+
+    
+    <!-- <div style=""> -->
+      <div class="post-content e-content" itemprop="articleBody">
+        {{ content }}
+      </div>
+    <!-- </div>  -->
+
+    {% if site.related_posts.size >= 1 %}
+    <div>
+      <h4 style="color:var(--primary-text-color);"><b>Related Posts:</b></h4>
+      <ul>
+        {% for related_post in site.related_posts limit: 5 %}
+        <li style="color:var(--primary-text-color);"><a href="{{ related_post.url }}">{{ related_post.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+
+    <p style="margin-bottom:1cm;">
+    <div class="post-nav">
+      <div>
+        {% if page.previous.url %}
+        <a href="{{page.previous.url}}">&laquo;&nbsp;Previous:
+          {{page.previous.title}}</a>
+        {% endif %}
+      </div>
+      <div class="post-nav-next">
+        {% if page.next.url %}
+        <a href="{{page.next.url}}">Next: {{page.next.title}}&nbsp;&raquo;</a>
+        {% endif %}
+      </div>
+    </div>
+  </p>
+
+
+  <p style="margin-bottom:1cm;">
+    <div class="post-categories">
+      {% if post %}
+      {% assign categories = post.categories %}
+      {% else %}
+      {% assign categories = page.categories %}
+      {% endif %}
+      <b style="color:var(--primary-text-color);">Categories:</b>
+      {% for category in categories %}
+      <a href="{{site.baseurl}}/categories/#{{category|slugize}}"> {{category}}</a>
+      {% unless forloop.last %}&nbsp;{% endunless %}
+      {% endfor %}
+    </div>
+
+
+    <div class="post-tags">
+      {% if post %}
+      {% assign tags = post.tags %}
+      {% else %}
+      {% assign tags = page.tags %}
+      {% endif %}
+      <b style="color:var(--primary-text-color);">Tags:</b>
+      {% for tag in tags %}
+      <a href="{{site.baseurl}}/tags/#{{tag|slugize}}">{{tag}}</a>
+      {% unless forloop.last %}&nbsp;{% endunless %}
+      {% endfor %}
+    </div>
+  </p>
+  
+    {%- if site.disqus.shortname -%}
+    {%- include disqus_comments.html -%}
+    {%- endif -%}
+
+    <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+
+
+<div class="share-page">
+  Share this on &rarr;
+  <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter">Twitter</a>
+  <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook">Facebook</a>
+  <a href="http://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Linkedin">Linkedin</a>
+  <a href="http://www.reddit.com/submit?url={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Reddit">Reddit</a>
+</div>
+
+
+<b style="color:var(--primary-text-color);">Comments:</b>
+{%- include utterances.html -%}
+
+</article>
+
+  
+  <!-- Copy code to clipboard -->
+<script>
+  document
+    .querySelector('.post-content')
+    .querySelectorAll('pre.highlight')
+    .forEach(function (pre) {
+      var button = document.createElement('button');
+      var copyText = 'Copy';
+      button.className = 'copy';
+      button.type = 'button';
+      button.ariaLabel = 'Copy code to clipboard';
+      button.innerText = copyText;
+      button.addEventListener('click', function () {
+        var code = pre.querySelector('code').innerText.trim();
+        navigator.clipboard.writeText(code);
+        button.innerText = 'Copied';
+        setTimeout(function () {
+          button.innerText = copyText;
+        }, 4000);
+      });
+      pre.appendChild(button);
+    });
+</script>
+
+
+
