@@ -42,31 +42,32 @@ If you know a specific package, or a developer, do not hesitate to contact me!
 
 | Package         | Link                                                                  |
 | --------------- | --------------------------------------------------------------------- |
+| `casadi`        | [Offciial](https://web.casadi.org/)                                   |
 | `gekko`         | [Official](https://machinelearning.byu.edu/)                          |
 | `knitro`        | [Official](https://www.artelys.com/docs/knitro/index.html)            |
 | `lindo`         | [Official](https://www.lindo.com/)                                    |
-| `midaco`        | [Official](http://www.midaco-solver.com/index.php/download/python)     |
-| `naginterfaces` | [Official](https://www.nag.com/)                                       |
+| `midaco`        | [Official](http://www.midaco-solver.com/index.php/download/python)    |
+| `naginterfaces` | [Official](https://www.nag.com/)                                      |
 | `octeract`      | [Official](https://octeract.gg/)                                      |
 | `pydrake`       | [Official](https://drake.mit.edu/)                                    |
-| `pygmo`         | [Official](https://esa.github.io/pygmo2/)                              |
+| `pygmo`         | [Official](https://esa.github.io/pygmo2/)                             |
 | `pyomo`         | [Official](http://www.pyomo.org/)                                     |
 | `pyscipopt`     | [Official](https://scipopt.org/)                                      |
 | `xpress`        | [Official](https://www.fico.com/en/products/fico-xpress-optimization) |
 
 # MIQP+MILP+IP+LP Packages
 
-| Package       | Link                                                           |
-| ------------- | -------------------------------------------------------------- |
-| `copt`        | [Official](https://www.shanshu.ai/copt)                        |
-| `cplex`       | [Official](https://www.ibm.com/analytics/cplex-optimizer)      |
-| `docplex`     | [Official](https://www.ibm.com/analytics/cplex-optimizer)      |
-| `gurobipy`    | [Official](https://www.gurobi.com/)                            |
-| `highs`       | [Official](https://highs.dev/)                                 |
-| `localsolver` | [Official](https://www.localsolver.com/)                       |
-| `mosek`       | [Official](https://docs.mosek.com/latest/pythonapi/index.html) |
-| `optlang`     | [Official](https://optlang.readthedocs.io/en/latest/)          |
-| `sasoptpy`    | [Official](https://github.com/sassoftware/sasoptpy)            |
+| Package       | Link                                                               |
+| ------------- | ------------------------------------------------------------------ |
+| `copt`        | [Official](https://www.shanshu.ai/copt)                            |
+| `cplex`       | [Official](https://www.ibm.com/analytics/cplex-optimizer)          |
+| `docplex`     | [Official](https://ibmdecisionoptimization.github.io/docplex-doc/) |
+| `gurobipy`    | [Official](https://www.gurobi.com/)                                |
+| `highs`       | [Official](https://highs.dev/)                                     |
+| `localsolver` | [Official](https://www.localsolver.com/)                           |
+| `mosek`       | [Official](https://docs.mosek.com/latest/pythonapi/index.html)     |
+| `optlang`     | [Official](https://optlang.readthedocs.io/en/latest/)              |
+| `sasoptpy`    | [Official](https://github.com/sassoftware/sasoptpy)                |
 
 # MILP+IP+LP Packages
 
@@ -89,13 +90,20 @@ If you know a specific package, or a developer, do not hesitate to contact me!
 
 | Package    | Link                                                |
 | ---------- | --------------------------------------------------- |
+| `acadopy`  | [Official](https://github.com/force-h2020/acadopy)  |
+| `acados`   | [Official](https://docs.acados.org/index.html)      |
+| `cyipopt`  | [Official](https://pypi.org/project/ipopt/)         |
+| `dymos`    | [Official](https://openmdao.github.io/dymos/)       |
+| `gpkit`    | [Official](https://gpkit.readthedocs.io/en/latest/) |
 | `iminuit`  | [Official](https://pypi.org/project/iminuit/)       |
 | `nlopt`    | [Official](https://nlopt.readthedocs.io/en/latest/) |
+| `nlpy`     | [Official](http://nlpy.sourceforge.net/)            |
 | `openmdao` | [Official](https://openmdao.org/)                   |
+| `openopt`  | [Official](http://openopt.org/)                     |
+| `pyipopt`  | [Official](https://github.com/xuy/pyipopt)          |
 | `pyopt`    | [Official](http://www.pyopt.org/)                   |
 | `scipy`    | [Official](https://scipy.org/)                      |
 | `worhp`    | [Official](https://worhp.de/)                       |
-| `cyipopt`  | [Official](https://pypi.org/project/ipopt/)         |
 
 # CP Packages
 
@@ -151,6 +159,8 @@ If you know a specific package, or a developer, do not hesitate to contact me!
 | `pdfo`                   | [Official](https://www.pdfo.net/index.html)                                           |
 | `platypus`               | [Official](https://platypus.readthedocs.io/en/latest/)                                |
 | `proxmin`                | [Official](https://github.com/pmelchior/proxmin)                                      |
+| `psopt`                  | [Official](https://pypi.org/project/psopt/)                                           |
+| `psopy`                  | [Official](https://github.com/jerrytheo/psopy)                                        |
 | `py-bobyqa`              | [Official](https://numericalalgorithmsgroup.github.io/pybobyqa/build/html/index.html) |
 | `pydogs`                 | [Official](https://pypi.org/project/pydogs/)                                          |
 | `pygpgo`                 | [Official](https://pygpgo.readthedocs.io/en/latest/)                                  |
@@ -161,6 +171,7 @@ If you know a specific package, or a developer, do not hesitate to contact me!
 | `pysmac`                 | [Official](https://github.com/automl/pysmac)                                          |
 | `pysot`                  | [Official](https://pysot.readthedocs.io/en/latest/)                                   |
 | `pyswarms`               | [Official](https://pyswarms.readthedocs.io/en/latest/)                                |
+| `qiskit-optimization`    | [Official](https://pypi.org/project/qiskit-optimization/)                             |
 | `rapids-NeurIPS`         | [Official](https://github.com/daxiongshu/rapids-ai-BBO-2nd-place-solution)            |
 | `ray`                    | [Official](https://github.com/ray-project/ray)                                        |
 | `rbfopt`                 | [Official](https://github.com/coin-or/rbfopt)                                         |
@@ -176,9 +187,9 @@ If you know a specific package, or a developer, do not hesitate to contact me!
 | `tgo`                    | [Official](https://github.com/stefan-endres/tgo)                                      |
 | `turbo-NeurIPS`          | [Official](https://github.com/nphdang/turbo_bbo_neurips_2020)                         |
 | `turbo`                  | [Official](https://github.com/uber-research/TuRBO)                                    |
-| `ultraopt`               | [GitHub](https://auto-flow.github.io/ultraopt/zh/)                                  |
-| `yabox`                  | [GitHub](https://github.com/pablormier/yabox)                                       |
-| `zoopt`                  | [GitHub](https://github.com/polixir/ZOOpt)                                           |
+| `ultraopt`               | [GitHub](https://auto-flow.github.io/ultraopt/zh/)                                    |
+| `yabox`                  | [GitHub](https://github.com/pablormier/yabox)                                         |
+| `zoopt`                  | [GitHub](https://github.com/polixir/ZOOpt)                                            |
 
 Note 1: If you are having trouble while installing via `!pip install <PACKAGE>` (in-line code) or `pip install <PACKAGE>` (terminal code), you may use the following piece of code. Also, please be aware that some of the introduced packages require installing software or downloading and compiling a copy of their binary files to be imported into Python. Therefore, some of them are not easily `pip` installable.
 
