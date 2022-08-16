@@ -42,7 +42,7 @@ If you know a specific package, or a developer, do not hesitate to contact me!
 
 | Package         | Link                                                                  |
 | --------------- | --------------------------------------------------------------------- |
-| `casadi`        | [Offciial](https://web.casadi.org/)                                   |
+| `casadi`        | [Official](https://web.casadi.org/)                                   |
 | `gekko`         | [Official](https://machinelearning.byu.edu/)                          |
 | `knitro`        | [Official](https://www.artelys.com/docs/knitro/index.html)            |
 | `lindo`         | [Official](https://www.lindo.com/)                                    |
