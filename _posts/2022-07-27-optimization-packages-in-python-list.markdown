@@ -12,7 +12,6 @@ author:
 image: "/images/interface-solvers.png"
 comments: true
 toc: true
-toc_sticky: true
 ---
 
 # Introduction
