@@ -197,7 +197,9 @@ This article can be a comprehensive reference for academics and experts in indus
 | `yabox`                  | [GitHub](https://github.com/pablormier/yabox)                                         |
 | `zoopt`                  | [GitHub](https://github.com/polixir/ZOOpt)                                            |
 
-Note 1: If you are having trouble while installing via `!pip install <PACKAGE>` (in-line code) or `pip install <PACKAGE>` (terminal code), you may use the following piece of code. Also, please be aware that some of the introduced packages require installing software or downloading and compiling a copy of their binary files to be imported into Python. Therefore, some of them are not easily `pip` installable.
+# Notes
+
+1. If you are having trouble while installing via `!pip install <PACKAGE>` (in-line code) or `pip install <PACKAGE>` (terminal code), you may use the following piece of code. Also, please be aware that some of the introduced packages require installing software or downloading and compiling a copy of their binary files to be imported into Python. Therefore, some of them are not easily `pip` installable.
 
 ```python
 import pip
@@ -213,7 +215,7 @@ def install(package):
 install('pyomo')
 ```
 
-Note 2: There are some benchmarkig `tools` and websites, which are introduced as follows:
+2. There are some benchmarkig `tools` and websites, which are introduced as follows:
 
 | Benchmark  | Link                                                     |
 | ---------- | -------------------------------------------------------- |
