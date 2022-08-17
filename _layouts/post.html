@@ -40,11 +40,8 @@ layout: default
       {%- endif -%}
     </header>
 
-    <nav aria-label="Table of Contents">
-      <h2> Table of Contents </h2>
-
-      {{ content | toc_only }}
-  </nav>
+    <h2> Table of Contents </h2>
+    {% include toc.html html=content %}
 
     <!-- <div style=""> -->
       <div class="post-content e-content" itemprop="articleBody">
