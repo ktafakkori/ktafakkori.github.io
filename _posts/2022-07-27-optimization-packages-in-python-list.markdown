@@ -15,13 +15,15 @@ comments: true
 
 {% include note.html content="The list was updated on August 17, 2022." %}
 
+{% include important.html content="If you know a specific package, which is missing, you may either contact me or comment here." %}
+
 {% include warning.html content="The current list may have errors. If you found some, you may either contact me or comment here." %}
 
 # Introduction
 
 This article can be a comprehensive reference for academics and experts in industrial engineering (IE), supply chain management (SCM), operations research (OR), computer science (CS), machine learning (ML), simulation (SM), data science (DS), and others to get familiar with what is available for optimization in Python.
 
-If you know a specific package, or a developer, do not hesitate to contact me!
+
 
 <div class="dark-bg">
     <video width="100%" height="600" autoplay loop muted class="no-margin">
