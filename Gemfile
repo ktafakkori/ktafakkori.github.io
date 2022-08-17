@@ -16,6 +16,7 @@ group :jekyll_plugins do
   gem 'jekyll-admin'
   gem 'jekyll-archives'
   gem 'jekyll-sitemap'
+  gem 'jekyll-toc'
 end
 
 platforms :mingw, :x64_mingw, :mswin, :jruby do

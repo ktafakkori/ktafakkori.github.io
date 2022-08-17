@@ -15,7 +15,6 @@ layout: default
 <article class="post h-entry" itemscope
   itemtype="http://schema.org/BlogPosting">
 
-
   <header class="post-header">
     <h2 class="post-title p-name" itemprop="name headline">{{ page.title |
       escape }}</h2>
@@ -41,7 +40,12 @@ layout: default
       {%- endif -%}
     </header>
 
-    
+    <nav aria-label="Table of Contents">
+      <h2> Table of Contents </h2>
+
+      {{ content | toc_only }}
+  </nav>
+
     <!-- <div style=""> -->
       <div class="post-content e-content" itemprop="articleBody">
         {{ content }}

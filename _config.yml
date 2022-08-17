@@ -48,3 +48,5 @@ kramdown:
   syntax_highlighter: rouge
 
 permalink: /:title/
+
+toc: true

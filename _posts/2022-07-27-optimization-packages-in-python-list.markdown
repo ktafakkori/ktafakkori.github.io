@@ -11,9 +11,11 @@ author:
   - Keivan Tafakkori
 image: "/images/interface-solvers.png"
 comments: true
+toc: true
+toc_sticky: true
 ---
 
-{:toc}
+# Introduction
 
 This article can be a comprehensive reference for academics and experts in industrial engineering (IE), supply chain management (SCM), operations research (OR), computer science (CS), machine learning (ML), simulation (SM), data science (DS), and others to get familiar with what is available for optimization in Python.
 
@@ -128,7 +130,7 @@ If you know a specific package, or a developer, do not hesitate to contact me!
 | `bayesianevolution`      | [Official](https://github.com/subhodipbiswas/BayesianEvolution)                       |
 | `bayeso`                 | [Official](https://bayeso.readthedocs.io/en/main/)                                    |
 | `bayesopt`               | [Official](https://bayesopt.github.io/)                                               |
-| `bolbib`                 | [Official](https://gitlab.com/ibaidev/bolib)                                          |
+| `bolib`                  | [Official](https://gitlab.com/ibaidev/bolib)                                          |
 | `cma`                    | [Official](https://github.com/CMA-ES/pycma)                                           |
 | `cmaes`                  | [Official](https://github.com/CyberAgentAILab/cmaes)                                  |
 | `cuopt`                  | [Official](https://developer.nvidia.com/cuopt-logistics-optimization)                 |
