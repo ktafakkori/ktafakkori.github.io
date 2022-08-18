@@ -232,10 +232,3 @@ install('pyomo')
 | `humpday`  | [Official](https://www.microprediction.com/blog/humpday) |
 | `pycutest` | [Official](https://github.com/jfowkes/pycutest)          |
 | Mittelmann | [Official](http://plato.la.asu.edu/bench.html)           |
-
-3- Some useful linkes for future updates:
-
-| Update                            | Link                                                                             |
-| --------------------------------- | -------------------------------------------------------------------------------- |
-| GitHub Topic (optimization)       | [Official](https://github.com/topics/optimization?l=python&o=desc&s=stars)       |
-| GitHub Topic (optimization-tools) | [Official](https://github.com/topics/optimization-tools?l=python&o=desc&s=stars) |
