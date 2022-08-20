@@ -628,7 +628,7 @@ This article can be a comprehensive reference for academics and experts in indus
 | `yfinance`         | [Official](https://github.com/ranaroussi/yfinance)         |
 | `zipline`          | [Official](https://github.com/quantopian/zipline)          |
 
-## input: timeseries data
+## input: time series data
 
 | Package   | Link                                                        |
 | --------- | ----------------------------------------------------------- |
