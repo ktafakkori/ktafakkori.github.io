@@ -9,11 +9,11 @@ tags:
   - Python
 author:
   - Keivan Tafakkori
-image: "/images/interface-solvers.png"
+image: "/images/or-packages.png"
 comments: true
 ---
 
-{% include update.html %}
+{% include note.html content="The list was updated on August 18, 2022." %}
 
 {% include important.html content="If you know a specific package, which is missing, you may either contact me or comment here." %}
 
@@ -147,6 +147,7 @@ This article can be a comprehensive reference for academics and experts in indus
 | `dlib`                     | [Official](http://dlib.net/)                                                          |
 | `evolopy`                  | [Official](https://github.com/7ossam81/EvoloPy)                                       |
 | `evoopt`                   | [Official](https://github.com/tsyet12/EvoOpt)                                         |
+| `evostra`                  | [Official](https://github.com/alirezamika/evostra)                                    |
 | `freelunch`                | [Official](https://pypi.org/project/freelunch/)                                       |
 | `gaft`                     | [Official](https://github.com/PytLab/gaft)                                            |
 | `geneticalgorithm`         | [Official](https://github.com/rmsolgi/geneticalgorithm)                               |
@@ -170,6 +171,7 @@ This article can be a comprehensive reference for academics and experts in indus
 | `pagmo`                    | [Official](https://esa.github.io/pagmo2/index.html)                                   |
 | `pdfo`                     | [Official](https://www.pdfo.net/index.html)                                           |
 | `platypus`                 | [Official](https://platypus.readthedocs.io/en/latest/)                                |
+| `prodyn`                   | [Official](https://prodyn.readthedocs.io/)                                            |
 | `proxmin`                  | [Official](https://github.com/pmelchior/proxmin)                                      |
 | `psopt`                    | [Official](https://pypi.org/project/psopt/)                                           |
 | `psopy`                    | [Official](https://github.com/jerrytheo/psopy)                                        |
