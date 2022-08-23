@@ -15,13 +15,13 @@ comments: true
 
 {% include note.html content="The list was updated on August 20, 2022." %}
 
-{% include important.html content="If you know a legendary package, which is missing, you may either contact me or comment here." %}
+{% include important.html content="If you know a legendary package, which is missing, you may contact me or comment here." %}
 
 {% include warning.html content="The current list may have errors because it is the first draft! If you found some, you may either contact me or comment here." %}
 
 # Introduction
 
-This article can be a comprehensive reference for academics and experts in industrial engineering IE , supply chain management SCM , operations research OR , computer science CS , machine learning ML , simulation SM , data science DS , and others to get familiar with what is available for machine learning in Python.
+This article can be a comprehensive reference for academics and experts in industrial engineering (IE), supply chain management (SCM), operations research (OR), computer science (CS), machine learning (ML), simulation (SM), data science (DS), and others to get familiar with what is available for machine learning in Python.
 
 # Guide
 
@@ -33,7 +33,7 @@ This article can be a comprehensive reference for academics and experts in indus
 | PL                 | Probabilistic learning  |
 | FL                 | Federated learning      |
 | DSL                | Distributed learning    |
-| RL                 | Reinforcmeent learning  |
+| RL                 | Reinforcement learning  |
 | RCL                | Recommendation learning |
 | AL                 | Automated learning      |
 | SPL                | Specialized learning    |
@@ -94,7 +94,7 @@ This article can be a comprehensive reference for academics and experts in indus
 | `graphlab-create`                | [Official](https://turi.com/products/create/docs/)                                                         |
 | `hebel`                          | [Official](https://github.com/hannes-brt/hebel)                                                            |
 | `hub`                            | [Official](https://github.com/activeloopai/hub)                                                            |
-| `hydrosphere mist`               | [Official](https://github.com/hydrospheredata/mist)                                                        |
+| `mist`                           | [Official](https://github.com/hydrospheredata/mist)                                                        |
 | `igel`                           | [Official](https://github.com/nidhaloff/igel)                                                              |
 | `imbalanced-ensemble`            | [Official](https://github.com/zhiningliu1998/imbalanced-ensemble)                                          |
 | `imbalanced-learn`               | [Official](https://imbalanced-learn.org/stable/)                                                           |
@@ -102,7 +102,7 @@ This article can be a comprehensive reference for academics and experts in indus
 | `ivy-core`                       | [Official](https://github.com/unifyai/ivy)                                                                 |
 | `jax`                            | [Official](https://github.com/google/jax)                                                                  |
 | `jina`                           | [Official](https://github.com/jina-ai/jina)                                                                |
-| `karate club`                    | [Official](https://github.com/benedekrozemberczki/karateclub)                                              |
+| `karateclub`                     | [Official](https://github.com/benedekrozemberczki/karateclub)                                              |
 | `keras`                          | [Official](https://github.com/keras-team/keras)                                                            |
 | `ktrain`                         | [Official](https://github.com/amaiya/ktrain)                                                               |
 | `lasagne`                        | [Official](https://github.com/lasagne/lasagne)                                                             |
@@ -162,11 +162,11 @@ This article can be a comprehensive reference for academics and experts in indus
 | `pysyft`                         | [Official](https://github.com/openmined/pysyft)                                                            |
 | `python-recsys`                  | [Official](https://github.com/ocelma/python-recsys)                                                        |
 | `python-timbl`                   | [Official](https://github.com/proycon/python-timbl)                                                        |
-| `pytorch lightning bolts`        | [Official](https://github.com/pytorchlightning/pytorch-lightning-bolts)                                    |
-| `pytorch lightning`              | [Official](https://github.com/pytorchlightning/pytorch-lightning)                                          |
+| `pytorch-lightning-bolts`        | [Official](https://github.com/pytorchlightning/pytorch-lightning-bolts)                                    |
+| `pytorch-lightning`              | [Official](https://github.com/pytorchlightning/pytorch-lightning)                                          |
 | `pytorch-geometric-temporal`     | [Official](https://github.com/benedekrozemberczki/pytorch_geometric_temporal)                              |
 | `pytorch-ignite`                 | [Official](https://github.com/pytorch/ignite)                                                              |
-| `pytorch-lightning`              | [Official](https://github.com/lightning-ai/lightning)                                                      |
+| `lightning`                      | [Official](https://github.com/lightning-ai/lightning)                                                      |
 | `pytorch`                        | [Official](https://github.com/pytorch/pytorch)                                                             |
 | `recommenders`                   | [Official](https://github.com/microsoft/recommenders)                                                      |
 | `rep`                            | [Official](https://github.com/yandex/rep)                                                                  |
@@ -204,7 +204,6 @@ This article can be a comprehensive reference for academics and experts in indus
 | `thundergbm`                     | [Official](https://github.com/xtra-computing/thundergbm)                                                   |
 | `thundersvm`                     | [Official](https://github.com/xtra-computing/thundersvm)                                                   |
 | `topik`                          | [Official](https://github.com/continuumio/topik)                                                           |
-| `towhee`                         | [Official](https://github.com/towhee-io/towhee)                                                            |
 | `towhee`                         | [Official](https://towhee.io)                                                                              |
 | `tpot`                           | [Official](https://github.com/epistasislab/tpot)                                                           |
 | `turicreate`                     | [Official](https://github.com/apple/turicreate)                                                            |
@@ -212,7 +211,6 @@ This article can be a comprehensive reference for academics and experts in indus
 | `vowpalwabbit`                   | [Official](https://github.com/vowpalwabbit/vowpal_wabbit)                                                  |
 | `xcessiv`                        | [Official](https://github.com/reiinakano/xcessiv)                                                          |
 | `xgboost`                        | [Official](https://github.com/dmlc/xgboost)                                                                |
-| `xgboost`                        | [Official](https://xgboost.readthedocs.io/en/stable/)                                                      |
 | `xlearn`                         | [Official](https://github.com/aksnzhy/xlearn)                                                              |
 | `xrbm`                           | [Official](https://github.com/omimo/xrbm)                                                                  |
 
@@ -236,33 +234,32 @@ This article can be a comprehensive reference for academics and experts in indus
 | `fastai`           | [Official](https://www.fast.ai/)                              |
 | `jina`             | [Official](https://jina.ai/)                                  |
 | `keras`            | [Official](https://keras.io/)                                 |
-| `lasagne`          | [Official](https://github.com/Lasagne/Lasagne)                |
+| `lasagne`          | [Official](https://github.com/lasagne/lasagne)                |
 | `ludwig`           | [Official](https://github.com/ludwig-ai/ludwig)               |
 | `manning`          | [Official](https://www.manning.com/livevideo/)                |
 | `mindsdb`          | [Official](https://github.com/mindsdb/mindsdb)                |
 | `mxnet`            | [Official](https://mxnet.apache.org/versions/1.4.1/)          |
 | `neupy`            | [Official](https://github.com/itdxer/neupy)                   |
-| `NeuPy`            | [Official](https://github.com/itdxer/neupy)                   |
-| `NeuralTalk`       | [Official](https://github.com/karpathy/neuraltalk)            |
-| `NeuralTalk`       | [Official](https://github.com/karpathy/neuraltalk2)           |
+| `neupy`            | [Official](https://github.com/itdxer/neupy)                   |
+| `neuraltalk`       | [Official](https://github.com/karpathy/neuraltalk)            |
+| `neuraltalk2`      | [Official](https://github.com/karpathy/neuraltalk2)           |
 | `neurolab`         | [Official](https://github.com/zueve/neurolab)                 |
-| `Neuron`           | [Official](https://github.com/molcik/python-neuron)           |
-| `Neuron`           | [Official](https://github.com/molcik/python-neuron)           |
+| `neuron`           | [Official](https://github.com/molcik/python-neuron)           |
 | `nn_builder`       | [Official](https://github.com/p-christ/nn_builder)            |
 | `nolearn`          | [Official](https://github.com/dnouri/nolearn)                 |
 | `nupic`            | [Official](https://github.com/numenta/nupic)                  |
-| `paddlepaddle`     | [Official](https://github.com/PaddlePaddle/Paddle)            |
+| `paddlepaddle`     | [Official](https://github.com/paddlepaddle/paddle)            |
 | `pylearn2`         | [Official](https://github.com/lisa-lab/pylearn2)              |
 | `pytorch`          | [Official](https://pytorch.org/)                              |
 | `sequitur`         | [Official](https://github.com/shobrook/sequitur)              |
 | `shogun`           | [Official](https://github.com/shogun-toolbox/shogun)          |
 | `sparkdl`          | [Official](https://github.com/databricks/spark-deep-learning) |
-| `starspace`        | [Official](https://github.com/facebookresearch/StarSpace)     |
+| `starspace`        | [Official](https://github.com/facebookresearch/starspace)     |
 | `tflearn`          | [Official](http://tflearn.org/)                               |
 | `theano`           | [Official](http://deeplearning.net/software/theano/)          |
 | `thinc`            | [Official](https://github.com/explosion/thinc)                |
 | `torchbearer`      | [Official](https://github.com/pytorchbearer/torchbearer)      |
-| `TResNet`          | [Official](https://github.com/mrT23/TResNet)                  |
+| `tresnet`          | [Official](https://github.com/mrt23/tresnet)                  |
 
 # EL Packages
 
@@ -272,18 +269,18 @@ This article can be a comprehensive reference for academics and experts in indus
 | `cleverhans`                 | [Official](https://github.com/cleverhans-lab/cleverhans)           |
 | `deep-visualization-toolbox` | [Official](https://github.com/yosinski/deep-visualization-toolbox) |
 | `dowhy`                      | [Official](https://github.com/py-why/dowhy)                        |
-| `eli5`                       | [Official](https://github.com/TeamHG-Memex/eli5)                   |
+| `eli5`                       | [Official](https://github.com/teamhg-memex/eli5)                   |
 | `interpret`                  | [Official](https://github.com/interpretml/interpret)               |
 | `keras-vis`                  | [Official](https://github.com/raghakot/keras-vis)                  |
 | `lime`                       | [Official](https://github.com/marcotcr/lime)                       |
-| `lit`                        | [Official](https://github.com/PAIR-code/lit)                       |
+| `lit`                        | [Official](https://github.com/pair-code/lit)                       |
 | `lucid`                      | [Official](https://github.com/tensorflow/lucid)                    |
 | `mindsdb`                    | [Official](https://github.com/mindsdb/mindsdb)                     |
 | `netron`                     | [Official](https://github.com/lutzroeder/netron)                   |
 | `shap`                       | [Official](https://github.com/slundberg/shap)                      |
-| `shapash`                    | [Official](https://github.com/MAIF/shapash)                        |
+| `shapash`                    | [Official](https://github.com/maif/shapash)                        |
 | `what-if-tool`               | [Official](https://pair-code.github.io/what-if-tool/)              |
-| `yellowbrick`                | [Official](https://github.com/DistrictDataLabs/yellowbrick)        |
+| `yellowbrick`                | [Official](https://github.com/districtdatalabs/yellowbrick)        |
 
 # PL Packages
 
@@ -317,23 +314,23 @@ This article can be a comprehensive reference for academics and experts in indus
 | Package             | Link                                                   |
 | ------------------- | ------------------------------------------------------ |
 | `beam`              | [Official](https://github.com/apache/beam)             |
+| `bentoml`           | [Official](https://github.com/bentoml/bentoml)         |
 | `bigdl`             | [Official](https://bigdl.readthedocs.io/en/latest/)    |
-| `colossalai`        | [Official](https://github.com/hpcaitech/ColossalAI)    |
+| `colossalai`        | [Official](https://github.com/hpcaitech/colossalai)    |
+| `coremltools`       | [Official](https://github.com/apple/coremltools)       |
 | `dask`              | [Official](http://dask.pydata.org/en/latest/)          |
-| `deap`              | [Official](https://github.com/DEAP/deap)               |
+| `deap`              | [Official](https://github.com/deap/deap)               |
 | `deepspeed`         | [Official](https://www.deepspeed.ai/)                  |
 | `horovod`           | [Official](https://github.com/horovod/horovod)         |
-| `lightning`         | [Official](https://github.com/Lightning-AI/lightning)  |
-| `ray`               | [Official](https://github.com/ray-project/ray)         |
-| `tensorflowonspark` | [Official](https://github.com/yahoo/TensorFlowOnSpark) |
-| `vespa`             | [Official](https://github.com/vespa-engine/vespa)      |
-| `mmdnnn`            | [Official](https://github.com/Microsoft/MMdnn)         |
+| `hummingbird`       | [Official](https://github.com/microsoft/hummingbird)   |
+| `lightning`         | [Official](https://github.com/lightning-ai/lightning)  |
+| `mmdnnn`            | [Official](https://github.com/microsoft/mmdnn)         |
 | `onnx`              | [Official](https://github.com/onnx/onnx)               |
-| `coremltools`       | [Official](https://github.com/apple/coremltools)       |
-| `BentoML`           | [Official](https://github.com/bentoml/BentoML)         |
+| `ray`               | [Official](https://github.com/ray-project/ray)         |
+| `tensorflowonspark` | [Official](https://github.com/yahoo/tensorflowonspark) |
+| `torchserve`        | [Official](https://github.com/pytorch/serve)           |
 | `triton`            | [Official](https://github.com/openai/triton)           |
-| `TorchServe`        | [Official](https://github.com/pytorch/serve)           |
-| `Hummingbird`       | [Official](https://github.com/microsoft/hummingbird)   |
+| `vespa`             | [Official](https://github.com/vespa-engine/vespa)      |
 
 # RL Packages
 
@@ -390,9 +387,9 @@ This article can be a comprehensive reference for academics and experts in indus
 | ----------------- | ----------------------------------------------------- |
 | `implicit`        | [Official](https://github.com/benfred/implicit)       |
 | `lightfm`         | [Official](https://github.com/lyst/lightfm)           |
-| `Recommenders`    | [Official](https://github.com/microsoft/recommenders) |
-| `scikit-surprise` | [Official](https://github.com/NicolasHug/Surprise)    |
-| `Spotlight`       | [Official](https://github.com/maciejkula/spotlight)   |
+| `recommenders`    | [Official](https://github.com/microsoft/recommenders) |
+| `scikit-surprise` | [Official](https://github.com/nicolashug/surprise)    |
+| `spotlight`       | [Official](https://github.com/maciejkula/spotlight)   |
 
 # AL Packages
 
@@ -408,102 +405,102 @@ This article can be a comprehensive reference for academics and experts in indus
 
 # SPL Packages
 
-## input: document, text or language
+## input: document, text, or language
 
 | Package                   | Link                                                                             |
 | ------------------------- | -------------------------------------------------------------------------------- |
-| `allennlp`                | [official](https://github.com/allenai/allennlp)                                  |
-| `bigartm`                 | [official](https://github.com/bigartm/bigartm)                                   |
-| `bllipparser`             | [official](https://pypi.org/project/bllipparser/)                                |
-| `ciphey`                  | [official](https://github.com/ciphey/ciphey)                                     |
-| `cltk`                    | [official](https://github.com/cltk/cltk)                                         |
-| `colibri-core`            | [official](https://github.com/proycon/colibri-core)                              |
-| `corenlp`                 | [official](https://stanfordnlp.github.io/corenlp/)                               |
-| `dedupe`                  | [official](https://github.com/dedupeio/dedupe)                                   |
-| `deepke`                  | [official](https://github.com/zjunlp/deepke)                                     |
-| `deeppavlov`              | [official](https://github.com/deepmipt/deeppavlov)                               |
-| `deeppavlov`              | [official](https://github.com/deepmipt/deeppavlov/)                              |
-| `distance`                | [official](https://github.com/doukremt/distance)                                 |
-| `dl-translate`            | [official](https://github.com/xhlulu/dl-translate)                               |
-| `drqa`                    | [official](https://github.com/facebookresearch/drqa)                             |
-| `editdistance`            | [official](https://pypi.org/project/editdistance/phrasetables)                   |
-| `english-words`           | [official](https://github.com/dwyl/english-words)                                |
-| `fairseq`                 | [official](https://github.com/facebookresearch/fairseq)                          |
-| `fastnlp`                 | [official](https://github.com/fastnlp/fastnlp)                                   |
-| `fasttext`                | [official](https://github.com/facebookresearch/fasttext)                         |
-| `flair`                   | [official](https://github.com/flairnlp/flair)                                    |
-| `flair`                   | [official](https://github.com/flairnlp/flair)                                    |
-| `ftfy`                    | [official](https://github.com/rspeer/python-ftfy)                                |
-| `fuzzy wuzzy`             | [official](https://github.com/seatgeek/fuzzywuzzy)                               |
-| `genius`                  | [official](https://github.com/duanhongyi/genius)                                 |
-| `gensim`                  | [official](https://pypi.org/project/gensim/)                                     |
-| `gluonnlp`                | [official](https://github.com/dmlc/gluon-nlp)                                    |
-| `gpt-2`                   | [official](https://github.com/openai/gpt-2)                                      |
-| `haystack`                | [official](https://github.com/deepset-ai/haystack)                               |
-| `jellyfish`               | [official](https://github.com/jamesturk/jellyfish)                               |
-| `jieba`                   | [official](https://github.com/fxsjy/jieba#jieba-1)                               |
-| `konlpy`                  | [official](https://konlpy.org)                                                   |
-| `lingvo`                  | [official](https://github.com/tensorflow/lingvo)                                 |
-| `loso`                    | [official](https://github.com/fangpenlin/loso)                                   |
-| `nalp`                    | [official](https://github.com/gugarosa/nalp)                                     |
-| `nemo-toolkit`            | [official](https://github.com/nvidia/nemo)                                       |
-| `neuroner`                | [official](https://github.com/franck-dernoncourt/neuroner)                       |
-| `nlpaug`                  | [official](https://github.com/makcedward/nlpaug)                                 |
-| `nltk`                    | [official](https://www.nltk.org/)                                                |
-| `nut`                     | [official](https://github.com/pprett/nut)                                        |
-| `opennmt-py`              | [official](https://github.com/opennmt/opennmt-py)                                |
-| `openprompt`              | [official](https://github.com/thunlp/openprompt)                                 |
-| `parlai`                  | [official](https://github.com/facebookresearch/parlai)                           |
-| `pattern`                 | [official](https://github.com/clips/pattern)                                     |
-| `pkuseg-python`           | [official](https://github.com/lancopku/pkuseg-python)                            |
-| `polyglot`                | [official](https://github.com/abosamoor/polyglot)                                |
-| `promptsource`            | [official](https://github.com/bigscience-workshop/promptsource)                  |
-| `pynlpl`                  | [official](https://github.com/proycon/pynlpl)                                    |
-| `pyss3`                   | [official](https://github.com/sergioburdisso/pyss3)                              |
-| `pystanforddependencies`  | [official](https://github.com/dmcc/pystanforddependencies)                       |
-| `pytext-nlp`              | [official](https://github.com/facebookresearch/pytext)                           |
-| `pytextrank`              | [official](https://github.com/derwenai/pytextrank)                               |
-| `python-frog`             | [official](https://github.com/proycon/python-frog)                               |
-| `python-ucto`             | [official](https://github.com/proycon/python-ucto)                               |
-| `python-zpar`             | [official](https://github.com/educationaltestingservice/python-zpar)             |
-| `quepy`                   | [official](https://github.com/machinalis/quepy)                                  |
-| `rasa`                    | [official](https://github.com/rasahq/rasa)                                       |
-| `rosetta`                 | [official](https://github.com/columbia-applied-data-science/rosetta)             |
-| `rubrix`                  | [official](https://github.com/recognai/rubrix)                                   |
-| `scattertext`             | [official](https://github.com/jasonkessler/scattertext)                          |
-| `scispacy`                | [official](https://github.com/allenai/scispacy)                                  |
-| `semantic`                | [official](https://github.com/github/semantic)                                   |
-| `sense2vec`               | [official](https://github.com/explosion/sense2vec)                               |
-| `sentence-transformers`   | [official](https://github.com/ukplab/sentence-transformers)                      |
-| `sentencepiece`           | [official](https://github.com/google/sentencepiece)                              |
-| `snips-nlu`               | [official](https://github.com/snipsco/snips-nlu)                                 |
-| `snorkel`                 | [official](https://github.com/snorkel-team/snorkel)                              |
-| `snowballstemmer`         | [official](https://github.com/snowballstem/snowball)                             |
-| `snownlp`                 | [official](https://github.com/isnowfy/snownlp)                                   |
-| `sockeye`                 | [official](https://github.com/awslabs/sockeye)                                   |
-| `spacy-transformers`      | [official](https://github.com/explosion/spacy-transformers)                      |
-| `spacy`                   | [official](https://github.com/explosion/spacy)                                   |
-| `spacy`                   | [official](https://spacy.io/)                                                    |
-| `spammy`                  | [official](https://github.com/tasdikrahman/spammy)                               |
-| `spark-nlp`               | [official](https://github.com/johnsnowlabs/spark-nlp)                            |
-| `stable-baselines`        | [official](https://github.com/hill-a/stable-baselines)                           |
-| `stanford-corenlp-python` | [official](https://github.com/dasmith/stanford-corenlp-python)                   |
-| `stanza`                  | [official](https://github.com/stanfordnlp/stanza)                                |
-| `sumy`                    | [official](https://github.com/miso-belica/sumy)                                  |
-| `t5`                      | [official](https://github.com/google-research/text-to-text-transfer-transformer) |
-| `tensorflow-text`         | [official](https://github.com/tensorflow/text)                                   |
-| `textacy`                 | [official](https://github.com/chartbeat-labs/textacy)                            |
-| `textblob`                | [official](https://textblob.readthedocs.io/en/dev/)                              |
-| `textdistance`            | [official](https://github.com/life4/textdistance)                                |
-| `tokenizers`              | [official](https://github.com/huggingface/tokenizers)                            |
-| `torchtext`               | [official](https://github.com/pytorch/text)                                      |
-| `transformers`            | [official](https://github.com/huggingface/transformers)                          |
-| `transformers`            | [official](https://github.com/huggingface/transformers)                          |
-| `vadersentiment`          | [official](https://github.com/cjhutto/vadersentiment)                            |
-| `vocabulary`              | [official](https://github.com/tasdikrahman/vocabulary)                           |
-| `xlm`                     | [official](https://github.com/facebookresearch/xlm)                              |
-| `yalign`                  | [official](https://github.com/machinalis/yalign)                                 |
-| `yase`                    | [official](https://github.com/ppaci/yase)                                        |
+| `allennlp`                | [Official](https://github.com/allenai/allennlp)                                  |
+| `bigartm`                 | [Official](https://github.com/bigartm/bigartm)                                   |
+| `bllipparser`             | [Official](https://pypi.org/project/bllipparser/)                                |
+| `ciphey`                  | [Official](https://github.com/ciphey/ciphey)                                     |
+| `cltk`                    | [Official](https://github.com/cltk/cltk)                                         |
+| `colibri-core`            | [Official](https://github.com/proycon/colibri-core)                              |
+| `corenlp`                 | [Official](https://stanfordnlp.github.io/corenlp/)                               |
+| `dedupe`                  | [Official](https://github.com/dedupeio/dedupe)                                   |
+| `deepke`                  | [Official](https://github.com/zjunlp/deepke)                                     |
+| `deeppavlov`              | [Official](https://github.com/deepmipt/deeppavlov)                               |
+| `deeppavlov`              | [Official](https://github.com/deepmipt/deeppavlov/)                              |
+| `distance`                | [Official](https://github.com/doukremt/distance)                                 |
+| `dl-translate`            | [Official](https://github.com/xhlulu/dl-translate)                               |
+| `drqa`                    | [Official](https://github.com/facebookresearch/drqa)                             |
+| `editdistance`            | [Official](https://pypi.org/project/editdistance/phrasetables)                   |
+| `english-words`           | [Official](https://github.com/dwyl/english-words)                                |
+| `fairseq`                 | [Official](https://github.com/facebookresearch/fairseq)                          |
+| `fastnlp`                 | [Official](https://github.com/fastnlp/fastnlp)                                   |
+| `fasttext`                | [Official](https://github.com/facebookresearch/fasttext)                         |
+| `flair`                   | [Official](https://github.com/flairnlp/flair)                                    |
+| `flair`                   | [Official](https://github.com/flairnlp/flair)                                    |
+| `ftfy`                    | [Official](https://github.com/rspeer/python-ftfy)                                |
+| `fuzzy wuzzy`             | [Official](https://github.com/seatgeek/fuzzywuzzy)                               |
+| `genius`                  | [Official](https://github.com/duanhongyi/genius)                                 |
+| `gensim`                  | [Official](https://pypi.org/project/gensim/)                                     |
+| `gluonnlp`                | [Official](https://github.com/dmlc/gluon-nlp)                                    |
+| `gpt-2`                   | [Official](https://github.com/openai/gpt-2)                                      |
+| `haystack`                | [Official](https://github.com/deepset-ai/haystack)                               |
+| `jellyfish`               | [Official](https://github.com/jamesturk/jellyfish)                               |
+| `jieba`                   | [Official](https://github.com/fxsjy/jieba#jieba-1)                               |
+| `konlpy`                  | [Official](https://konlpy.org)                                                   |
+| `lingvo`                  | [Official](https://github.com/tensorflow/lingvo)                                 |
+| `loso`                    | [Official](https://github.com/fangpenlin/loso)                                   |
+| `nalp`                    | [Official](https://github.com/gugarosa/nalp)                                     |
+| `nemo-toolkit`            | [Official](https://github.com/nvidia/nemo)                                       |
+| `neuroner`                | [Official](https://github.com/franck-dernoncourt/neuroner)                       |
+| `nlpaug`                  | [Official](https://github.com/makcedward/nlpaug)                                 |
+| `nltk`                    | [Official](https://www.nltk.org/)                                                |
+| `nut`                     | [Official](https://github.com/pprett/nut)                                        |
+| `opennmt-py`              | [Official](https://github.com/opennmt/opennmt-py)                                |
+| `openprompt`              | [Official](https://github.com/thunlp/openprompt)                                 |
+| `parlai`                  | [Official](https://github.com/facebookresearch/parlai)                           |
+| `pattern`                 | [Official](https://github.com/clips/pattern)                                     |
+| `pkuseg-python`           | [Official](https://github.com/lancopku/pkuseg-python)                            |
+| `polyglot`                | [Official](https://github.com/abosamoor/polyglot)                                |
+| `promptsource`            | [Official](https://github.com/bigscience-workshop/promptsource)                  |
+| `pynlpl`                  | [Official](https://github.com/proycon/pynlpl)                                    |
+| `pyss3`                   | [Official](https://github.com/sergioburdisso/pyss3)                              |
+| `pystanforddependencies`  | [Official](https://github.com/dmcc/pystanforddependencies)                       |
+| `pytext-nlp`              | [Official](https://github.com/facebookresearch/pytext)                           |
+| `pytextrank`              | [Official](https://github.com/derwenai/pytextrank)                               |
+| `python-frog`             | [Official](https://github.com/proycon/python-frog)                               |
+| `python-ucto`             | [Official](https://github.com/proycon/python-ucto)                               |
+| `python-zpar`             | [Official](https://github.com/educationaltestingservice/python-zpar)             |
+| `quepy`                   | [Official](https://github.com/machinalis/quepy)                                  |
+| `rasa`                    | [Official](https://github.com/rasahq/rasa)                                       |
+| `rosetta`                 | [Official](https://github.com/columbia-applied-data-science/rosetta)             |
+| `rubrix`                  | [Official](https://github.com/recognai/rubrix)                                   |
+| `scattertext`             | [Official](https://github.com/jasonkessler/scattertext)                          |
+| `scispacy`                | [Official](https://github.com/allenai/scispacy)                                  |
+| `semantic`                | [Official](https://github.com/github/semantic)                                   |
+| `sense2vec`               | [Official](https://github.com/explosion/sense2vec)                               |
+| `sentence-transformers`   | [Official](https://github.com/ukplab/sentence-transformers)                      |
+| `sentencepiece`           | [Official](https://github.com/google/sentencepiece)                              |
+| `snips-nlu`               | [Official](https://github.com/snipsco/snips-nlu)                                 |
+| `snorkel`                 | [Official](https://github.com/snorkel-team/snorkel)                              |
+| `snowballstemmer`         | [Official](https://github.com/snowballstem/snowball)                             |
+| `snownlp`                 | [Official](https://github.com/isnowfy/snownlp)                                   |
+| `sockeye`                 | [Official](https://github.com/awslabs/sockeye)                                   |
+| `spacy-transformers`      | [Official](https://github.com/explosion/spacy-transformers)                      |
+| `spacy`                   | [Official](https://github.com/explosion/spacy)                                   |
+| `spacy`                   | [Official](https://spacy.io/)                                                    |
+| `spammy`                  | [Official](https://github.com/tasdikrahman/spammy)                               |
+| `spark-nlp`               | [Official](https://github.com/johnsnowlabs/spark-nlp)                            |
+| `stable-baselines`        | [Official](https://github.com/hill-a/stable-baselines)                           |
+| `stanford-corenlp-python` | [Official](https://github.com/dasmith/stanford-corenlp-python)                   |
+| `stanza`                  | [Official](https://github.com/stanfordnlp/stanza)                                |
+| `sumy`                    | [Official](https://github.com/miso-belica/sumy)                                  |
+| `t5`                      | [Official](https://github.com/google-research/text-to-text-transfer-transformer) |
+| `tensorflow-text`         | [Official](https://github.com/tensorflow/text)                                   |
+| `textacy`                 | [Official](https://github.com/chartbeat-labs/textacy)                            |
+| `textblob`                | [Official](https://textblob.readthedocs.io/en/dev/)                              |
+| `textdistance`            | [Official](https://github.com/life4/textdistance)                                |
+| `tokenizers`              | [Official](https://github.com/huggingface/tokenizers)                            |
+| `torchtext`               | [Official](https://github.com/pytorch/text)                                      |
+| `transformers`            | [Official](https://github.com/huggingface/transformers)                          |
+| `transformers`            | [Official](https://github.com/huggingface/transformers)                          |
+| `vadersentiment`          | [Official](https://github.com/cjhutto/vadersentiment)                            |
+| `vocabulary`              | [Official](https://github.com/tasdikrahman/vocabulary)                           |
+| `xlm`                     | [Official](https://github.com/facebookresearch/xlm)                              |
+| `yalign`                  | [Official](https://github.com/machinalis/yalign)                                 |
+| `yase`                    | [Official](https://github.com/ppaci/yase)                                        |
 
 ## input: image, video or camera
 
@@ -671,7 +668,6 @@ This article can be a comprehensive reference for academics and experts in indus
 | `flyte`        | [Official](https://github.com/flyteorg/flyte)                 |
 | `metaflow`     | [Official](https://github.com/netflix/metaflow)               |
 | `mlflow`       | [Official](https://github.com/mlflow/mlflow)                  |
-| `pycaret`      | [Official](https://github.com/pycaret/pycaret)                |
 | `pycaret`      | [Official](https://pycaret.org/)                              |
 | `sacred`       | [Official](https://github.com/idsia/sacred)                   |
 | `skaffold`     | [Official](https://github.com/googlecontainertools/skaffold)  |
