@@ -31,3 +31,8 @@ In some cases, such as a knapsack problem, we must select some items while meeti
 In summary, to apply a meta-heuristic, you should check if the optimization problem is REALLY constrained or not. Can we still generate feasible values without considering constraints? (in some cases, it can happen!). If constraints can not be easily neglected, which of the above questions apply to the decisions? Can we define proper data structures to undergo variation operators of a meta-heuristic algorithm? 
 
 Overall, one should look for the decisions to be made regarding constraints when applying a meta-heuristic algorithm, then look for representation methods, repairing operators, heuristic operators, special algorithm dependent operators, CORRECT penalty functions, etc., to fix any illogical or infeasible solution.
+
+The figure below can help you to understand the differences between exact and heuristic optimization methods in coding a TSP problem:
+
+<img title="TSP representation" alt="TSP representation" src="/images/wbo.png">
+
