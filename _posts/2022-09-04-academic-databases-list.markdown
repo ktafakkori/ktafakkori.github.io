@@ -167,13 +167,16 @@ This blog post presents a list of academic tools for research, publication, shar
 
 # Citation netwrok analysis
 
-| Name            | Link                                                       |
-| --------------- | ---------------------------------------------------------- |
-| `copyleaks`     | [Official](https://copyleaks.com/)                         |
-| `cross check`   | [Official](https://crosscheck.ithenticate.com/en_us/login) |
-| `dupli checker` | [Official](https://www.duplichecker.com/)                  |
-| `grammarly`     | [Official](https://www.grammarly.com/)                     |
-| `ithenticate`   | [Official](https://www.ithenticate.com/)                   |
-| `plag scan`     | [Official](https://www.plagscan.com/en/)                   |
-| `quetext`       | [Official](https://www.quetext.com/)                       |
-| `turnitin`      | [Official](https://www.turnitin.com/)                      |
+| Name               | Link                                         |
+| ------------------ | -------------------------------------------- |
+| `citation gecko`   | [Official](https://www.citationgecko.com/)   |
+| `citnetexplorer`   | [Official](https://www.citnetexplorer.nl/)   |
+| `connected papers` | [Official](https://www.connectedpapers.com/) |
+| `research rabbit`  | [Official](https://www.researchrabbit.ai/)   |
+| `vosviewer`        | [Official](https://www.vosviewer.com/)       |
+
+# All in one!
+
+| Name       | Link                              |
+| ---------- | --------------------------------- |
+| `flowcite` | [Official](https://flowcite.com/) |
