@@ -13,7 +13,7 @@ image: "/images/or-packages.png"
 comments: true
 ---
 
-{% include note.html content="The list was updated on August 18, 2022." %}
+{% include note.html content="The list was updated on September 12, 2022. (Added `linopy`)" %}
 
 {% include important.html content="If you know a specific package, which is missing, you may either contact me or comment here." %}
 
@@ -82,6 +82,7 @@ This article can be a comprehensive reference for academics and experts in indus
 | `cvxpy`      | [Official](https://www.cvxpy.org/)                                  |
 | `cylp`       | [Official](http://coin-or.github.io/CyLP/)                          |
 | `flowty`     | [Official](https://flowty.ai/)                                      |
+| `linopy`     | [Official](https://github.com/PyPSA/linopy)                         |
 | `lpsolve55 ` | [Official](http://web.mit.edu/lpsolve/doc/Python.htm)               |
 | `mindoptpy`  | [Official](https://solver.damo.alibaba-inc.com/doc/html/index.html) |
 | `mip`        | [Official](https://www.python-mip.com/)                             |
