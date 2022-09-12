@@ -1,7 +1,7 @@
 ---
 title: "List of academic research databases: Update 2022"
 layout: post
-description: Getting to know optimization Names in Python.
+description: Getting to know academic research databases.
 categories:
   - General
 tags:
