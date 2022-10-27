@@ -4,7 +4,7 @@ title: 📜About
 permalink: /about/
 ---
 
-<img style="width: 250px;border-radius: 50%;border:1px solid #000;align: center;" src="/images/profile.jpg" alt="image">
+<img style="width: 250px;border-radius: 50%;border:1px solid #000;align: center;" src="/images/profile.png" alt="image">
 
 I am Keivan Tafakkori (M.Sc.). 
 
