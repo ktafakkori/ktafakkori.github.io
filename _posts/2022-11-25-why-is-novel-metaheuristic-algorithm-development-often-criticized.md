@@ -5,7 +5,7 @@ description: 'Notice before developing a new heuristic optimization algorithm.'
 categories: [Heuristic Optimization]
 tags: [Meta-heuristic, Recommendation]
 author: [Keivan Tafakkori]
-image: "/images/ma_algorithm.webp"
+image: "/images/ma_algorithm.jpeg"
 ---
 
 _Most of the heuristic optimization algorithms proposed are repetitive or follow the same principle/structure._
@@ -26,8 +26,3 @@ Adequately framing a method entails explaining it using general optimization ter
 2. determining similar components with previous studies (if any)
 3. how these components are adapted to (or do work in) the optimization process
 4. transparently doing parameter-tuning (if any).
-
-
-
-
-

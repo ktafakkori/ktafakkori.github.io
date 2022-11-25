@@ -13,7 +13,7 @@ image: "/images/or-packages.png"
 comments: true
 ---
 
-{% include note.html content="The list was updated on September 12, 2022. (Added `linopy`)" %}
+{% include note.html content="The list was updated on September 12, 2022. (Added `feloopy` and `rsome`)" %}
 
 {% include important.html content="If you know a specific package, which is missing, you may either contact me or comment here." %}
 
@@ -47,6 +47,7 @@ This article can be a comprehensive reference for academics and experts in indus
 | Package         | Link                                                                  |
 | --------------- | --------------------------------------------------------------------- |
 | `casadi`        | [Official](https://web.casadi.org/)                                   |
+| `feloopy`       | [Official](https://github.com/ktafakkori/feloopy)                     |
 | `gekko`         | [Official](https://machinelearning.byu.edu/)                          |
 | `knitro`        | [Official](https://www.artelys.com/docs/knitro/index.html)            |
 | `lindo`         | [Official](https://www.lindo.com/)                                    |
@@ -72,6 +73,7 @@ This article can be a comprehensive reference for academics and experts in indus
 | `localsolver` | [Official](https://www.localsolver.com/)                           |
 | `mosek`       | [Official](https://docs.mosek.com/latest/pythonapi/index.html)     |
 | `optlang`     | [Official](https://optlang.readthedocs.io/en/latest/)              |
+| `rsom`        | [Official](https://github.com/XiongPengNUS/rsome)                  |
 | `sasoptpy`    | [Official](https://github.com/sassoftware/sasoptpy)                |
 
 # MILP+IP+LP Packages
