@@ -73,7 +73,7 @@ This article can be a comprehensive reference for academics and experts in indus
 | `localsolver` | [Official](https://www.localsolver.com/)                           |
 | `mosek`       | [Official](https://docs.mosek.com/latest/pythonapi/index.html)     |
 | `optlang`     | [Official](https://optlang.readthedocs.io/en/latest/)              |
-| `rsome`        | [Official](https://github.com/XiongPengNUS/rsome)                  |
+| `rsome`       | [Official](https://github.com/XiongPengNUS/rsome)                  |
 | `sasoptpy`    | [Official](https://github.com/sassoftware/sasoptpy)                |
 
 # MILP+IP+LP Packages
@@ -151,6 +151,7 @@ This article can be a comprehensive reference for academics and experts in indus
 | `evolopy`                  | [Official](https://github.com/7ossam81/EvoloPy)                                       |
 | `evoopt`                   | [Official](https://github.com/tsyet12/EvoOpt)                                         |
 | `evostra`                  | [Official](https://github.com/alirezamika/evostra)                                    |
+| `feloopy`                  | [Official](https://github.com/ktafakkori/feloopy)                                     |
 | `freelunch`                | [Official](https://pypi.org/project/freelunch/)                                       |
 | `gaft`                     | [Official](https://github.com/PytLab/gaft)                                            |
 | `geneticalgorithm`         | [Official](https://github.com/rmsolgi/geneticalgorithm)                               |
