@@ -1,5 +1,5 @@
 ---
-title: "List of optimization packages in Python: Update 2022"
+title: "List of optimization packages in Python: Update 2023"
 layout: post
 description: Getting to know optimization packages in Python.
 categories:
@@ -13,7 +13,7 @@ image: "/images/or-packages.png"
 comments: true
 ---
 
-{% include note.html content="The list was updated on November 26, 2022. (Added `feloopy` and `rsome`)" %}
+{% include note.html content="The list was updated on January 15, 2023. (Added `moptipy`)" %}
 
 {% include important.html content="If you know a specific package, which is missing, you may either contact me or comment here." %}
 
@@ -164,6 +164,7 @@ This article can be a comprehensive reference for academics and experts in indus
 | `inspyred`                 | [Official](https://github.com/aarongarrett/inspyred)                                  |
 | `mealpy`                   | [Official](https://github.com/thieu1995/mealpy)                                       |
 | `mipego`                   | [Official](https://github.com/wangronin/MIP-EGO)                                      |
+| `moptipy`                  | [Official](https://thomasweise.github.io/moptipy/)                                    |
 | `mystic`                   | [Official](https://github.com/uqfoundation/mystic)                                    |
 | `nevergrad`                | [Official](https://facebookresearch.github.io/nevergrad/)                             |
 | `niapy`                    | [Official](https://github.com/NiaOrg/NiaPy)                                           |
