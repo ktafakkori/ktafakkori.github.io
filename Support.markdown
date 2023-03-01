@@ -4,11 +4,8 @@ title: ⚡Support
 permalink: /support/
 ---
 
-Thank you for taking the time even to reach this page!
+If you are interested in supporting the FELOOP website or FelooPy package in Python, you are welcome to make a crypto donation!
 
-Every comment, email, and message you send brings a warm glow to my heart.
-
-You may consider supporting this project by donating crypto!
 
 | Crypto            | Address | QR code |
 |:-------------------|:-----|:-----------|
