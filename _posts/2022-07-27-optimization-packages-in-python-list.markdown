@@ -13,7 +13,7 @@ image: "/images/or-packages.png"
 comments: true
 ---
 
-{% include note.html content="The list was updated on January 15, 2023. (Added `moptipy`)" %}
+{% include note.html content="The list was updated on March 2, 2023. (Added `moptipy` and `python-constraint`)" %}
 
 {% include important.html content="If you know a specific package, which is missing, you may either contact me or comment here." %}
 
@@ -117,16 +117,17 @@ This article can be a comprehensive reference for academics and experts in indus
 
 # CP Packages
 
-| Package         | Link                                                                                          |
-| --------------- | --------------------------------------------------------------------------------------------- |
-| `cplex`         | [Official](https://www.ibm.com/analytics/cplex-cp-optimizer)                                  |
-| `cpmpy`         | [Official](https://github.com/CPMpy/cpmpy)                                                    |
-| `gecode-python` | [Official](https://launchpad.net/gecode-python)                                               |
-| `kalis`         | [Official](https://www.artelys.com/docs/kalis/index.html)                                     |
-| `minizinc`      | [Official](https://minizinc-python.readthedocs.io/en/latest/index.html)                       |
-| `optapy`        | [Official](https://www.optapy.org/docs/latest/planner-introduction/planner-introduction.html) |
-| `ortools`       | [Official](https://developers.google.com/optimization/cp)                                     |
-| `z3-solver`     | [Official](https://github.com/Z3Prover/z3)                                                    |
+| Package             | Link                                                                                          |
+| ------------------- | --------------------------------------------------------------------------------------------- |
+| `cplex`             | [Official](https://www.ibm.com/analytics/cplex-cp-optimizer)                                  |
+| `cpmpy`             | [Official](https://github.com/CPMpy/cpmpy)                                                    |
+| `gecode-python`     | [Official](https://launchpad.net/gecode-python)                                               |
+| `kalis`             | [Official](https://www.artelys.com/docs/kalis/index.html)                                     |
+| `minizinc`          | [Official](https://minizinc-python.readthedocs.io/en/latest/index.html)                       |
+| `optapy`            | [Official](https://www.optapy.org/docs/latest/planner-introduction/planner-introduction.html) |
+| `ortools`           | [Official](https://developers.google.com/optimization/cp)                                     |
+| `python-constraint` | [Official](https://github.com/python-constraint/python-constraint)                            |
+| `z3-solver`         | [Official](https://github.com/Z3Prover/z3)                                                    |
 
 # GPP Packages
 
