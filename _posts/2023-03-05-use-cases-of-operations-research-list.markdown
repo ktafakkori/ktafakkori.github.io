@@ -204,8 +204,8 @@ Notably, due to the diverse nature of OR's use cases, practical categories and u
 * Atm location planning
 * Bio-refinery, bio-mass, and petroleum
 * Blood and organ transplant network 
-* Broadband
-* Coal Blending
+* Broadband networks
+* Coal blending
 * Emergency 
 * Foreign trade
 * Hazardous waste
@@ -218,11 +218,11 @@ Notably, due to the diverse nature of OR's use cases, practical categories and u
 * Port governance   
 * Portfolio and stocks
 * Private & public sector
-* Public School Districting
+* Public school districting
 * Refinery operations
 * Renewable energy
 * Scheduling branch staff at banks
-* Sports League
+* Sports league
 * Talent marketplaces
 * Taxi
 * Textile
@@ -268,10 +268,10 @@ Notably, due to the diverse nature of OR's use cases, practical categories and u
 
 * Airline crew scheduling
 * Assembly line balancing
-* Bin Packing
-* Bio-inspired  manufacturing
+* Bin packing
+* Bio-inspired manufacturing
 * Commodities
-* DNA Sequence Assembly
+* DNA sequence assembly
 * Fast-moving consumer goods
 * Flowshop scheduling
 * Human-robot collaboration
@@ -293,4 +293,4 @@ Notably, due to the diverse nature of OR's use cases, practical categories and u
 * Data envelopment analysis
 * Graph theory
 * Machine learning
-* Multi-criteria decision making 
+* Multi-criteria decision making
