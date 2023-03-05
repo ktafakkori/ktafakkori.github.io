@@ -45,7 +45,7 @@ Notably, due to the diverse nature of OR's use cases, practical categories and u
 * Capacity and expansion planning
 * Center location
 * Center location-dependent relocation 
-* Charing/refueling station location
+* Charging/refueling station location
 * Closed-loop supply chain network design
 * Competitive location
 * Continuous location
@@ -125,7 +125,7 @@ Notably, due to the diverse nature of OR's use cases, practical categories and u
 * Smart logistics
 * Traffic enforcement systems
 * Traffic planning
-* trailer rebalancing
+* Trailer rebalancing
 * Truck-load
 * Vehicle routing
   
@@ -160,6 +160,7 @@ Notably, due to the diverse nature of OR's use cases, practical categories and u
 * Knowledge management
 * MIS systems
 * MRP systems
+* MPS systems
 * RFID
 * Traceability, tractability, and visibility
 
@@ -273,13 +274,12 @@ Notably, due to the diverse nature of OR's use cases, practical categories and u
 * Commodities
 * DNA sequence assembly
 * Fast-moving consumer goods
-* Flowshop scheduling
+* Flow shop scheduling
 * Human-robot collaboration
-* Jobshop scheduling
+* Job shop scheduling
 * Lifecycle analysis
 * Nesting
 * Open shop scheduling
-* flow shop scheduling
 * Packaging
 * Parallel machine scheduling
 * Perishable products
