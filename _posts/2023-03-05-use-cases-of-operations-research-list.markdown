@@ -157,7 +157,7 @@ Notably, due to the diverse nature of OR's use cases, practical categories and u
 * ERP systems
 * Fog computing
 * ICT systems
-* knowledge management
+* Knowledge management
 * MIS systems
 * MRP systems
 * RFID
@@ -221,7 +221,7 @@ Notably, due to the diverse nature of OR's use cases, practical categories and u
 * Public School Districting
 * Refinery operations
 * Renewable energy
-* Scheduling branch staff at banks and credit unions
+* Scheduling branch staff at banks
 * Sports League
 * Talent marketplaces
 * Taxi
