@@ -294,6 +294,7 @@ Notably, due to the diverse nature of OR's use cases, practical categories and u
 * Belief theory
 * Complexity theory
 * Data envelopment analysis
+* Game theory
 * Graph theory
 * Machine learning
 * Multi-criteria decision making
