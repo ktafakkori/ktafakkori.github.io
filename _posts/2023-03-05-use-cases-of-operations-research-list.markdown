@@ -291,10 +291,10 @@ Notably, due to the diverse nature of OR's use cases, practical categories and u
 
 # Virtual-world use cases
 
-* Uncertainty programming
+* Belief theory
 * Complexity theory
-* Dempster–Shafer theory
 * Data envelopment analysis
 * Graph theory
 * Machine learning
 * Multi-criteria decision making
+* Uncertainty programming
