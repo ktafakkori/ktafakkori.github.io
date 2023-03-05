@@ -180,6 +180,8 @@ Notably, due to the diverse nature of OR's use cases, practical categories and u
 * On-demand production
 * Order splitting
 * Returns
+* Time slot
+* Time window
 
 ## Project management
 
