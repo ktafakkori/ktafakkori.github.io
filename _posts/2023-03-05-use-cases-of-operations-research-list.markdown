@@ -52,11 +52,11 @@ Notably, due to the diverse nature of OR's use cases, practical categories and u
 * Covering location
 * Cross-docking location
 * Desirable & undesirable facilities location
-* Discrete Location
+* Discrete location
 * Distribution network design
 * Dynamic & static location   
 * Fixed-charge facility location
-* forward and reverse (backward) logistics network design
+* Forward and reverse (backward) logistics network design
 * Gateway location
 * Hierarchical & single-level location
 * Hub and spoke & terminal location 
@@ -112,7 +112,7 @@ Notably, due to the diverse nature of OR's use cases, practical categories and u
 * Emergency logistics  
 * First, middle, and last mile delivery 
 * Freight transportation  
-* Third/Forth/Fifth-party logistics
+* Third, forth, & fifth-party logistics
 * Intelligent transport systems
 * Milk run and automobile
 * Multi-agent system 
@@ -121,7 +121,7 @@ Notably, due to the diverse nature of OR's use cases, practical categories and u
 * Pricing in transport networks
 * Ridesharing
 * School bus routing
-* Smart agro-Logistics
+* Smart agro-logistics
 * Smart logistics
 * Traffic enforcement systems
 * Traffic planning
@@ -162,7 +162,7 @@ Notably, due to the diverse nature of OR's use cases, practical categories and u
 * MRP systems
 * RFID
 * Traceability, tractability, and visibility
-  
+
 ## Demand management
 
 * Assembly-to-order
@@ -221,7 +221,7 @@ Notably, due to the diverse nature of OR's use cases, practical categories and u
 * Public school districting
 * Refinery operations
 * Renewable energy
-* Scheduling branch staff at banks
+* Scheduling bank staff
 * Sports league
 * Talent marketplaces
 * Taxi
@@ -278,9 +278,11 @@ Notably, due to the diverse nature of OR's use cases, practical categories and u
 * Jobshop scheduling
 * Lifecycle analysis
 * Nesting
+* Open shop scheduling
+* flow shop scheduling
 * Packaging
 * Parallel machine scheduling
-* perishable products
+* Perishable products
 * Queuing
 * Shift scheduling
 * Single machine scheduling
