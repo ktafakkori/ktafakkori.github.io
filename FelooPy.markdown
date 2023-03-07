@@ -8,9 +8,6 @@ permalink: /feloopy/
   <img title="FelooPy Library in Python" alt="FelooPy Library in Python" src="/images/feloopy.gif">
 </p>
 
-
-# FelooPy: An integrated optimization environment for AutoOR in Python
-
 [![GitHub release](https://img.shields.io/badge/version-0.2.3-orange.svg)](https://github.com/ktafakkori/feloopy/releases)
 [![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/release/python-310/)
 ![Package Size](https://img.shields.io/github/languages/code-size/ktafakkori/feloopy)
