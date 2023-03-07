@@ -27,3 +27,23 @@ Also, I have experience working with different programming languages and softwar
 You can reach me by the following terminals (sorted by preference):
 <p><a href = "https://www.linkedin.com/in/keivan-tafakkori/"><i class='fa fa-linkedin-square'></i> Linkedin</a></p>
 <p><a href = "https://twitter.com/KTafakkori"><i class='fa fa-twitter'> Twitter</i></a></p>
+
+
+<style>
+.libutton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 7px;
+    text-align: center;
+    outline: none;
+    text-decoration: none !important;
+    color: #ffffff !important;
+    width: 200px;
+    height: 32px;
+    border-radius: 16px;
+    background-color: #0A66C2;
+    font-family: "SF Pro Text", Helvetica, sans-serif;
+}
+</style>
+<a class="libutton" href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=keivan-tafakkori" target="_blank">Follow on LinkedIn</a>
