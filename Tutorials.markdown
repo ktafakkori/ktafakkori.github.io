@@ -6,6 +6,6 @@ permalink: /feloopy/
 
 # Webinars
 
-⭐[FREE Webinar on Optimization in Python (Remained Capacity: 1)][wb1]
+⭐[FREE Webinar on Optimization in Python (Maximum Capacity Reached! See you in the next webinars)][wb1]
 
-[wb1]: https://forms.gle/ydpvFj64JagdHAyq6
+[wb1]: https://ktafakkori.github.io/
