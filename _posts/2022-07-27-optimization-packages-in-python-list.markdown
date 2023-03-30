@@ -13,7 +13,7 @@ image: "/images/or-packages.png"
 comments: true
 ---
 
-{% include note.html content="The list was updated on March 2, 2023. (Added `moptipy` and `python-constraint`)" %}
+{% include note.html content="The list was updated on March 30, 2023. (Added `pymultiobjective` and `pydecision`)" %}
 
 {% include important.html content="If you know a specific package, which is missing, you may either contact me or comment here." %}
 
@@ -31,16 +31,17 @@ This article can be a comprehensive reference for academics and experts in indus
 
 # Guide
 
-| Package capability | Description                         |
-| ------------------ | ----------------------------------- |
-| `MINLP`            | Mixed integer nonlinear programming |
-| `MIQP`             | Mixed integer quadratic programming |
-| `MILP`             | Mixed integer linear programming    |
-| `NLP`              | Nonlinear programming               |
-| `IP`               | Integer programming                 |
-| `LP`               | Linear programming                  |
-| `CP`               | Constraint programming              |
-| `GPP`              | General purpose programming         |
+| Package capability | Description                          |
+| ------------------ | ------------------------------------ |
+| `MINLP`            | Mixed integer nonlinear programming  |
+| `MIQP`             | Mixed integer quadratic programming  |
+| `MILP`             | Mixed integer linear programming     |
+| `NLP`              | Nonlinear programming                |
+| `IP`               | Integer programming                  |
+| `LP`               | Linear programming                   |
+| `CP`               | Constraint programming               |
+| `GPP`              | General purpose programming          |
+| `MOP`              | Multi-criteria/objective programming |
 
 # MINLP+MIQP+MILP+NLP+IP+LP Packages
 
@@ -192,6 +193,7 @@ This article can be a comprehensive reference for academics and experts in indus
 | `pysmac`                   | [Official](https://github.com/automl/pysmac)                                          |
 | `pysot`                    | [Official](https://pysot.readthedocs.io/en/latest/)                                   |
 | `pyswarms`                 | [Official](https://pyswarms.readthedocs.io/en/latest/)                                |
+| `pymetaheuristic`          | [Official](https://github.com/Valdecy/pyMetaheuristic)                                |
 | `qiskit-optimization`      | [Official](https://pypi.org/project/qiskit-optimization/)                             |
 | `rapids-NeurIPS`           | [Official](https://github.com/daxiongshu/rapids-ai-BBO-2nd-place-solution)            |
 | `ray`                      | [Official](https://github.com/ray-project/ray)                                        |
@@ -214,6 +216,13 @@ This article can be a comprehensive reference for academics and experts in indus
 | `yabox`                    | [GitHub](https://github.com/pablormier/yabox)                                         |
 | `zoofs`                    | [GitHub](https://github.com/jaswinder9051998/zoofs)                                   |
 | `zoopt`                    | [GitHub](https://github.com/polixir/ZOOpt)                                            |
+
+# MCP Packages
+
+| Package            | Link                                                    |
+| ------------------ | ------------------------------------------------------- |
+| `pymultiobjective` | [Official](https://github.com/Valdecy/pyMultiobjective) |
+| `pydecision`       | [Official](https://github.com/Valdecy/pyDecision)       |
 
 # Notes
 
