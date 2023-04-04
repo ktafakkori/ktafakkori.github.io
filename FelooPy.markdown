@@ -29,24 +29,6 @@ permalink: /feloopy/
 
 <div align="left">
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [Prerequisits](#prerequisits)
-- [Installation](#installation)
-- [Documentation](#documentation)
-- [How to get started?](https://github.com/ktafakkori/feloopy/blob/main/documentation/Tutorial.md)
-- [Examples](https://github.com/ktafakkori/feloopy/tree/main/examples)
-- [Contributions](#contributions)
-- [Support](#support)
-- [Citation](#citation)
-- [License](#license)
-
-#
-<div align="center">
-
-<div align="left">
-
 ## News
 
 🎉 _Version 0.2.3 is out: More stable than ever!_ 🎉
