@@ -13,7 +13,7 @@ image: "/images/or-packages.png"
 comments: true
 ---
 
-{% include note.html content="The list was updated on March 30, 2023. (Added `pymultiobjective` and `pydecision`)" %}
+{% include note.html content="The list was updated on April 4, 2023. (Added `qpsolver`)" %}
 
 {% include important.html content="If you know a specific package, which is missing, you may either contact me or comment here." %}
 
@@ -76,6 +76,7 @@ This article can be a comprehensive reference for academics and experts in indus
 | `optlang`     | [Official](https://optlang.readthedocs.io/en/latest/)              |
 | `rsome`       | [Official](https://github.com/XiongPengNUS/rsome)                  |
 | `sasoptpy`    | [Official](https://github.com/sassoftware/sasoptpy)                |
+| `qpsolvers`   | [Official](https://github.com/qpsolvers/qpsolvers)                 |
 
 # MILP+IP+LP Packages
 
