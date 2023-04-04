@@ -218,7 +218,7 @@ This article can be a comprehensive reference for academics and experts in indus
 | `zoofs`                    | [GitHub](https://github.com/jaswinder9051998/zoofs)                                   |
 | `zoopt`                    | [GitHub](https://github.com/polixir/ZOOpt)                                            |
 
-# MCP Packages
+# MOP Packages
 
 | Package            | Link                                                    |
 | ------------------ | ------------------------------------------------------- |
