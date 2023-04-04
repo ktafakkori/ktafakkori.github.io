@@ -13,7 +13,7 @@ image: "/images/or-packages.png"
 comments: true
 ---
 
-{% include note.html content="The list was updated on April 4, 2023. (Added `qpsolver`)" %}
+{% include note.html content="The list was updated on April 4, 2023. (Added `qpsolvers`)" %}
 
 {% include important.html content="If you know a specific package, which is missing, you may either contact me or comment here." %}
 
