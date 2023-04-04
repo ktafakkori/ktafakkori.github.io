@@ -16,9 +16,7 @@ I have a deep understanding of the mechanics of a system and I can help you desi
 
 I have published several academic papers in prestigious journals, which you can access through this link: <a href = " https://scholar.google.com/citations?hl=en&user=eoCLWfYAAAAJ&view_op=list_works&sortby=pubdate"> Google Scholar</a>
 
-I am skilled in developing mathematical models for operations research (OR) and management science (MS) fields, both in theory and practice. I have also developed an open-source integrated optimization environment in Python called <a href = “https://github.com/ktafakkori/feloopy”> FelooPy</a>, which allows operations research scientists to use among 15 optimization interfaces and 259 optimization algorithms using a single coding syntax.
-
-I have developed an open-source integrated optimization environment in Python called <a href = "https://github.com/ktafakkori/feloopy"> FelooPy</a>, which enables operations research scientists to use among 15 optimization interfaces and 259 optimization algorithms using a single coding syntax.
+I am skilled in developing mathematical models for operations research (OR) and management science (MS) fields, both in theory and practice. I have developed an open-source integrated optimization environment in Python called <a href = "https://github.com/ktafakkori/feloopy"> FelooPy</a>, which enables operations research scientists to use among 15 optimization interfaces and 259 optimization algorithms using a single coding syntax.
 
 In addition, I have experience working with different programming languages and software, such as Python, GAMS, C/C++, Matlab, and Julia.
 
