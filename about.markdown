@@ -8,21 +8,19 @@ permalink: /about/
 
 Hello!
 
-I am Keivan Tafakkori (M.Sc.). 
+My name is Keivan Tafakkori and I am a Ph.D. candidate in industrial engineering at the University of Tehran, Iran.
 
-I am a Ph.D. candidate in industrial engineering at the University of Tehran, Iran. 
+I have been interested in logistics and supply chain management since 2018, when I started my Master’s degree in industrial engineering. Since 2020, I have been exploring how to combine machine learning and operations research to solve supply chain, industry, and business problems more effectively.
 
-Initially, since 2018 and while pursuing my Master's degree in industrial engineering, I have focused on logistics and supply chain management. To solve supply chain, industry, and business problems more effectively, I am exploring how machine learning and operations research can be combined since 2020 and throughout my Ph.D. 
+I have a deep understanding of the mechanics of a system and I can help you design decision-making models and applications that can transform your data into insights. I can help you improve your business performance in terms of sustainability, resilience, digital transformation, and automation in industry 4.0 and 5.0 eras.
 
-I have a deep understanding of the mechanics of a system. I can aid you in designing decision-making models and applications that can convert your data to insights to significantly promote your business in terms of sustainability, resilience, digital transformation, and automation in industry 4.0 and 5.0 eras. 
+I have published several academic papers in prestigious journals, which you can access through this link: <a href = " https://scholar.google.com/citations?hl=en&user=eoCLWfYAAAAJ&view_op=list_works&sortby=pubdate"> Google Scholar</a>
 
-The following link provides access to academic papers that I have published in prestigious journals: <a href = " https://scholar.google.com/citations?hl=en&user=eoCLWfYAAAAJ&view_op=list_works&sortby=pubdate"> Google Scholar</a>
-
-I am able to develop taget, representor and learner mathematical models to leverage them in contribution to the operations research (OR) and management science (MS) fields (and contrariwise) both in theory and practice. 
+I am skilled in developing mathematical models for operations research (OR) and management science (MS) fields, both in theory and practice. I have also developed an open-source integrated optimization environment in Python called <a href = “https://github.com/ktafakkori/feloopy”> FelooPy</a>, which allows operations research scientists to use among 15 optimization interfaces and 259 optimization algorithms using a single coding syntax.
 
 I have developed an open-source integrated optimization environment in Python called <a href = "https://github.com/ktafakkori/feloopy"> FelooPy</a>, which enables operations research scientists to use among 15 optimization interfaces and 259 optimization algorithms using a single coding syntax.
 
-Also, I have experience working with different programming languages and software, such as Python, GAMS, C/C++, Matlab, and Julia.
+In addition, I have experience working with different programming languages and software, such as Python, GAMS, C/C++, Matlab, and Julia.
 
 You can reach me by the following terminals (sorted by preference):
 <p><a href = "https://www.linkedin.com/in/keivan-tafakkori/"><i class='fa fa-linkedin-square'></i> Linkedin</a></p>
