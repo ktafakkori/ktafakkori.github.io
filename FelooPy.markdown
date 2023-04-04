@@ -23,55 +23,111 @@ permalink: /feloopy/
 
 # FelooPy: An integrated optimization environment for AutoOR in Python
 
-*Version 0.2.3 is out! More stable than ever*!
+<div align="center">
 
-FelooPy (/fɛlupaɪ/, an acronym for feasible, logical, optimal, and Python), is both a hyper-optimization interface and an integrated optimization environment for automated operations research in Python. 
+ _Optimization in Python for **Operations Research** has never been this easy_!
+
+<div align="left">
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Prerequisits](#prerequisits)
+- [Installation](#installation)
+- [Documentation](#documentation)
+- [How to get started?](https://github.com/ktafakkori/feloopy/blob/main/documentation/Tutorial.md)
+- [Examples](https://github.com/ktafakkori/feloopy/tree/main/examples)
+- [Contributions](#contributions)
+- [Support](#support)
+- [Citation](#citation)
+- [License](#license)
+
+#
+<div align="center">
+
+<div align="left">
+
+## News
+
+🎉 _Version 0.2.3 is out: More stable than ever!_ 🎉
+
+🎉 _The next version would focus on solve facilities_ 🎉
+
+💻 _Quick install_: `pip install --upgrade feloopy`
+
+#
+
+## Introduction
+
+FelooPy (/fɛlupaɪ/, an acronym for feasible, logical, optimal, and Python), is both a hyper-optimization interface and an integrated optimization environment for automated operations research in Python. The name comes from the idea of proposing practical and applicable solutions. The name also emphasizes on feasibility and logicality before optimality. In another view, it emphasizes on the importance of "loops" in programming and algorithm development. Finally, it refers to the memory efficiency, by being similar to the name Floppy, in which the available memory is too low.
 
 Using FelooPy, operations research scientists can: provide their target, representor, or learner model to get results; move focus from coding to modeling, and from modeling to analytics; automate time-consuming, iterative tasks of optimization model development, debugging, and implementation; access to 259 single-objective heuristic and exact optimization algorithms; switch between optimization interfaces and algorithms with no need of code changes; and use tools such as sensitivity analysis, automated encoding and decoding for heuristic optimization, timers, etc.
 
-## Specific features
+
+## Features
+
+Are you tired of wasting time and energy on debugging codes provided by chatbots for optimization in Python? Do you wish there was a better way to create reliable and efficient codes without hassle? Well, now there is! Introducing this new optimization package that does all the hard work for you! You don’t need to learn any new skills or debug any faulty codes. You can just focus on the creative aspects of modeling and analytics!
+
+But wait, there’s more! This optimization package also offers you these amazing features:
 
 - **Free** and **Open-Source** integrated optimization environment developed under **MIT** license.
 - **Straightforward** mathematical programming **workflow**.
-- Using **single** optimization programming syntax for **15** **exact** and **heuristic** optimization interfaces in Python.
-- Accessing **82** exact and **177** heuristic optimization algorithms (total: **259**).
+
+```python
+from feloopy import *
+m = model('exact', 'simple_problem', 'cplex')
+x = m.pvar('x')
+y = m.ivar('y')
+m.obj(2*x+5*y)
+m.con(5*x+3*y <= 10)
+m.con(2*x+7*y <= 9)
+m.sol(['max'], 'cplex')
+m.report()
+m.dis_variable(x,y)
+```
+
+- Using **single** optimization programming syntax (simple as above!) for **15** **exact** and **heuristic** optimization interfaces in Python.
+
+<div align="center">
+
+| Solution method | Available interfaces                                                                                                   |
+| :-------------- | :--------------------------------------------------------------------------------------------------------------------- |
+| exact           | `cplex`, `cvxpy`, `cylp`, `gekko`, `gurobi`, `linopy`, `mip`, `ortools`, `picos`, `pulp`, `pymprog`, `pyomo`, `xpress` |
+| heuristic       | `feloopy`, `mealpy`                                                                                                    |
+
+<div align="left">
+
+
+- Accessing **82** exact and **177** heuristic optimization algorithms (total: **259**) (see [solvers and interfaces][03]).
 - Supporting **scalable** optimization for **large-scale** real-world problems.
 - Supporting **benchmarking** with various optimization solvers.
 - Supporting **multi-parameter** sensitivity analysis on a single objective.
 - Supporting specific **solver options** such as **logs**, **number of threads**, **time limit**, **absolute gap** or **releative gap**.
 
-## Supported optimization interfaces
+Try this optimization package today and see its capabilities for yourself!
 
-### Exact optimization:
+## Prerequisits
 
-- cplex
-- cvxpy
-- cylp
-- gekko
-- gurobi
-- linopy
-- mip
-- ortools
-- picos
-- pulp
-- pymprog
-- pyomo
-- xpress
-  
-### Heuristic optimization:
+* Knowledge of what interfaces and solvers are (see [interfaces and solvers for optimization in Python][10])
+* Knowledge of what operations research can do for you and your business (see [use cases][09]).
+* Basic knowledge of optimization techniques.
+* Python version `3.10.x`
+* Linux-based distributions, Windows or macOS.
 
-- feloopy
-- mealpy
+
+[09]: https://ktafakkori.github.io/use-cases-of-operations-research-list/
+[10]: https://ktafakkori.github.io/optimization-packages-in-python-list/
+
 
 ## Installation
 
-*Optional downloads*: [Python 3.10][py], ([Visual Studio Code][vs] or [Anaconda][sp])
+_Optional downloads_: [Python 3.10][py] | [Visual Studio Code][vs] | [Anaconda][sp]
 
-*Note 1*: Installation process requires `python==3.10.x`, `pip>=22.3.1` and a stable internet connection.
+_Note 1_: Installation process requires `python==3.10.x`, `pip>=22.3.1` and a stable internet connection.
 
-*Note 2:* Ensure to add Python to PATH during the installation process (usually the first menu).
+_Note 2:_ Ensure to add Python to PATH during the installation process (usually the first menu).
 
-*Note 3:* To use FelooPy inside [Google Colab][gc] environment, please first run the following code to configure Python version. Note that this code requires you to choose the desired version during implementation.
+_Note 3:_ To use FelooPy inside [Google Colab][gc] environment, please first run the following code to configure Python version. Note that this code requires you to choose the desired version during implementation.
 
 ```python
 !sudo apt-get update -y
@@ -96,7 +152,7 @@ pip install feloopy==0.2.3
 
 ### Method 2: IDE command (e.g., Spyder):
 
-*Note*: After installation, this line of code should be deleted.
+_Note_: After installation, this line of code should be deleted.
 
 ```text
 !pip install feloopy==0.2.3
@@ -104,7 +160,7 @@ pip install feloopy==0.2.3
 
 ### Method 3: Inside your Python code
 
-*Note*: After installation, this piece of code should be deleted.
+_Note_: After installation, this piece of code should be deleted.
 
 ```text
 import pip
@@ -141,28 +197,42 @@ pip install -U git+https://github.com/ktafakkori/feloopy
 
 ## Documentation
 
-* [Tutorial][01]
-* [Examples][02]
-* [Exact Solvers][03]
-* [Heuristic Solvers][04]
-* [Changelog][05]
+- [Tutorial][01]
+- [Syntax][06]
+- [Examples][02]
+- [Solvers and Interfaces][03]
+- [Changelog][05]
 
 [01]: https://github.com/ktafakkori/feloopy/blob/main/documentation/Tutorial.md
 [02]: https://github.com/ktafakkori/feloopy/tree/main/examples
-[03]: https://github.com/ktafakkori/feloopy/blob/main/documentation/Exact_List.md
-[04]: https://github.com/ktafakkori/feloopy/blob/main/documentation/Heuristic_List.md
+[03]: https://github.com/ktafakkori/feloopy/blob/main/documentation/Solvers.md
 [05]: https://github.com/ktafakkori/feloopy/blob/main/documentation/Updates.md
+[06]: https://github.com/ktafakkori/feloopy/blob/main/documentation/Syntax.md
+
+
+## Contributions
+
+We welcome your contributions to this project, such as reporting bugs, submitting pull requests, testing changes, and so on. We will acknowledge your contributions in the contributors section.
+
+## Support
+
+If you find this project useful, please consider giving it a star on GitHub (https://github.com/ktafakkori/feloopy) and introducing it to your colleagues to show your appreciation and help us continue its development! Starring a project makes it easier for you to find it again later, and also helps other people discover it. For more ways to support this project, please visit [this page][07].
+
+[07]: https://ktafakkori.github.io/support/
+
 
 ## Citation
 
-* APA 7:
+It is recommended to cite this GitHub repository or the Python library if you use its facilities in your work:
+
+- APA 7:
 
 ```text
 Tafakkori, K. (2023). FelooPy: An integrated optimization environment for AutoOR in Python (0.2.3) [Python Library]. https://github.com/ktafakkori/feloopy (Original work published 2023)
 ```
-  
-* LaTeX:
-  
+
+- LaTeX:
+
 ```text
 @software{ktafakkori2023Feb,
   author       = {Keivan Tafakkori},
@@ -174,3 +244,9 @@ Tafakkori, K. (2023). FelooPy: An integrated optimization environment for AutoOR
   url          = {https://github.com/ktafakkori/feloopy/}
 }
 ```
+
+## License
+
+FelooPy is completely free and open-source and licensed under the [MIT][08] license.
+
+[08]: https://github.com/ktafakkori/feloopy/blob/main/LICENSE
