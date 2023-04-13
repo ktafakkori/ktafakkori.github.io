@@ -43,3 +43,9 @@ You can reach me by the following terminals (sorted by preference):
 }
 </style>
 <a class="libutton" href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=keivan-tafakkori" target="_blank">Follow on LinkedIn</a>
+
+
+<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+
+<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="HORIZONTAL" data-vanity="keivan-tafakkori" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://ir.linkedin.com/in/keivan-tafakkori?trk=profile-badge">Keivan Tafakkori</a></div>
+              
