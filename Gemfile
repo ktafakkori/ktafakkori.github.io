@@ -8,10 +8,12 @@ group :jekyll_plugins do
   gem 'jekyll-paginate'
   gem 'jekyll-include-cache'
   gem 'jekyll-seo-tag'
-  gem 'jekyll-admin'
+  gem 'jekyll-admin', '0.11.1'
   gem 'jekyll-archives'
   gem 'jekyll-sitemap'
   gem 'jekyll-toc'
+  gem 'jekyll-watch', '2.2.1'
+  gem 'colorator'
 end
 
 platforms :mingw, :x64_mingw, :mswin, :jruby do

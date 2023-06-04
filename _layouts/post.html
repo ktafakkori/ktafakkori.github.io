@@ -2,6 +2,9 @@
 layout: default
 ---
 
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     tex2jax: {
@@ -9,9 +12,50 @@ layout: default
       processEscapes: true
     }
   });
-  </script>
+</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
   type="text/javascript"></script>
+
+<style>
+.post-header {
+  margin-bottom: 1.5rem;
+}
+
+.post-title {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.post-meta {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  color: var(--primary-text-color);
+}
+
+.post-category,
+.post-tag {
+  border: 1px solid var(--primary-text-color);
+  border-radius: 5px;
+  display: inline-block;
+  padding: 0px 3px;
+  margin-right: 4px;
+}
+
+.post-share a {
+  display: inline-block;
+  margin-right: 8px;
+  text-decoration: none;
+  color: var(--primary-text-color);
+  transition: color 0.3s;
+}
+
+.post-share a:hover {
+  color: var(--primary-color);
+}
+</style>
 
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
@@ -28,22 +72,20 @@ layout: default
       • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card"
           itemprop="name">{{ page.author }}</span></span>
       {%- endif -%}
-
-      {%- if page.image -%}
-      <img src="{{- page.image | relative_url -}}" alt="" class="featured-image-post">
-      {%- else -%}
-      {%- assign postImage = "/assets/images/image-default.jpg" -%}
-      <img src="{{- postImage | relative_url -}}" alt="" class="featured-image-post">
-      {%- endif -%}
+    </p>
+    {%- if page.image -%}
+    <img src="{{- page.image | relative_url -}}" alt="" class="featured-image-post">
+    {%- else -%}
+    {%- assign postImage = "/assets/images/image-default.jpg" -%}
+    <img src="{{- postImage | relative_url -}}" alt="" class="featured-image-post">
+    {%- endif -%}
   </header>
 
   {% include toc.html html=content %}
 
-  <!-- <div style=""> -->
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
-  <!-- </div>  -->
 
   {% if site.related_posts.size >= 1 %}
   <div>
@@ -151,3 +193,17 @@ layout: default
       pre.appendChild(button);
     });
 </script>
+
+
+  {% if page.modified_date %}
+  <p class="post-meta">
+    Last updated on:
+    <time class="dt-modified" datetime="{{ page.modified_date | date_to_xmlschema }}" itemprop="dateModified">
+      {%- assign modified_date_format = site.minima.date_format | default: "%b %-d, %Y"
+      -%}
+      {{ page.modified_date | date: modified_date_format }}
+    </time>
+  </p>
+  {% endif %}
+
+</article>

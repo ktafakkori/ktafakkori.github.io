@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default:"en" }}">
-
-
+<html lang="{{ page.lang | default: site.lang | default:'en' }}">
 
   {%- include head.html -%}
 
@@ -12,27 +10,29 @@
   
   <script>
     let themeToggler = document.getElementById('theme-toggler');
-localStorage.getItem("mode");
+    let storedMode = localStorage.getItem("mode");
 
-themeToggler.onclick = () => {
-  themeToggler.classList.toggle('fa-sun');
+    if (storedMode) {
+      document.body.classList.add(storedMode);
+      if (storedMode === "active") {
+        themeToggler.classList.add('fa-sun');
+      }
+    }
 
-  if (themeToggler.classList.contains('fa-sun')) {
-    localStorage.setItem("mode", "active");
-    document.body.classList.add('active');
-  } else {
-    document.body.classList.remove('active');
-    localStorage.setItem("mode", "deactive");
-  }
-};
+    themeToggler.onclick = () => {
+      themeToggler.classList.toggle('fa-sun');
 
+      if (themeToggler.classList.contains('fa-sun')) {
+        localStorage.setItem("mode", "active");
+        document.body.classList.add('active');
+        document.body.classList.remove('deactive');
+      } else {
+        document.body.classList.add('deactive');
+        document.body.classList.remove('active');
+        localStorage.setItem("mode", "deactive");
+      }
+    };
   </script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'light';
-    document.body.className = theme-toggler;
-  </script>
-
 
   <body>
 

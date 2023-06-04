@@ -20,6 +20,39 @@ permalink: /feloopy/
 ![GitHub contributors](https://img.shields.io/github/contributors/ktafakkori/feloopy.svg)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-
 # FelooPy: An integrated optimization environment for AutoOR in Python
 
+<!--#comment
+<div class="feloopy-options">
+
+  <div class="feloopy-option">
+    <h3>Free</h3>
+    <ul>
+      <li>Feature 1</li>
+      <li>Feature 2</li>
+  
+    </ul>
+    <a href="" class="btn">Select</a>
+  </div>
+
+  <div class="feloopy-option">
+    <h3>Extensions</h3>
+    <ul>
+      <li>Feature 1</li>
+      <li>Feature 2</li>
+
+    </ul>
+    <a href="" class="btn">Select</a>
+  </div>
+
+  <div class="feloopy-option">
+    <h3>Premium</h3>
+    <ul>
+      <li>Feature 1</li>
+      <li>Feature 2</li>
+
+    </ul>
+    <a href="" class="btn">Select</a>
+  </div>
+</div> 
+#-->

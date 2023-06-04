@@ -36,7 +36,7 @@ plugins:
   - jekyll-include-cache
   - jekyll-sitemap
 
-paginate: 10
+paginate: 8
 paginate_path: "/page:num/"
 
 title-logo: "/images/title-logo.png"
