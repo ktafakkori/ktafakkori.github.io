@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Market
+title: 🛒 Market
 permalink: /tutorials/
 ---
 
