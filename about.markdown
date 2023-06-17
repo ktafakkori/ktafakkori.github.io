@@ -4,31 +4,6 @@ title: 📜About
 permalink: /about/
 ---
 
-<div class="about-me">
-  <img class="profile-image" src="/images/profile.png" alt="image">
+<img class="profile-image" src="/images/profile.png" alt="image">
 
-  <p>Hello!</p>
-
-  <p>My name is Keivan Tafakkori and I am a Ph.D. candidate in industrial engineering at the University of Tehran, Iran.</p>
-
-  <p>I have been interested in logistics and supply chain management since 2018, when I started my Master’s degree in industrial engineering. Since 2020, I have been exploring how to combine machine learning and operations research to solve supply chain, industry, and business problems more effectively.</p>
-
-  <p>I have a deep understanding of the mechanics of a system and I can help you design decision-making models and applications that can transform your data into insights. I can help you improve your business performance in terms of sustainability, resilience, digital transformation, and automation in industry 4.0 and 5.0 eras.</p>
-
-  <p>I have published several academic papers in prestigious journals, which you can access through this link: <a href="https://scholar.google.com/citations?hl=en&user=eoCLWfYAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a></p>
-
-  <p>I am skilled in developing mathematical models for operations research (OR) and management science (MS) fields, both in theory and practice. I have developed an open-source integrated optimization environment in Python called <a href="https://github.com/ktafakkori/feloopy">FelooPy</a>, which enables operations research scientists to use among 15 optimization interfaces and 259 optimization algorithms using a single coding syntax.</p>
-
-  <p>In addition, I have experience working with different programming languages and software, such as Python, GAMS, C/C++, Matlab, and Julia.</p>
-
-  <p>You can reach me by the following terminals (sorted by preference):</p>
-
-  <div class="social-links">
-    <a class="social-link" href="https://www.linkedin.com/in/keivan-tafakkori/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
-    <a class="social-link" href="https://twitter.com/KTafakkori" target="_blank"><i class="fa fa-twitter"></i></a>
-  </div>
-</div>
-
-<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-
-<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="HORIZONTAL" data-vanity="keivan-tafakkori" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://ir.linkedin.com/in/keivan-tafakkori?trk=profile-badge">Keivan Tafakkori</a></div>
+<html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Keivan Tafakkori - Resume</title> <link rel="preconnect" href="https://fonts.gstatic.com"> <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet"> <style> h1 { font-size: 42px; font-weight: bold; margin-bottom: 10px; } h2 { font-size: 28px; font-weight: normal; margin-bottom: 20px; line-height: 1.3; } .container { max-width: 800px; margin: 0 auto; padding: 20px; font-family: 'Roboto', sans-serif; } .footer { margin-top: 50px; text-align: center; font-size: 14px; } .footer a { color: #0066cc; text-decoration: none; } </style> </head> <body> <div class="container"> <header> <h1>Keivan Tafakkori</h1> <h2>PhD Candidate | Industrial Engineer | Operations Research Scientist | Sustainable-Resilient Systems & Supply Chain Researcher | Award-Winning Thesis Author | Creator of FelooPy</h2> </header> <p>I am a Ph.D. candidate in Industrial Engineering at the University of Tehran, specializing in developing sustainable and resilient strategies, tactics, and operations for manufacturing and service companies in the Industry 4.0 and 5.0 eras. I focus on finding economically efficient, environmentally friendly, and socially responsible solutions with real-world implications, which make systems, industries, and supply chains sustainable and resilient.</p> <p>My expertise lies in developing optimization, data science, and machine learning models to solve challenging business problems. By combining operations research and machine learning, I contribute to the fields of operations research and management science.</p> <p>I am eager to collaborate with industry leaders and fellow researchers to drive innovation and progress for systems, industries, and supply chains with sustainability and resiliency goals. I believe different problems require different ways of explaining or representing reality for a specific system, industry, or supply chain to obtain feasible, logical, and optimal solutions. I believe in algorithmizing, modeling, and solving problems in ways that are scalable, stable in computation time, and accurate. I am optimistic about the future of sustainable and resilient industries and supply chains and am committed to contributing to this vision.</p> <p>Some highlights of my achievements include the following:</p> <ul> <li>Experienced 4+ years of developing mathematical models that have real-world impacts</li> <li>Published papers in international journals and conferences such as JRESS, EAAI, CAIE, JRCS, and JMTM.</li> <li>Reviewed papers for prestigious journals, including ESWA, TRE, ASOC, ORP, CAOR, SCA, IJPR, SMCA, and JCDE.</li> <li>Received the Best Theoretical Thesis Award from the Iranian Institute of Industrial Engineering in 2020.</li> <li>Gained valuable real-world experience through involvement in industrial and business projects, including Supplier Relationship Management (Hamrah -e Avval), Visual Management (MAPNA TUGA), and Business and Big Data Analytics (SAPCO ISACO).</li> <li>Developed an integrated optimization environment in Python called FelooPy which supports exact and heuristic optimization, constraint programming, convex optimization, multi-objective optimization, and multi-criteria decision-making with the most straightforward optimization programming language possible, which uses around 400 algorithms.</li> <li>Experienced in working with Cplex, Gurobi, Xpress, Local Solver, GAMS, Pyomo, PuLP, Ortools, scikit-learn, PyTorch, and TensorFlow, typical for operations research and machine learning.</li> </ul> <div class="footer"> <p>Email: k.tafakkori [at] ut.ac.ir | LinkedIn: <a href="https://www.linkedin.com/in/keivan-tafakkori/" target="_blank">linkedin.com/in/keivan-tafakkori</a></p> </div> </div> </body> </html>
