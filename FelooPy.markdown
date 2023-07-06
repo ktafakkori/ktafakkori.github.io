@@ -5,10 +5,10 @@ permalink: /feloopy/
 ---
 
 <p align="center">
-  <img title="FelooPy Library in Python" alt="FelooPy Library in Python" src="/images/feloopy.gif">
+  <img title="FelooPy Library in Python" alt="FelooPy Library in Python" src="https://github.com/ktafakkori/feloopy/blob/main/miscellaneous/logo/logo1.png">
 </p>
 
-[![GitHub release](https://img.shields.io/badge/version-0.2.3-orange.svg)](https://github.com/ktafakkori/feloopy/releases)
+[![GitHub release](https://img.shields.io/badge/version-0.2.6-orange.svg)](https://github.com/ktafakkori/feloopy/releases)
 [![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/release/python-310/)
 ![Package Size](https://img.shields.io/github/languages/code-size/ktafakkori/feloopy)
 ![Supporters](https://img.shields.io/github/stars/ktafakkori/feloopy)
