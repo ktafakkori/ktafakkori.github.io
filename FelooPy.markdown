@@ -5,8 +5,9 @@ permalink: /feloopy/
 ---
 
 <p align="center">
-  <img title="FelooPy Library in Python" alt="FelooPy Library in Python" src="https://github.com/ktafakkori/feloopy/blob/main/miscellaneous/logo/logo1.png">
+  <img title="FelooPy Library in Python" alt="FelooPy Library in Python" src="/images/feloopy.png" width="350" height="300">
 </p>
+
 
 [![GitHub release](https://img.shields.io/badge/version-0.2.6-orange.svg)](https://github.com/ktafakkori/feloopy/releases)
 [![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/release/python-310/)
@@ -23,12 +24,14 @@ permalink: /feloopy/
 # FelooPy: An integrated optimization environment for AutoOR in Python
 
 
+- Package: [GitHub](https://github.com/ktafakkori/feloopy)
+- Documentation: [ReadtheDocs](https://feloopy.readthedocs.io/en/latest/)
+
 <html>
 
 <head>
     <title>Snake Game</title>
     <style>
-        body { background: #000; color: #fff; }
         #gameCanvas { background: transparent; }
     </style>
 </head>
