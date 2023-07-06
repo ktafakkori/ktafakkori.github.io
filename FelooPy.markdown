@@ -28,14 +28,12 @@ permalink: /feloopy/
 - Documentation: [ReadtheDocs](https://feloopy.readthedocs.io/en/latest/)
 
 <html>
-
 <head>
     <title>Snake Game</title>
     <style>
         #gameCanvas { background: transparent; }
     </style>
 </head>
-
 <body>
     <canvas id="gameCanvas" width="800" height="600"></canvas>
     <script>
@@ -64,40 +62,72 @@ permalink: /feloopy/
             };
         }
 
-        function draw() {
-            if (gameOver) {
-                startGame();
-                return;
-            }
+function draw() {
+    if (gameOver) {
+        startGame();
+        return;
+    }
 
-            context.clearRect(0, 0, canvas.width, canvas.height);
+    context.clearRect(0, 0, canvas.width, canvas.height);
 
-            context.fillStyle = 'lightblue';
-            for (var i = 0; i < snake.length; i++) {
-                var segment = snake[i];
-                context.fillRect(segment.left, segment.top, 40, 40);
-            }
+    context.fillStyle = 'lightblue';
+    for (var i = 0; i < snake.length; i++) {
+        var segment = snake[i];
+        context.save(); 
+        context.translate(segment.left + 20, segment.top + 20); 
+        context.rotate((segment.direction === 'right' ? 45 : segment.direction === 'down' ? 135 : segment.direction === 'left' ? 225 : 315) * Math.PI / 180);
+        
+        context.fillRect(-20, -20, 40, 40);
 
-            if (prey !== null) {
-                context.fillStyle = 'orange';
-                context.fillRect(prey.left, prey.top, 40, 40);
-            }
+        if (i === 0) {
+            context.fillStyle = 'white';
+            context.beginPath();
+            context.arc(0, -10, 6, 0, Math.PI * 2);
+            context.closePath();
+            context.fill();
         }
+
+        context.restore(); 
+    }
+
+    if (prey !== null) {
+        context.fillStyle = 'orange';
+        context.save(); 
+        context.translate(prey.left + 20, prey.top + 20); 
+        context.rotate(45 * Math.PI / 180); 
+        context.fillRect(-20, -20, 40, 40); 
+        
+        context.fillStyle = 'white';
+        context.beginPath();
+        context.arc(0, -10, 6, 0, Math.PI * 2);
+        context.closePath();
+        context.fill();
+        
+        context.restore();
+    }
+}
 
         function update() {
             if (gameOver || prey === null) return;
 
             var head = Object.assign({}, snake[0]);
+            var preyDirection;
 
             if (prey.top < head.top) {
                 direction = 'up';
+                preyDirection = 'down';
             } else if (prey.top > head.top) {
                 direction = 'down';
+                preyDirection = 'up';
             } else if (prey.left < head.left) {
                 direction = 'left';
+                preyDirection = 'right';
             } else if (prey.left > head.left) {
                 direction = 'right';
+                preyDirection = 'left';
             }
+
+            head.direction = direction;
 
             if (direction === 'left') {
                 head.left -= 20;
@@ -123,7 +153,6 @@ permalink: /feloopy/
     </script>
 </body>
 </html>
-
 
 
 <!--#comment
