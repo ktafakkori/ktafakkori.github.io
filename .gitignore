@@ -1,0 +1,13 @@
+debug.log
+/public/
+/resources/_gen/
+hugo_stats.json
+hugo.exe
+hugo.darwin
+hugo.linux
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
