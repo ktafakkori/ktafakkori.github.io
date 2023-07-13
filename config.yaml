@@ -4,25 +4,6 @@ theme: hugo-theme-stack
 paginate: 5
 title: FELOOP
 
-languages:
-    en:
-        languageName: English
-        title: FELOOP
-        description: Feasible | Logical | Optimal
-        weight: 1
-    zh-cn:
-        languageName: 中文
-        title: 
-        description: 
-        weight: 2
-    ar:
-        languageName: فارسی
-        languagedirection: rtl
-        title: فلوپ
-        description: شدنی | منطقی |‌ بهینه
-        weight: 3
-
-
 # GA Tracking ID
 googleAnalytics: bVUxQ-dwS2OJIe_gchcWu-NqHJD3oR9Sl_KMNnR5-vQ
 
