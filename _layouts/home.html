@@ -2,10 +2,16 @@
 layout: default
 ---
 
-
-
-<div style="display: flex; justify-content: center; align-items: center; width: 100%;">
-  <img src="/images/banner.png" alt="Banner image" style="width: 100%; height: auto;">
+<div
+  style="
+    align-items: center;
+  "
+>
+  <img
+    src="/images/banner.png"
+    alt="Banner image"
+    style="width: 100%; height: auto"
+  />
 </div>
 
 <!-- Video embed -->
@@ -27,27 +33,19 @@ layout: default
   {%- for post in paginator.posts -%}
   <div class="post-box">
     {%- if post.image -%}
-    <img
-      src="{{- post.image | relative_url -}}"
-      alt=""
-      class="post-image"
-    />
-    {%- else -%}
-    {%- assign postImage = "images/image-default.jpg" -%}
-    <img
-      src="{{- postImage | relative_url -}}"
-      alt=""
-      class="post-image"
-    />
-    {%- endif -%}
-    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+    <img src="{{- post.image | relative_url -}}" alt="" class="post-image" />
+    {%- else -%} {%- assign postImage = "images/image-default.jpg" -%}
+    <img src="{{- postImage | relative_url -}}" alt="" class="post-image" />
+    {%- endif -%} {%- assign date_format = site.minima.date_format | default:
+    "%b %-d, %Y" -%}
     <span class="post-meta">
       {{ post.date | date: date_format }} | Reading:{% assign words =
       post.content | strip_html | number_of_words %} {{ words | divided_by: 180
       | plus: 1 }}m
     </span>
     <a class="post-link" href="{{ post.url | relative_url }}"
-      >{{ post.title | escape }}</a>
+      >{{ post.title | escape }}</a
+    >
     <span class="post-description"> {{ post.description }} </span>
   </div>
   {%- endfor -%}
@@ -62,9 +60,8 @@ layout: default
   >
   {% else %}
   <span>&laquo; Prev&nbsp</span>
-  {% endif %}
-  {% for page in (1..paginator.total_pages) %}
-  {% if page == paginator.page %}
+  {% endif %} {% for page in (1..paginator.total_pages) %} {% if page ==
+  paginator.page %}
   <em>{{ page }}&nbsp</em>
   {% elsif page == 1 %}
   <a href="/">{{ page }}&nbsp</a>
@@ -72,9 +69,7 @@ layout: default
   <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}"
     >{{ page }}&nbsp</a
   >
-  {% endif %}
-  {% endfor %}
-  {% if paginator.next_page %}
+  {% endif %} {% endfor %} {% if paginator.next_page %}
   <a href="{{ paginator.next_page_path | relative_url }}">Next &raquo;</a>
   {% else %}
   <span> Next &raquo;</span>

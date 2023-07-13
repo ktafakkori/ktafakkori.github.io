@@ -35,7 +35,7 @@ permalink: /feloopy/
     </style>
 </head>
 <body>
-    <canvas id="gameCanvas" width="800" height="600"></canvas>
+    <canvas id="gameCanvas" width="400" height="600"></canvas>
     <script>
         var canvas = document.getElementById('gameCanvas');
         var context = canvas.getContext('2d');
