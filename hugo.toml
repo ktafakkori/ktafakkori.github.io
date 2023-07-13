@@ -1,0 +1,4 @@
+baseURL = "http://ktafakkori.github.io/" 
+languageCode = "en-us" 
+title = "FELOOP"
+theme = "stack"
