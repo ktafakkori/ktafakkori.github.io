@@ -1,6 +1,6 @@
 ---
 title: "List of optimization packages in Python: Update 2023"
-date: 2022-07-14
+date: 2022-07-27
 draft: false
 ---
 
