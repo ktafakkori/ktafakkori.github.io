@@ -1,5 +1,5 @@
 ---
-title: About
+title: "About"
 date: '2023-07-13'
 menu:
     main: 
@@ -8,9 +8,6 @@ menu:
             icon: user
 draft: false
 ---
-
-
-
 <html>
 <head>
 <style>
@@ -27,8 +24,6 @@ draft: false
 
 </body>
 </html>
-
-
 
 PhD Candidate | Industrial Engineer | Operations Research Scientist | Sustainable-Resilient Systems & Supply Chain Researcher | Award-Winning Thesis Author | Creator of FelooPy
 
