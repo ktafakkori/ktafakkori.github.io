@@ -8,7 +8,7 @@ menu:
     main:
         weight: -60
         params: 
-            icon: 
+            icon: heart-handshake
 ---
 We appreciate your interest in supporting the FELOOP website and the FelooPy package in Python. Your contributions will help us maintain and improve our project, ensuring we can continue to provide valuable resources and tools to the operations research community.
 
