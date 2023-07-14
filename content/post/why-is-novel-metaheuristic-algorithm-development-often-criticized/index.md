@@ -1,7 +1,8 @@
 ---
-title: "Benders decomposition algorithm: Why is it important?"
+title: "Why is novel metaheuristic algorithm development often criticized?"
 date: 2022-11-25
 draft: false
+image: why-is-novel-metaheuristic-algorithm-development-often-criticized.png
 aliases: ["/why-is-novel-metaheuristic-algorithm-development-often-criticized/"]
 ---
 _Most of the heuristic optimization algorithms proposed are repetitive or follow the same principle/structure._

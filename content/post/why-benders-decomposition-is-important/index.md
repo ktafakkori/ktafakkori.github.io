@@ -2,6 +2,7 @@
 title: "Benders decomposition algorithm: Why is it important?"
 date: 2022-08-03
 draft: false
+image: why-benders-decomposition-is-important.png
 aliases: ["/why-benders-decomposition-is-important/"]
 ---
 _Most of the problems in our world are in the form of an MILP._
