@@ -8,6 +8,6 @@ menu:
     main:
         weight: -60
         params: 
-            icon: school
+            icon: chalkboard
 toc: false
 ---

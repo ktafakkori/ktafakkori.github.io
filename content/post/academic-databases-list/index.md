@@ -7,7 +7,7 @@ aliases: ["/academic-databases-list/"]
 ---
 # Introduction
 
-This blog post presents a list of academic tools for research, publication, sharing, citation, journal suggestion, validation, plagiarism checking, citation network analysis and more!
+This blog post presents a list of academic tools for research, publication, sharing, citation, journal suggestion, validation, plagiarism checking, citation network analysis and more
 
 # Search databases
 

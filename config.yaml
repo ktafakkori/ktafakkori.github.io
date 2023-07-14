@@ -125,6 +125,12 @@ menu:
           params:
               icon: brand-github
 
+        - identifier: googlescholar
+          name: "Google Scholar"
+          url: https://scholar.google.com/citations?hl=en&user=eoCLWfYAAAAJ&view_op=list_works&sortby=pubdate
+          params:
+              icon: school
+
         - identifier: linkedin
           name: Linkedin
           url: https://www.linkedin.com/in/keivan-tafakkori/
@@ -136,6 +142,12 @@ menu:
           url: https://twitter.com/KTafakkori
           params:
               icon: brand-twitter
+
+        - identifier: stackoverflow
+          name: "Stack Overflow"
+          url: https://stackoverflow.com/users/19078738/keivan-tafakkori
+          params:
+              icon: brand-stackoverflow
 
         - identifier: youtube
           name: YouTube
