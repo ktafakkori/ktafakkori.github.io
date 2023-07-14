@@ -126,7 +126,7 @@ menu:
               icon: brand-github
 
         - identifier: googlescholar
-          name: "Google Scholar"
+          name: GoogleScholar
           url: https://scholar.google.com/citations?hl=en&user=eoCLWfYAAAAJ&view_op=list_works&sortby=pubdate
           params:
               icon: school
@@ -144,7 +144,7 @@ menu:
               icon: brand-twitter
 
         - identifier: stackoverflow
-          name: "Stack Overflow"
+          name: StackOverflow
           url: https://stackoverflow.com/users/19078738/keivan-tafakkori
           params:
               icon: brand-stackoverflow
