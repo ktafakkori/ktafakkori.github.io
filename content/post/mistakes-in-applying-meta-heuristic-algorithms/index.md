@@ -2,6 +2,7 @@
 title: "Avoiding mistakes in applying meta-heuristic algorithms"
 date: 2022-07-14
 draft: false
+aliases: ["/mistakes-in-applying-meta-heuristic-algorithms/"]
 ---
 For some reason, a meta-heuristic algorithm is not working properly for a problem, or it doesn't seem easy to apply! It abruptly generates impermissible solutions!
 

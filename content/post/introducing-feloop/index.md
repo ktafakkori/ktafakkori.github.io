@@ -2,6 +2,7 @@
 title: "Introducing FELOOP"
 date: 2022-07-13
 draft: false
+aliases: ["/introducing-feloop/"]
 ---
 Welcome to FELOOP!
 

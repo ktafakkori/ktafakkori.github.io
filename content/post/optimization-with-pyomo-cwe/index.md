@@ -2,9 +2,8 @@
 title: "Optimization by PYOMO in Python: A complete working example"
 date: 2022-07-15
 draft: false
+aliases: ["/optimization-with-pyomo-cwe/"]
 ---
-In this article, I model, solve, and analyze a simple mixed-integer linear optimization model in Python with PYOMO's optimization interface. Accordingly, the critical steps in using an optimization interface and an optimization pipeline are introduced.
-
 ### Step 1. Defining the optimization model
 
 The optimization model can be defined by a Python function. The inputs to this function would be the sets, parameters, and variables. The output would be the symbolic objective(s) and constraints.
