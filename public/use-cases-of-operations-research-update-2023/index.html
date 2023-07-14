@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Introduction This article can serve as a comprehensive reference for practitioners, managers, consultants, academics, and experts to get familiar with use cases of operations research (OR) in different fields, such as industrial engineering (IE), computer science (CS), machine learning (ML), simulation (SM), and data science (DS).
+You may not realize that there are over 1800 classes of decision problems that can be modeled using OR science both in the real world and in the virtual world.'>
+<title>Use cases of operations research: Update 2023</title>
+
+<link rel='canonical' href='https://ktafakkori.github.io/use-cases-of-operations-research-update-2023/'>
+
+<link rel="stylesheet" href="/scss/style.min.ff300df33b80e2ac49809c825614392ed1c7b27591d65d3c4043602cd162e25f.css"><meta property='og:title' content='Use cases of operations research: Update 2023'>
+<meta property='og:description' content='Introduction This article can serve as a comprehensive reference for practitioners, managers, consultants, academics, and experts to get familiar with use cases of operations research (OR) in different fields, such as industrial engineering (IE), computer science (CS), machine learning (ML), simulation (SM), and data science (DS).
+You may not realize that there are over 1800 classes of decision problems that can be modeled using OR science both in the real world and in the virtual world.'>
+<meta property='og:url' content='https://ktafakkori.github.io/use-cases-of-operations-research-update-2023/'>
+<meta property='og:site_name' content='FELOOP'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2023-03-05T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2023-03-05T00:00:00&#43;00:00'/><meta property='og:image' content='https://ktafakkori.github.io/use-cases-of-operations-research-update-2023/post-image.png' />
+<meta name="twitter:site" content="@KTafakkori">
+    <meta name="twitter:creator" content="@KTafakkori"><meta name="twitter:title" content="Use cases of operations research: Update 2023">
+<meta name="twitter:description" content="Introduction This article can serve as a comprehensive reference for practitioners, managers, consultants, academics, and experts to get familiar with use cases of operations research (OR) in different fields, such as industrial engineering (IE), computer science (CS), machine learning (ML), simulation (SM), and data science (DS).
+You may not realize that there are over 1800 classes of decision problems that can be modeled using OR science both in the real world and in the virtual world."><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://ktafakkori.github.io/use-cases-of-operations-research-update-2023/post-image.png' />
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/feloop_hu5cb9df03013ddcc76bfad426d3f5906f_3456_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">FELOOP</a></h1>
+            <h2 class="site-description">Project by Keivan Tafakkori, PhD Candidate of Industrial Engineering @ University of Tehran</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/ktafakkori'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/KTafakkori'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>Dark Mode</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Table of contents</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#facilities-management">Facilities management</a></li>
+    <li><a href="#inventory-management">Inventory management</a></li>
+    <li><a href="#transportation--logistics-management">Transportation &amp; logistics management</a></li>
+    <li><a href="#financial-management">Financial management</a></li>
+    <li><a href="#sourcing-management">Sourcing management</a></li>
+    <li><a href="#information--computing-management">Information &amp; computing management</a></li>
+    <li><a href="#demand-management">Demand management</a></li>
+    <li><a href="#project-management">Project management</a></li>
+    <li><a href="#technology-management">Technology management</a></li>
+    <li><a href="#industry-management">Industry management</a></li>
+    <li><a href="#business-managemnet">Business managemnet</a></li>
+    <li><a href="#paradigm-management">Paradigm management</a></li>
+    <li><a href="#production--schedule-management">Production &amp; schedule management</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/use-cases-of-operations-research-update-2023/">
+                <img src="/use-cases-of-operations-research-update-2023/post-image_hued1f519c0727ccd3a00c1c4bfdf5b454_91037_800x0_resize_box_3.png"
+                        srcset="/use-cases-of-operations-research-update-2023/post-image_hued1f519c0727ccd3a00c1c4bfdf5b454_91037_800x0_resize_box_3.png 800w, /use-cases-of-operations-research-update-2023/post-image_hued1f519c0727ccd3a00c1c4bfdf5b454_91037_1600x0_resize_box_3.png 1600w"
+                        width="800" 
+                        height="800" 
+                        loading="lazy"
+                        alt="Featured image of post Use cases of operations research: Update 2023" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/use-cases-of-operations-research-update-2023/">Use cases of operations research: Update 2023</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Mar 05, 2023</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    4 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <h1 id="introduction">Introduction</h1>
+<p>This article can serve as a comprehensive reference for practitioners, managers, consultants, academics, and experts to get familiar with use cases of operations research (OR) in different fields, such as industrial engineering (IE), computer science (CS), machine learning (ML), simulation (SM), and data science (DS).</p>
+<p>You may not realize that there are over 1800 classes of decision problems that can be modeled using OR science both in the real world and in the virtual world. There is no doubt that the number of these classes can be more if we consider more specific practical, theoretical, or mathematical aspects. The theoretical categories of decision problems in OR can be created using the following features:</p>
+<ul>
+<li>Online or offline</li>
+<li>Permanent, strategic, tactical, operational, rolling horizon, or real-time</li>
+<li>Deterministic or uncertain</li>
+<li>No-objective, single-objective with a linear function, single-objective with a nonlinear function, multi-objective with linear functions, or multi-objective with nonlinear functions</li>
+<li>Continuous, discrete, or mixed decision variables</li>
+<li>Unconstrained, single linear constraint, single nonlinear constraint, multiple linear constraints, or multiple nonlinear constraints</li>
+</ul>
+<p>Notably, due to the diverse nature of OR&rsquo;s use cases, practical categories and use cases are difficult to categorize or measure. Therefore, this article will allude to keywords that can shed light on how decisions made by OR might be useful for a particular industry.</p>
+<h1 id="real-world-use-cases">Real-world use cases</h1>
+<h2 id="facilities-management">Facilities management</h2>
+<ul>
+<li>Assortment planning</li>
+<li>Capacitated &amp; un-capacitated facilities location</li>
+<li>Capacitated multi-source Weber location</li>
+<li>Capacity and expansion planning</li>
+<li>Center location</li>
+<li>Center location-dependent relocation</li>
+<li>Charging/refueling station location</li>
+<li>Closed-loop supply chain network design</li>
+<li>Competitive location</li>
+<li>Continuous location</li>
+<li>Covering location</li>
+<li>Cross-docking location</li>
+<li>Desirable &amp; undesirable facilities location</li>
+<li>Discrete location</li>
+<li>Distribution network design</li>
+<li>Dynamic &amp; static location</li>
+<li>Fixed-charge facility location</li>
+<li>Forward and reverse (backward) logistics network design</li>
+<li>Gateway location</li>
+<li>Hierarchical &amp; single-level location</li>
+<li>Hub and spoke &amp; terminal location</li>
+<li>Land use</li>
+<li>Layout and re-layout</li>
+<li>Location and demand allocation</li>
+<li>Location problem with barriers</li>
+<li>Locker location</li>
+<li>Logistics distribution centers location</li>
+<li>Minimax location</li>
+<li>Minisum location</li>
+<li>Mobile location</li>
+<li>Network design</li>
+<li>Obnoxious facilities</li>
+<li>Obstacle location-allocation</li>
+<li>Online location problem</li>
+<li>Open-loop supply chain network design</li>
+<li>P-median location</li>
+<li>Pick up/drop off location</li>
+<li>Planar, network, &amp; discrete location</li>
+<li>Plant location</li>
+<li>Procurement (supply or vendor) network design</li>
+<li>Production network design</li>
+<li>Smart grid</li>
+<li>Staffing and human resources</li>
+<li>Supply chain facilities location</li>
+<li>Supply chain network design</li>
+<li>Supply chain network redesign</li>
+<li>Territory design</li>
+<li>Tree &amp; general graph location</li>
+<li>Warehouse location</li>
+</ul>
+<h2 id="inventory-management">Inventory management</h2>
+<ul>
+<li>Backlog level</li>
+<li>Growing and perishable items</li>
+<li>Holding level</li>
+<li>Leadtime</li>
+<li>Lost sales level</li>
+<li>Order &amp; reorder point</li>
+<li>Order/production quantity</li>
+<li>Placement &amp; assortment</li>
+<li>Self-/vendor-managed</li>
+</ul>
+<h2 id="transportation--logistics-management">Transportation &amp; logistics management</h2>
+<ul>
+<li>Ambulance location</li>
+<li>Bike sharing</li>
+<li>Capacitated vehicle routing</li>
+<li>Crowd logistics and crowd-shipping</li>
+<li>Dynamic traffic assignment</li>
+<li>Electric vehicles and mobility</li>
+<li>Emergency logistics</li>
+<li>First, middle, and last mile delivery</li>
+<li>Freight transportation</li>
+<li>Third, forth, &amp; fifth-party logistics</li>
+<li>Intelligent transport systems</li>
+<li>Milk run and automobile</li>
+<li>Multi-agent system</li>
+<li>Network design</li>
+<li>Port smart logistics</li>
+<li>Pricing in transport networks</li>
+<li>Ridesharing</li>
+<li>School bus routing</li>
+<li>Smart agro-logistics</li>
+<li>Smart logistics</li>
+<li>Traffic enforcement systems</li>
+<li>Traffic planning</li>
+<li>Trailer rebalancing</li>
+<li>Truck-load</li>
+<li>Vehicle routing</li>
+</ul>
+<h2 id="financial-management">Financial management</h2>
+<ul>
+<li>Budget allocation</li>
+<li>Capital investment</li>
+<li>Cashflow management</li>
+<li>Payment and compensation</li>
+<li>Pricing and revenue management</li>
+<li>Profit maximization</li>
+<li>Stocks investment</li>
+</ul>
+<h2 id="sourcing-management">Sourcing management</h2>
+<ul>
+<li>Supplier development</li>
+<li>Supplier evaluation</li>
+<li>Supplier excellence</li>
+<li>Supplier relationship</li>
+<li>Supplier scoring</li>
+<li>Supplier selection and order allocation</li>
+</ul>
+<h2 id="information--computing-management">Information &amp; computing management</h2>
+<ul>
+<li>Cloud computing</li>
+<li>Control systems monitoring</li>
+<li>DRP systems</li>
+<li>Edge computing</li>
+<li>ERP systems</li>
+<li>Fog computing</li>
+<li>ICT systems</li>
+<li>Knowledge management</li>
+<li>MIS systems</li>
+<li>MRP systems</li>
+<li>MPS systems</li>
+<li>RFID</li>
+<li>Traceability, tractability, and visibility</li>
+</ul>
+<h2 id="demand-management">Demand management</h2>
+<ul>
+<li>Assembly-to-order</li>
+<li>Build-to-order</li>
+<li>Call center</li>
+<li>Customer relationship</li>
+<li>Discounts, incentives, and motivations</li>
+<li>Engineer-to-order</li>
+<li>Engineer-to-order</li>
+<li>Make-to-order</li>
+<li>Make-to-stock</li>
+<li>Mobility-on-demand</li>
+<li>Negotiations</li>
+<li>On-demand production</li>
+<li>Order splitting</li>
+<li>Returns</li>
+<li>Time slot</li>
+<li>Time window</li>
+</ul>
+<h2 id="project-management">Project management</h2>
+<ul>
+<li>Planning</li>
+<li>Resource assignment</li>
+<li>Resource leveling</li>
+<li>Scheduling</li>
+</ul>
+<h2 id="technology-management">Technology management</h2>
+<ul>
+<li>Additive manufacturing adoption</li>
+<li>Artificial intelligence adoption</li>
+<li>Blockchain adoption</li>
+<li>Digital transformation</li>
+<li>Internet of things adoption</li>
+<li>Modern ICT networks adoptions</li>
+<li>Sensors</li>
+</ul>
+<h2 id="industry-management">Industry management</h2>
+<ul>
+<li>Agri-food and poultry</li>
+<li>Airlines</li>
+<li>Atm location planning</li>
+<li>Bio-refinery, bio-mass, and petroleum</li>
+<li>Blood and organ transplant network</li>
+<li>Broadband networks</li>
+<li>Coal blending</li>
+<li>Emergency</li>
+<li>Foreign trade</li>
+<li>Hazardous waste</li>
+<li>Health care</li>
+<li>Humanitarian and relief, and disaster</li>
+<li>Metropolitan/city logistics</li>
+<li>Movie production</li>
+<li>Operating room</li>
+<li>Pharmaceutical</li>
+<li>Port governance</li>
+<li>Portfolio and stocks</li>
+<li>Private &amp; public sector</li>
+<li>Public school districting</li>
+<li>Refinery operations</li>
+<li>Renewable energy</li>
+<li>Scheduling bank staff</li>
+<li>Sports league</li>
+<li>Talent marketplaces</li>
+<li>Taxi</li>
+<li>Textile</li>
+</ul>
+<h2 id="business-managemnet">Business managemnet</h2>
+<ul>
+<li>Advertising</li>
+<li>Continuity management</li>
+<li>Contracts</li>
+<li>Distribution marketing</li>
+<li>Flexibility and variability</li>
+<li>High-impact matching</li>
+<li>Intelligent, e-business and e-marketing</li>
+<li>Leadership, organizational culture &amp; trust</li>
+<li>Leanness, agility, and leagility</li>
+<li>Risk management</li>
+</ul>
+<h2 id="paradigm-management">Paradigm management</h2>
+<ul>
+<li>Adaptive</li>
+<li>Agile</li>
+<li>Disruption</li>
+<li>Economical</li>
+<li>Efficient</li>
+<li>Environmental</li>
+<li>Flexible</li>
+<li>Green</li>
+<li>Industry 4.0</li>
+<li>Industry 5.0</li>
+<li>Leagile</li>
+<li>Lean</li>
+<li>Net-zero</li>
+<li>Reliable</li>
+<li>Resilient</li>
+<li>Responsible</li>
+<li>Responsive</li>
+<li>Robust</li>
+<li>Social</li>
+<li>Sustainable</li>
+<li>Variable</li>
+</ul>
+<h2 id="production--schedule-management">Production &amp; schedule management</h2>
+<ul>
+<li>Airline crew scheduling</li>
+<li>Assembly line balancing</li>
+<li>Bin packing</li>
+<li>Bio-inspired manufacturing</li>
+<li>Commodities</li>
+<li>DNA sequence assembly</li>
+<li>Fast-moving consumer goods</li>
+<li>Flow shop scheduling</li>
+<li>Human-robot collaboration</li>
+<li>Job shop scheduling</li>
+<li>Lifecycle analysis</li>
+<li>Nesting</li>
+<li>Open shop scheduling</li>
+<li>Packaging</li>
+<li>Parallel machine scheduling</li>
+<li>Perishable products</li>
+<li>Queuing</li>
+<li>Shift scheduling</li>
+<li>Single machine scheduling</li>
+</ul>
+<h1 id="virtual-world-use-cases">Virtual-world use cases</h1>
+<ul>
+<li>Belief theory</li>
+<li>Complexity theory</li>
+<li>Data envelopment analysis</li>
+<li>Game theory</li>
+<li>Graph theory</li>
+<li>Machine learning</li>
+<li>Multi-criteria decision making</li>
+<li>Uncertainty programming</li>
+</ul>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Author: Keivan Tafakkori. All Rights Reserved.</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+     
+    
+        
+    <div class="disqus-container">
+    
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (typeof DISQUS == 'object') {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2020 - 
+        
+        2023 FELOOP
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.16.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
