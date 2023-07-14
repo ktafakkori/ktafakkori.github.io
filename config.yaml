@@ -8,13 +8,11 @@ languages:
     en:
         languageName: English
         title: FELOOP
-        description: Feasible | Logical | Optimal
         weight: 1
     fa:
         languageName:  فارسی
         languagedirection: rtl
         title: فلوپ
-        description: شدنی | منطقی |‌ بهینه
         weight: 2
 
 # GA Tracking ID
