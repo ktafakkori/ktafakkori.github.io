@@ -2,7 +2,7 @@
 title: "List of machine learning packages in Python: Update 2022"
 date: 2022-08-20
 draft: false
-image: machine-learning-packages-in-python-list.png
+image: post-image-ml-pkg.png
 aliases: ["/machine-learning-packages-in-python-list/"]
 ---
 # Introduction

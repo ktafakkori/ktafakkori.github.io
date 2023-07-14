@@ -35,7 +35,7 @@ params:
         lastUpdated: Jan 02, 2006 15:04 MST
 
     sidebar:
-        emoji: 🞋
+        emoji: 
         subtitle: Project by Keivan Tafakkori, PhD Candidate of Industrial Engineering @ University of Tehran
         avatar:
             enabled: true

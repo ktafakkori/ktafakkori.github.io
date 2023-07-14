@@ -2,7 +2,7 @@
 title: "Optimization by PYOMO in Python: A complete working example"
 date: 2022-07-15
 draft: false
-image: optimization-with-pyomo-cwe.png
+image: post-image.png
 aliases: ["/optimization-with-pyomo-cwe/"]
 ---
 ### Step 1. Defining the optimization model
