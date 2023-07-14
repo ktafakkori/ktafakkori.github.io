@@ -2,9 +2,9 @@
 title: "List of optimization packages in Python: Update 2023"
 date: 2022-07-27
 draft: false
+image: optimization-packages-in-python-list.png
 aliases: ["/optimization-packages-in-python-list/"]
 ---
-
 # Introduction
 
 This article can be a comprehensive reference for academics and experts in industrial engineering (IE), supply chain management (SCM), operations research (OR), computer science (CS), machine learning (ML), simulation (SM), data science (DS), and others to get familiar with what is available for optimization in Python.

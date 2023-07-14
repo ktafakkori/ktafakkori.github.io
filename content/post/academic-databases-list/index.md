@@ -1,5 +1,5 @@
 ---
-title: "List of machine learning packages in Python: Update 2022"
+title: "List of academic research databases: Update 2022"
 date: 2022-09-04
 draft: false
 aliases: ["/academic-databases-list/"]

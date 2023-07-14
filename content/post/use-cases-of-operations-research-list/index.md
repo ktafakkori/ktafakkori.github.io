@@ -2,6 +2,7 @@
 title: "Use cases of operations research: Update 2023"
 date: 2023-03-05
 draft: false
+image: use-cases-of-operations-research-list.png
 aliases: ["/use-cases-of-operations-research-list/"]
 ---
 # Introduction

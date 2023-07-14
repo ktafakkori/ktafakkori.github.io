@@ -2,6 +2,7 @@
 title: "The root of similarities between supervised learning and operations research"
 date: 2022-07-15
 draft: false
+image: the-root-of-similarities-between-sl-or.png
 aliases: ["/the-root-of-similarities-between-sl-or/"]
 ---
 In this short article, I am sharing my opinion and explaining how operations research and machine learning are interrelated.
