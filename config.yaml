@@ -125,11 +125,23 @@ menu:
           params:
               icon: brand-github
 
+        - identifier: linkedin
+          name: Linkedin
+          url: https://www.linkedin.com/in/keivan-tafakkori/
+          params:
+              icon: brand-linkedin
+
         - identifier: twitter
           name: Twitter
           url: https://twitter.com/KTafakkori
           params:
               icon: brand-twitter
+
+        - identifier: youtube
+          name: YouTube
+          url: https://www.youtube.com/channel/UCgln8g9GjMi_Sh6P0k2DkOQ
+          params:
+              icon: brand-youtube
 
 related:
     includeNewer: true
