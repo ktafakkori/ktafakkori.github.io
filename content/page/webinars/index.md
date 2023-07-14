@@ -12,8 +12,6 @@ menu:
 toc: false
 ---
 
-# Webinars
-
 <div class="tutorials-container">
   <div class="tutorial-box">
     <a href="https://forms.gle/CZhnmJns15gHkD1f8">
