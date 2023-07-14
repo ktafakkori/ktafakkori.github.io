@@ -4053,7 +4053,11 @@ Adequately framing a method entails explaining it using general optimization ter
         <guid>https://ktafakkori.github.io/list-of-optimization-packages-in-python-update-2023/</guid>
         <description>&lt;img src="https://ktafakkori.github.io/list-of-optimization-packages-in-python-update-2023/post-image.png" alt="Featured image of post List of optimization packages in Python: Update 2023" /&gt;&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
 &lt;p&gt;This article can be a comprehensive reference for academics and experts in industrial engineering (IE), supply chain management (SCM), operations research (OR), computer science (CS), machine learning (ML), simulation (SM), data science (DS), and others to get familiar with what is available for optimization in Python.&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;div class=&#34;dark-bg&#34;&gt;
+    &lt;video width=&#34;100%&#34; height=&#34;600&#34; autoplay loop muted class=&#34;no-margin&#34;&gt;
+        &lt;source src=&#34;https://ktafakkori.github.io/images/interface-solver.mp4&#34;&gt;&lt;/source&gt;
+    &lt;/video&gt;
+&lt;/div&gt;
 &lt;h1 id=&#34;guide&#34;&gt;Guide&lt;/h1&gt;
 &lt;table&gt;
 &lt;thead&gt;

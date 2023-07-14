@@ -12,7 +12,20 @@
         <pubDate>Thu, 13 Jul 2023 00:00:00 +0000</pubDate>
         
         <guid>https://ktafakkori.github.io/about/</guid>
-        <description>&lt;p&gt;&lt;strong&gt;Keivan Tafakkori&lt;/strong&gt;&lt;/p&gt;
+        <description>&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+.profile-image {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;img class=&#34;profile-image&#34; src=&#34;profile.png&#34; alt=&#34;image&#34;&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 &lt;p&gt;PhD Candidate | Industrial Engineer | Operations Research Scientist | Sustainable-Resilient Systems &amp;amp; Supply Chain Researcher | Award-Winning Thesis Author | Creator of FelooPy&lt;/p&gt;
 &lt;p&gt;I am a Ph.D. candidate in Industrial Engineering at the University of Tehran, specializing in developing sustainable and resilient strategies, tactics, and operations for manufacturing and service companies in the Industry 4.0 and 5.0 eras. I focus on finding economically efficient, environmentally friendly, and socially responsible solutions with real-world implications, which make systems, industries, and supply chains sustainable and resilient.&lt;/p&gt;
 &lt;p&gt;My expertise lies in developing optimization, data science, and machine learning models to solve challenging business problems. By combining operations research and machine learning, I contribute to the fields of operations research and management science.&lt;/p&gt;

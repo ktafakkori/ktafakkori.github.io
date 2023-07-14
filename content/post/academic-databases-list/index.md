@@ -3,7 +3,6 @@ title: "List of academic research databases: Update 2022"
 date: 2022-09-04
 draft: false
 image: post-image.png
-comments: true
 aliases: ["/academic-databases-list/"]
 ---
 # Introduction

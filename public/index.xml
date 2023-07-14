@@ -12,7 +12,20 @@
         <pubDate>Thu, 13 Jul 2023 00:00:00 +0000</pubDate>
         
         <guid>https://ktafakkori.github.io/about/</guid>
-        <description>&lt;p&gt;&lt;strong&gt;Keivan Tafakkori&lt;/strong&gt;&lt;/p&gt;
+        <description>&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+.profile-image {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;img class=&#34;profile-image&#34; src=&#34;profile.png&#34; alt=&#34;image&#34;&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 &lt;p&gt;PhD Candidate | Industrial Engineer | Operations Research Scientist | Sustainable-Resilient Systems &amp;amp; Supply Chain Researcher | Award-Winning Thesis Author | Creator of FelooPy&lt;/p&gt;
 &lt;p&gt;I am a Ph.D. candidate in Industrial Engineering at the University of Tehran, specializing in developing sustainable and resilient strategies, tactics, and operations for manufacturing and service companies in the Industry 4.0 and 5.0 eras. I focus on finding economically efficient, environmentally friendly, and socially responsible solutions with real-world implications, which make systems, industries, and supply chains sustainable and resilient.&lt;/p&gt;
 &lt;p&gt;My expertise lies in developing optimization, data science, and machine learning models to solve challenging business problems. By combining operations research and machine learning, I contribute to the fields of operations research and management science.&lt;/p&gt;
@@ -4079,7 +4092,11 @@ Adequately framing a method entails explaining it using general optimization ter
         <guid>https://ktafakkori.github.io/list-of-optimization-packages-in-python-update-2023/</guid>
         <description>&lt;img src="https://ktafakkori.github.io/list-of-optimization-packages-in-python-update-2023/post-image.png" alt="Featured image of post List of optimization packages in Python: Update 2023" /&gt;&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
 &lt;p&gt;This article can be a comprehensive reference for academics and experts in industrial engineering (IE), supply chain management (SCM), operations research (OR), computer science (CS), machine learning (ML), simulation (SM), data science (DS), and others to get familiar with what is available for optimization in Python.&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;div class=&#34;dark-bg&#34;&gt;
+    &lt;video width=&#34;100%&#34; height=&#34;600&#34; autoplay loop muted class=&#34;no-margin&#34;&gt;
+        &lt;source src=&#34;https://ktafakkori.github.io/images/interface-solver.mp4&#34;&gt;&lt;/source&gt;
+    &lt;/video&gt;
+&lt;/div&gt;
 &lt;h1 id=&#34;guide&#34;&gt;Guide&lt;/h1&gt;
 &lt;table&gt;
 &lt;thead&gt;
