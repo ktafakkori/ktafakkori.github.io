@@ -11,7 +11,7 @@ This article can be a comprehensive reference for academics and experts in indus
 
 <div class="dark-bg">
     <video width="100%" height="600" autoplay loop muted class="no-margin">
-        <source src="/images/interface-solver.mp4"></source>
+        <source src="interface-solver.mp4"></source>
     </video>
 </div>
 

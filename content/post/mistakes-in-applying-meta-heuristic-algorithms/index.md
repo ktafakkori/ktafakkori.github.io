@@ -31,4 +31,4 @@ Overall, one should look for the decisions to be made regarding constraints when
 
 The figure below can help you to understand the differences between exact and heuristic optimization methods in coding a TSP problem:
 
-`<img title="TSP representation" alt="TSP representation" src="/images/wbo.png">`
+<img title="TSP representation" alt="TSP representation" src="wbo.png">
