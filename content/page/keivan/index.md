@@ -21,7 +21,7 @@ draft: false
 </head>
 <body>
 
-<img class="profile-image" src="profile.png" alt="image">
+<img class="profile-image" src="profile.jpg" alt="image">
 
 </body>
 </html>
