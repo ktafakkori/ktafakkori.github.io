@@ -1,0 +1,11 @@
+# Rename this file to languages.toml to enable multilingual support
+[en]
+languageName = "English"
+languagedirection = "ltr"
+title = "FELOOP"
+weight = 1
+[fa]
+languageName = "فارسی"
+languagedirection = "rtl"
+title = "فلوپ"
+weight = 2
