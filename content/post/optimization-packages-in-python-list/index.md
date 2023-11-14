@@ -5,6 +5,7 @@ draft: false
 image: post-image.png
 aliases: ["/optimization-packages-in-python-list/"]
 ---
+
 # Introduction
 
 This article can be a comprehensive reference for academics and experts in industrial engineering (IE), supply chain management (SCM), operations research (OR), computer science (CS), machine learning (ML), simulation (SM), data science (DS), and others to get familiar with what is available for optimization in Python.
@@ -19,39 +20,41 @@ This article can be a comprehensive reference for academics and experts in indus
 
 | Package capability | Description                          |
 | ------------------ | ------------------------------------ |
-| `MINLP`          | Mixed integer nonlinear programming  |
-| `MIQP`           | Mixed integer quadratic programming  |
-| `MILP`           | Mixed integer linear programming     |
-| `NLP`            | Nonlinear programming                |
-| `IP`             | Integer programming                  |
-| `LP`             | Linear programming                   |
-| `CP`             | Constraint programming               |
-| `GPP`            | General purpose programming          |
-| `MOP`            | Multi-criteria/objective programming |
+| `MINLP`            | Mixed integer nonlinear programming  |
+| `MIQP`             | Mixed integer quadratic programming  |
+| `MILP`             | Mixed integer linear programming     |
+| `NLP`              | Nonlinear programming                |
+| `IP`               | Integer programming                  |
+| `LP`               | Linear programming                   |
+| `CP`               | Constraint programming               |
+| `GPP`              | General purpose programming          |
+| `MOP`              | Multi-criteria/objective programming |
 
 # MINLP+MIQP+MILP+NLP+IP+LP Packages
 
-| Package           | Link                                                               |
-| ----------------- | ------------------------------------------------------------------ |
-| `casadi`        | [Official](https://web.casadi.org/)                                   |
-| `feloopy`       | [Official](https://github.com/ktafakkori/feloopy)                     |
-| `gekko`         | [Official](https://machinelearning.byu.edu/)                          |
-| `knitro`        | [Official](https://www.artelys.com/docs/knitro/index.html)            |
-| `lindo`         | [Official](https://www.lindo.com/)                                    |
-| `midaco`        | [Official](http://www.midaco-solver.com/index.php/download/python)    |
-| `naginterfaces` | [Official](https://www.nag.com/)                                      |
-| `octeract`      | [Official](https://octeract.gg/)                                      |
-| `optalg`        | [Official](https://github.com/ttinoco/OPTALG)                         |
-| `optmod`        | [Official](https://github.com/ttinoco/OPTMOD)                         |
-| `pydrake`       | [Official](https://drake.mit.edu/)                                    |
-| `pyomo`         | [Official](http://www.pyomo.org/)                                     |
-| `pyscipopt`     | [Official](https://scipopt.org/)                                      |
-| `xpress`        | [Official](https://www.fico.com/en/products/fico-xpress-optimization) |
+| Package            | Link                                                                  |
+| ------------------ | --------------------------------------------------------------------- |
+| `casadi`           | [Official](https://web.casadi.org/)                                   |
+| `feloopy`          | [Official](https://github.com/ktafakkori/feloopy)                     |
+| `gekko`            | [Official](https://machinelearning.byu.edu/)                          |
+| `gmspy`            | [Official](https://github.com/GAMS-dev/gamspy)                        |
+| `insideopt-seeker` | [Official](https://insideopt.com/)                                    |
+| `knitro`           | [Official](https://www.artelys.com/docs/knitro/index.html)            |
+| `lindo`            | [Official](https://www.lindo.com/)                                    |
+| `midaco`           | [Official](http://www.midaco-solver.com/index.php/download/python)    |
+| `naginterfaces`    | [Official](https://www.nag.com/)                                      |
+| `octeract`         | [Official](https://octeract.gg/)                                      |
+| `optalg`           | [Official](https://github.com/ttinoco/OPTALG)                         |
+| `optmod`           | [Official](https://github.com/ttinoco/OPTMOD)                         |
+| `pydrake`          | [Official](https://drake.mit.edu/)                                    |
+| `pyomo`            | [Official](http://www.pyomo.org/)                                     |
+| `pyscipopt`        | [Official](https://scipopt.org/)                                      |
+| `xpress`           | [Official](https://www.fico.com/en/products/fico-xpress-optimization) |
 
 # MIQP+MILP+IP+LP Packages
 
-| Package         | Link                                                            |
-| --------------- | --------------------------------------------------------------- |
+| Package       | Link                                                               |
+| ------------- | ------------------------------------------------------------------ |
 | `copt`        | [Official](https://www.shanshu.ai/copt)                            |
 | `cplex`       | [Official](https://www.ibm.com/analytics/cplex-optimizer)          |
 | `docplex`     | [Official](https://ibmdecisionoptimization.github.io/docplex-doc/) |
@@ -66,8 +69,8 @@ This article can be a comprehensive reference for academics and experts in indus
 
 # MILP+IP+LP Packages
 
-| Package        | Link                                                             |
-| -------------- | ---------------------------------------------------------------- |
+| Package      | Link                                                                |
+| ------------ | ------------------------------------------------------------------- |
 | `cvxopt`     | [Official](https://cvxopt.org/)                                     |
 | `cvxpy`      | [Official](https://www.cvxpy.org/)                                  |
 | `cylp`       | [Official](http://coin-or.github.io/CyLP/)                          |
@@ -84,8 +87,8 @@ This article can be a comprehensive reference for academics and experts in indus
 
 # NLP+LP Packages
 
-| Package         | Link                                                   |
-| --------------- | ------------------------------------------------------ |
+| Package       | Link                                                      |
+| ------------- | --------------------------------------------------------- |
 | `acadopy`     | [Official](https://github.com/force-h2020/acadopy)        |
 | `acados`      | [Official](https://docs.acados.org/index.html)            |
 | `cyipopt`     | [Official](https://pypi.org/project/ipopt/)               |
@@ -105,8 +108,8 @@ This article can be a comprehensive reference for academics and experts in indus
 
 # CP Packages
 
-| Package               | Link                                                                                       |
-| --------------------- | ------------------------------------------------------------------------------------------ |
+| Package             | Link                                                                                          |
+| ------------------- | --------------------------------------------------------------------------------------------- |
 | `cplex`             | [Official](https://www.ibm.com/analytics/cplex-cp-optimizer)                                  |
 | `cpmpy`             | [Official](https://github.com/CPMpy/cpmpy)                                                    |
 | `gecode-python`     | [Official](https://launchpad.net/gecode-python)                                               |
@@ -119,8 +122,8 @@ This article can be a comprehensive reference for academics and experts in indus
 
 # GPP Packages
 
-| Package                      | Link                                                                               |
-| ---------------------------- | ---------------------------------------------------------------------------------- |
+| Package                    | Link                                                                                  |
+| -------------------------- | ------------------------------------------------------------------------------------- |
 | `arm-mango`                | [Official](https://github.com/ARM-software/mango)                                     |
 | `ax`                       | [Official](https://github.com/facebook/Ax)                                            |
 | `bayesian-optimization`    | [Official](https://github.com/fmfn/BayesianOptimization)                              |
@@ -206,8 +209,8 @@ This article can be a comprehensive reference for academics and experts in indus
 
 # MOP Packages
 
-| Package              | Link                                                 |
-| -------------------- | ---------------------------------------------------- |
+| Package            | Link                                                    |
+| ------------------ | ------------------------------------------------------- |
 | `pymultiobjective` | [Official](https://github.com/Valdecy/pyMultiobjective) |
 | `pydecision`       | [Official](https://github.com/Valdecy/pyDecision)       |
 
@@ -231,8 +234,8 @@ install('pyomo')
 
 2- There are some benchmarkig `tools` and websites, which are introduced as follows:
 
-| Benchmark    | Link                                                  |
-| ------------ | ----------------------------------------------------- |
+| Benchmark  | Link                                                     |
+| ---------- | -------------------------------------------------------- |
 | `humpday`  | [Official](https://www.microprediction.com/blog/humpday) |
 | `pycutest` | [Official](https://github.com/jfowkes/pycutest)          |
-| Mittelmann   | [Official](http://plato.la.asu.edu/bench.html)           |
+| Mittelmann | [Official](http://plato.la.asu.edu/bench.html)           |
