@@ -44,9 +44,11 @@ This article can be a comprehensive reference for academics and experts in indus
 | `midaco`           | [Official](http://www.midaco-solver.com/index.php/download/python)    |
 | `naginterfaces`    | [Official](https://www.nag.com/)                                      |
 | `octeract`         | [Official](https://octeract.gg/)                                      |
+| `omlt`             | [Official](https://github.com/cog-imperial/OMLT)                      |
 | `optalg`           | [Official](https://github.com/ttinoco/OPTALG)                         |
 | `optmod`           | [Official](https://github.com/ttinoco/OPTMOD)                         |
 | `pydrake`          | [Official](https://drake.mit.edu/)                                    |
+| `pyepo`            | [Official](https://github.com/khalil-research/PyEPO)                  |
 | `pyomo`            | [Official](http://www.pyomo.org/)                                     |
 | `pyscipopt`        | [Official](https://scipopt.org/)                                      |
 | `xpress`           | [Official](https://www.fico.com/en/products/fico-xpress-optimization) |
