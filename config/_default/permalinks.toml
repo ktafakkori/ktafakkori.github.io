@@ -1,3 +1,0 @@
-# Permalinks format of each content section
-post = "/:slug/"
-page = "/:slug/"
