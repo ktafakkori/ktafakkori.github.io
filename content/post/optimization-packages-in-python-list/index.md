@@ -32,6 +32,8 @@ This article can be a comprehensive reference for academics and experts in indus
 
 # MINLP+MIQP+MILP+NLP+IP+LP Packages
 
+_Note: Some packages might not accept a mixed group of discrete and continuous variables._
+
 | Package            | Link                                                                  |
 | ------------------ | --------------------------------------------------------------------- |
 | `amplpy`           | [Official](https://amplpy.ampl.com/en/latest/)                        |
@@ -56,6 +58,8 @@ This article can be a comprehensive reference for academics and experts in indus
 
 # MIQP+MILP+IP+LP Packages
 
+_Note: Some packages might not accept a mixed group of discrete and continuous variables._
+
 | Package       | Link                                                               |
 | ------------- | ------------------------------------------------------------------ |
 | `copt`        | [Official](https://www.shanshu.ai/copt)                            |
@@ -71,6 +75,8 @@ This article can be a comprehensive reference for academics and experts in indus
 | `qpsolvers`   | [Official](https://github.com/qpsolvers/qpsolvers)                 |
 
 # MILP+IP+LP Packages
+
+_Note: Some packages might not accept a mixed group of discrete and continuous variables._
 
 | Package      | Link                                                                |
 | ------------ | ------------------------------------------------------------------- |
@@ -115,6 +121,7 @@ This article can be a comprehensive reference for academics and experts in indus
 | ------------------- | --------------------------------------------------------------------------------------------- |
 | `cplex`             | [Official](https://www.ibm.com/analytics/cplex-cp-optimizer)                                  |
 | `cpmpy`             | [Official](https://github.com/CPMpy/cpmpy)                                                    |
+| `feloopy`           | [Official](https://github.com/ktafakkori/feloopy)                                             |
 | `gecode-python`     | [Official](https://launchpad.net/gecode-python)                                               |
 | `kalis`             | [Official](https://www.artelys.com/docs/kalis/index.html)                                     |
 | `minizinc`          | [Official](https://minizinc-python.readthedocs.io/en/latest/index.html)                       |
@@ -179,6 +186,7 @@ This article can be a comprehensive reference for academics and experts in indus
 | `pydogs`                   | [Official](https://pypi.org/project/pydogs/)                                          |
 | `pygmo`                    | [Official](https://esa.github.io/pygmo2/)                                             |
 | `pygpgo`                   | [Official](https://pygpgo.readthedocs.io/en/latest/)                                  |
+| `pymetaheuristic`          | [Official](https://github.com/Valdecy/pyMetaheuristic)                                |
 | `pymoo`                    | [Official](https://pymoo.org/)                                                        |
 | `pyopus`                   | [Official](https://fides.fe.uni-lj.si/pyopus/)                                        |
 | `pypesto`                  | [Official](https://github.com/icb-dcm/pypesto)                                        |
@@ -186,7 +194,6 @@ This article can be a comprehensive reference for academics and experts in indus
 | `pysmac`                   | [Official](https://github.com/automl/pysmac)                                          |
 | `pysot`                    | [Official](https://pysot.readthedocs.io/en/latest/)                                   |
 | `pyswarms`                 | [Official](https://pyswarms.readthedocs.io/en/latest/)                                |
-| `pymetaheuristic`          | [Official](https://github.com/Valdecy/pyMetaheuristic)                                |
 | `qiskit-optimization`      | [Official](https://pypi.org/project/qiskit-optimization/)                             |
 | `rapids-NeurIPS`           | [Official](https://github.com/daxiongshu/rapids-ai-BBO-2nd-place-solution)            |
 | `ray`                      | [Official](https://github.com/ray-project/ray)                                        |
@@ -214,8 +221,9 @@ This article can be a comprehensive reference for academics and experts in indus
 
 | Package            | Link                                                    |
 | ------------------ | ------------------------------------------------------- |
-| `pymultiobjective` | [Official](https://github.com/Valdecy/pyMultiobjective) |
+| `feloopy`          | [Official](https://github.com/ktafakkori/feloopy)       |
 | `pydecision`       | [Official](https://github.com/Valdecy/pyDecision)       |
+| `pymultiobjective` | [Official](https://github.com/Valdecy/pyMultiobjective) |
 
 # Notes
 
