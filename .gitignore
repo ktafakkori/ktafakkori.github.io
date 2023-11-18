@@ -1,0 +1,17 @@
+# Generated files by hugo
+/public/
+/resources/_gen/
+hugo_stats.json
+# Executable may be added to repository
+hugo.exe
+hugo.darwin
+hugo.linux
+
+# Other files and directories to ignore
+/assets/jsconfig.json
+hugo.log
+.hugo_build.lock
+
+# OS generated files
+.DS_Store
+*~
