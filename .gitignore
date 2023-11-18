@@ -39,8 +39,8 @@ _testmain.go
 *.exe
 *.test
 
-#public
-#/public/
+public
+/public/
 themes
 resources
 
