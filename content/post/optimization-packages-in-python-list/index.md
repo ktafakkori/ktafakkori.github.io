@@ -34,10 +34,11 @@ This article can be a comprehensive reference for academics and experts in indus
 
 | Package            | Link                                                                  |
 | ------------------ | --------------------------------------------------------------------- |
+| `amplpy`           | [Official](https://amplpy.ampl.com/en/latest/)                        |
 | `casadi`           | [Official](https://web.casadi.org/)                                   |
 | `feloopy`          | [Official](https://github.com/ktafakkori/feloopy)                     |
 | `gekko`            | [Official](https://machinelearning.byu.edu/)                          |
-| `gmspy`            | [Official](https://github.com/GAMS-dev/gamspy)                        |
+| `gamspy`           | [Official](https://github.com/GAMS-dev/gamspy)                        |
 | `insideopt-seeker` | [Official](https://insideopt.com/)                                    |
 | `knitro`           | [Official](https://www.artelys.com/docs/knitro/index.html)            |
 | `lindo`            | [Official](https://www.lindo.com/)                                    |
