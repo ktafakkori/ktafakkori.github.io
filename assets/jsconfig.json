@@ -2,7 +2,9 @@
  "compilerOptions": {
   "baseUrl": ".",
   "paths": {
-   "*": null
+   "*": [
+    "../../../../../../../home/keivant/.cache/hugo_cache/modules/filecache/modules/pkg/mod/github.com/!cai!jimmy/hugo-theme-stack/v3@v3.21.0/assets/*"
+   ]
   }
  }
 }
