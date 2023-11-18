@@ -16,7 +16,6 @@ This article can be a comprehensive reference for academics and experts in indus
     </video>
 </div>
 
-
 # Guide
 
 | Package capability | Description                          |
@@ -224,6 +223,7 @@ _Note: Some packages might not accept a mixed group of discrete and continuous v
 | ------------------ | ------------------------------------------------------- |
 | `feloopy`          | [Official](https://github.com/ktafakkori/feloopy)       |
 | `pydecision`       | [Official](https://github.com/Valdecy/pyDecision)       |
+| `pymoo`            | [Official](https://pymoo.org/)                          |
 | `pymultiobjective` | [Official](https://github.com/Valdecy/pyMultiobjective) |
 
 # Notes
