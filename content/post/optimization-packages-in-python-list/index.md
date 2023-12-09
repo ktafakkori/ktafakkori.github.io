@@ -66,13 +66,13 @@ _Note: Some packages might not accept a mixed group of discrete and continuous v
 | `cplex`       | [Official](https://www.ibm.com/analytics/cplex-optimizer)          |
 | `docplex`     | [Official](https://ibmdecisionoptimization.github.io/docplex-doc/) |
 | `gurobipy`    | [Official](https://www.gurobi.com/)                                |
-| `highs`       | [Official](https://highs.dev/)                                     |
 | `hexaly`      | [Official](https://www.hexaly.com/)                                |
+| `highs`       | [Official](https://highs.dev/)                                     |
 | `mosek`       | [Official](https://docs.mosek.com/latest/pythonapi/index.html)     |
 | `optlang`     | [Official](https://optlang.readthedocs.io/en/latest/)              |
+| `qpsolvers`   | [Official](https://github.com/qpsolvers/qpsolvers)                 |
 | `rsome`       | [Official](https://github.com/XiongPengNUS/rsome)                  |
 | `sasoptpy`    | [Official](https://github.com/sassoftware/sasoptpy)                |
-| `qpsolvers`   | [Official](https://github.com/qpsolvers/qpsolvers)                 |
 
 # MILP+IP+LP Packages
 
