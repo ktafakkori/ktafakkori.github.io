@@ -1,5 +1,5 @@
 ---
-title: "List of optimization packages in Python: Update 2023"
+title: "List of optimization packages in Python: Update 2024"
 date: 2022-07-27
 draft: false
 image: post-image.png
