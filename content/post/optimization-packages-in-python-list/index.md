@@ -3,7 +3,7 @@ title: "List of optimization packages in Python: Update 2024"
 date: 2022-07-27
 draft: false
 image: post-image.png
-aliases: ["/optimization-packages-in-python-list/"]
+aliases: ["/optimization-packages-in-python-list/", "list-of-optimization-packages-in-python-update-2023/"]
 ---
 
 # Introduction
