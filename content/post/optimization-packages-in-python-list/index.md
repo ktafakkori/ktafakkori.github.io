@@ -119,6 +119,7 @@ _Note: Some packages might not accept a mixed group of discrete and continuous v
 
 | Package             | Link                                                                                          |
 | ------------------- | --------------------------------------------------------------------------------------------- |
+| `choco`             | [Ofiicial](https://pypi.org/project/pychoco/)                                                 |
 | `cplex`             | [Official](https://www.ibm.com/analytics/cplex-cp-optimizer)                                  |
 | `cpmpy`             | [Official](https://github.com/CPMpy/cpmpy)                                                    |
 | `feloopy`           | [Official](https://github.com/ktafakkori/feloopy)                                             |
@@ -126,9 +127,9 @@ _Note: Some packages might not accept a mixed group of discrete and continuous v
 | `kalis`             | [Official](https://www.artelys.com/docs/kalis/index.html)                                     |
 | `minizinc`          | [Official](https://minizinc-python.readthedocs.io/en/latest/index.html)                       |
 | `optapy`            | [Official](https://www.optapy.org/docs/latest/planner-introduction/planner-introduction.html) |
-| `timefold`          | [Official](https://timefold.ai/)                                                              |
 | `ortools`           | [Official](https://developers.google.com/optimization/cp)                                     |
 | `python-constraint` | [Official](https://github.com/python-constraint/python-constraint)                            |
+| `timefold`          | [Official](https://timefold.ai/)                                                              |
 | `z3-solver`         | [Official](https://github.com/Z3Prover/z3)                                                    |
 
 # GPP Packages
