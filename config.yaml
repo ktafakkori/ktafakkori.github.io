@@ -4,7 +4,6 @@ theme: hugo-theme-stack
 paginate: 5
 title: FELOOP
 
-# GA Tracking ID
 googleAnalytics: bVUxQ-dwS2OJIe_gchcWu-NqHJD3oR9Sl_KMNnR5-vQ
 
 # Theme i18n support
