@@ -213,10 +213,10 @@ _Note: Some packages might not accept a mixed group of discrete and continuous v
 | `tgo`                      | [Official](https://github.com/stefan-endres/tgo)                                      |
 | `turbo-NeurIPS`            | [Official](https://github.com/nphdang/turbo_bbo_neurips_2020)                         |
 | `turbo`                    | [Official](https://github.com/uber-research/TuRBO)                                    |
-| `ultraopt`                 | [GitHub](https://auto-flow.github.io/ultraopt/zh/)                                    |
-| `yabox`                    | [GitHub](https://github.com/pablormier/yabox)                                         |
-| `zoofs`                    | [GitHub](https://github.com/jaswinder9051998/zoofs)                                   |
-| `zoopt`                    | [GitHub](https://github.com/polixir/ZOOpt)                                            |
+| `ultraopt`                 | [Official](https://auto-flow.github.io/ultraopt/zh/)                                  |
+| `yabox`                    | [Official](https://github.com/pablormier/yabox)                                       |
+| `zoofs`                    | [Official](https://github.com/jaswinder9051998/zoofs)                                 |
+| `zoopt`                    | [Official](https://github.com/polixir/ZOOpt)                                          |
 
 # MOP Packages
 
