@@ -67,7 +67,7 @@ _Note: Some packages might not accept a mixed group of discrete and continuous v
 | `docplex`     | [Official](https://ibmdecisionoptimization.github.io/docplex-doc/) |
 | `gurobipy`    | [Official](https://www.gurobi.com/)                                |
 | `highs`       | [Official](https://highs.dev/)                                     |
-| `localsolver` | [Official](https://www.localsolver.com/)                           |
+| `hexaly`      | [Official](https://www.hexaly.com/)                                |
 | `mosek`       | [Official](https://docs.mosek.com/latest/pythonapi/index.html)     |
 | `optlang`     | [Official](https://optlang.readthedocs.io/en/latest/)              |
 | `rsome`       | [Official](https://github.com/XiongPengNUS/rsome)                  |
