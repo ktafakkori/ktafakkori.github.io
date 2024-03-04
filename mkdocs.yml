@@ -3,7 +3,7 @@ site_url: https://ktafakkori.github.io/
 copyright: Copyright &copy; 2022 - 2024 Keivan Tafakkori
 
 nav:
-  - Home: index.md
+  - Main: index.md
   - Blog:
     - blog/index.md
     - blog/authors.md
@@ -25,8 +25,8 @@ theme:
     - navigation.footer
     - announce.dismiss
 
- logo: assets/logo/logo.png
- favicon: assets/logo/favicon.png
+ logo: assets/brand/logo.png
+ favicon: assets/brand/favicon.png
  icon:
   previous: fontawesome/solid/angle-left
   next: fontawesome/solid/angle-right
