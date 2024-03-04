@@ -9,8 +9,13 @@ theme:
  name: material
  features:
     - navigation.indexes
+    - navigation.instant.prefetch
  logo: assets/logo/logo.png
-
+ favicon: assets/logo/favicon.png
+ icon:
+  previous: fontawesome/solid/angle-left
+  next: fontawesome/solid/angle-right
+  
  palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -27,3 +32,12 @@ theme:
 
 plugins:
   - blog
+
+extra:
+  alternate:
+    - name: English
+      link: /en/ 
+      lang: en
+    - name: Persian
+      link: /fa/
+      lang: fa
