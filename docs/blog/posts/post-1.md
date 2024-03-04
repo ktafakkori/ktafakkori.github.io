@@ -9,7 +9,7 @@ categories:
 authors:
   - ktafakkori
 slug: "optimization-packages-in-python-list"
-pin: false
+comments: true
 ---
 
 This article can be a comprehensive reference for academics and experts in industrial engineering (IE), supply chain management (SCM), operations research (OR), computer science (CS), machine learning (ML), simulation (SM), data science (DS), and others to get familiar with what is available for optimization in Python.

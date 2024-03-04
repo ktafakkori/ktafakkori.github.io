@@ -1,5 +1,7 @@
 site_name: FELOOP
 site_url: https://ktafakkori.github.io/
+copyright: Copyright &copy; 2022 - 2024 Keivan Tafakkori
+
 nav:
   - Home: index.md
   - Blog:
@@ -7,31 +9,66 @@ nav:
     - blog/authors.md
 theme:
  name: material
+ custom_dir: overrides
  features:
+    - header.autohide
     - navigation.indexes
+    - navigation.instant.progress
     - navigation.instant.prefetch
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - search.share
+    - navigation.footer
+    - announce.dismiss
+
  logo: assets/logo/logo.png
  favicon: assets/logo/favicon.png
  icon:
   previous: fontawesome/solid/angle-left
   next: fontawesome/solid/angle-right
-  
+
  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      scheme: default
+      primary: black
+      accent: red
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: black
+      accent: blue
       toggle:
-        icon: material/brightness-7
+        icon: material/lightbulb
         name: Switch to dark mode
+
+
     - media: "(prefers-color-scheme: dark)"
       primary: black
       scheme: slate
+      accent: red
       toggle:
-        icon: material/brightness-4
+        icon: material/lightbulb-outline
         name: Switch to light mode
 
 plugins:
+  - search
   - blog
+  - rss:
+      match_path: blog/posts/.* 
+      date_from_meta:
+        as_creation: date
+      categories:
+        - categories
+        - tags
 
 extra:
   alternate:
@@ -41,3 +78,19 @@ extra:
     - name: Persian
       link: /fa/
       lang: fa
+
+  social:
+    - icon: fontawesome/brands/linkedin 
+      link: https://www.linkedin.com/in/keivan-tafakkori/
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/ktafakkori
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/YuvQP86c
+    - icon: fontawesome/brands/github
+      link: https://github.com/ktafakkori
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:feloop.crm@gmail.com
+
+  analytics:
+    #provider: google
+    #property: G-XXXXXXXXXX
