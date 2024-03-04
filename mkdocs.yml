@@ -1,9 +1,14 @@
 site_name: FELOOP
 site_url: https://ktafakkori.github.io/
 nav:
- - Home: index.md
+  - Home: index.md
+  - Blog:
+    - blog/index.md
+
 theme:
  name: material
+ features:
+    - navigation.indexes
  logo: assets/logo/logo.png
  palette:
     - media: "(prefers-color-scheme: light)"
@@ -18,3 +23,6 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+
+plugins:
+  - blog
