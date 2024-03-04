@@ -1,1 +1,6 @@
-site_name: My Docs
+
+site_name: FELOOP
+site_url: https://ktafakkori.github.io/
+nav:
+  - Home: index.md
+theme: material
