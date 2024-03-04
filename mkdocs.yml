@@ -1,6 +1,20 @@
-
 site_name: FELOOP
 site_url: https://ktafakkori.github.io/
 nav:
-  - Home: index.md
-theme: material
+ - Home: index.md
+theme:
+ name: material
+ logo: assets/logo/logo.png
+ palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      primary: black
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
