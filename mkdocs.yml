@@ -1,4 +1,9 @@
 site_name: FELOOP
+site_url: https://ktafakkori.github.io/
+repo_url: https://github.com/ktafakkori/ktafakkori.github.io
+repo_name: ktafakkori/ktafakkori.github.io
+
+docs_dir: feloop
 
 theme:
   name: material
