@@ -17,11 +17,13 @@ This article can be a comprehensive reference for academics and experts in indus
 <!-- more -->
 
 
-<div class="dark-bg">
-    <video width="100%" height="600" autoplay loop muted class="no-margin">
-        <source src="../video.mp4"></source>
-    </video>
-</div>
+
+
+
+<video width="400">
+    <source src="../../videos/video.mp4" type="video/mp4"></source>
+</video>
+
 
 
 
