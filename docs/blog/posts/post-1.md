@@ -17,11 +17,6 @@ This article can be a comprehensive reference for academics and experts in indus
 <!-- more -->
 
 
-
-
-![type:video](./videos/post-1.mp4)
-
-
 # Guide
 
 | Package capability | Description                          |

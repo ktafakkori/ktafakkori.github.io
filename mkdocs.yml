@@ -69,15 +69,7 @@ plugins:
       categories:
         - categories
         - tags
-  - ffc-mkdocs-video:
-      css_style:
-        position: "relative"
-        width: "100%"
-        height: "22.172vw"
-        autoplay: "autoplay"
-        loop: "loop"
-        display: "block"
-        margin: "auto"
+        
 extra:
   alternate:
     - name: English
