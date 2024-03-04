@@ -16,9 +16,12 @@ This article can be a comprehensive reference for academics and experts in indus
 
 <!-- more -->
 
-<video controls="true" allowfullscreen="true">
-  <source src="/videos/post-1.mp4" type="video/mp4">
-</video>
+
+<div class="dark-bg">
+    <video width="100%" height="600" autoplay loop muted class="no-margin">
+        <source src="../video.mp4"></source>
+    </video>
+</div>
 
 
 
