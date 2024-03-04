@@ -19,12 +19,7 @@ This article can be a comprehensive reference for academics and experts in indus
 
 
 
-
-<video width="400">
-    <source src="../../videos/video.mp4" type="video/mp4"></source>
-</video>
-
-
+![type:video](./videos/post-1.mp4)
 
 
 # Guide
