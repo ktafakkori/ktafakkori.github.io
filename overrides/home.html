@@ -30,6 +30,19 @@
         left: 180px; /* Adjust the left positioning for the second button to stack horizontally */
         bottom: 30px; /* Adjust the bottom positioning for the second button */
     }
+
+    /* Media query for screens with a maximum width of 768px (adjust as needed) */
+    @media screen and (max-width: 768px) {
+        .mdx-hero__image .md-button:first-child {
+            display: none; /* Hide the first button on mobile */
+        }
+
+        .mdx-hero__image .md-button:nth-child(2) {
+            left: 10px; /* Adjust the left positioning for the second button on mobile */
+            bottom: 10px; /* Adjust the bottom positioning for the second button on mobile */
+            font-size: 14px; /* Adjust the font size for the second button on mobile */
+        }
+    }
  </style>
  <section class="mdx-container">
     <div class="md-grid md-typeset">
@@ -56,5 +69,5 @@
 {% endblock %}
 
 {% block footer %}
-f
+
 {% endblock %}
