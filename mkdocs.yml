@@ -4,12 +4,13 @@ nav:
   - Home: index.md
   - Blog:
     - blog/index.md
-
+    - blog/authors.md
 theme:
  name: material
  features:
     - navigation.indexes
  logo: assets/logo/logo.png
+
  palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
