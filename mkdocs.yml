@@ -60,7 +60,10 @@ theme:
         name: Switch to light mode
 
 plugins:
+
   - search
+  - table-reader
+  
   - blog:
       post_url_format: "{slug}"
 
@@ -96,3 +99,6 @@ extra:
   analytics:
     #provider: google
     #property: G-XXXXXXXXXX
+
+extra_css:
+  - stylesheets/extra.css
