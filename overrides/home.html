@@ -8,21 +8,43 @@
     @media screen and (min-width: 60em) { .md-sidebar--secondary { display: none; } }
     @media screen and (min-width: 76.25em) { .md-sidebar--primary { display: none; } }
     body { background-color: black; } /* Set the body background to black */
+    
+    /* Adjustments for positioning buttons at the bottom left of the image */
+    .mdx-hero__image {
+        position: relative; /* Ensure the container is positioned relatively */
+    }
+
+    .mdx-hero__image .md-button {
+        position: absolute; /* Position the buttons absolutely within the container */
+        bottom: 30px; /* Adjust this value to move the buttons up */
+        display: block; /* Stack the buttons vertically */
+        margin-bottom: 10px; /* Add space between the buttons */
+    }
+
+    .mdx-hero__image .md-button:first-child {
+        left: 10px; /* Adjust the left positioning for the first button */
+        bottom: 50px; /* Adjust the bottom positioning for the first button */
+    }
+
+    .mdx-hero__image .md-button:nth-child(2) {
+        left: 180px; /* Adjust the left positioning for the second button to stack horizontally */
+        bottom: 30px; /* Adjust the bottom positioning for the second button */
+    }
  </style>
  <section class="mdx-container">
     <div class="md-grid md-typeset">
       <div class="mdx-hero">
         <div class="mdx-hero__image">
-          <img src="assets/brand/feloop.png" alt="" width="1659" height="1200" draggable="false">
-        </div>
-        <div class="mdx-hero__content">
-          <p>Feasible solutions, logical decisions, optimal outcomes!</p>
+          <img src="assets/brand/feloop.png" alt="" width="100%" height="600" draggable="false">
           <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | e }}" class="md-button md-button--primary">
             Quick start
           </a>
           <a href="{{ 'insiders/' | url }}" title="Material for MkDocs Insiders" class="md-button">
             Get Insiders
           </a>
+        </div>
+        <div class="mdx-hero__content">
+          <p></p>
         </div>
       </div>
     </div>

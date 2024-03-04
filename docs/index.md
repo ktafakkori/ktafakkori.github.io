@@ -1,5 +1,5 @@
 ---
-title: "FELOOP: Feasible | Logical | Optimal"
+title: "FELOOP"
 template: home.html
 ---
 
