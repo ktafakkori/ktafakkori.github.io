@@ -61,7 +61,9 @@ theme:
 
 plugins:
   - search
-  - blog
+  - blog:
+      post_url_format: "{slug}"
+
   - rss:
       match_path: blog/posts/.* 
       date_from_meta:
@@ -69,7 +71,7 @@ plugins:
       categories:
         - categories
         - tags
-        
+
 extra:
   alternate:
     - name: English
