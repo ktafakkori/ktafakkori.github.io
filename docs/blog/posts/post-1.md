@@ -14,7 +14,15 @@ comments: true
 
 # List of Optimization Packages in Python: Update 2024
 
-This article can be a comprehensive reference for academics and experts in industrial engineering (IE), supply chain management (SCM), operations research (OR), computer science (CS), machine learning (ML), simulation (SM), data science (DS), and others to get familiar with what is available for optimization in Python.
+This article serves as a comprehensive reference for academics and experts in the following fields to get familiar with what is available for optimization in Python:
+
+- Industrial engineering (IE)
+- Supply chain management (SCM)
+- Operations research (OR)
+- Computer science (CS)
+- Machine learning (ML)
+- Simulation (SM)
+- Data science (DS)
 
 <!-- more -->
 
