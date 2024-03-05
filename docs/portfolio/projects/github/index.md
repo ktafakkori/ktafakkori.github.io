@@ -7,7 +7,7 @@ _An integrated optimization environment for automated operations research in Pyt
 
 - Explore the project on [GitHub](https://github.com/ktafakkori/feloopy).
 - Consult the [Documentation](https://feloopy.readthedocs.io/en/latest/) for more details.
-- Visit the [PyPI](https://pypi.org/project/feloopy/) page to learn about the project's hosting.
+- Visit the [PyPI](https://pypi.org/project/feloopy/) page to learn about the project host.
 - Download and install the latest version from [Releases](https://github.com/ktafakkori/feloopy/releases/latest).
 
 [![GitHub stars](https://img.shields.io/github/stars/ktafakkori/feloopy?label=stars&style=flat-rounded&color=success&logo=github)](https://github.com/ktafakkori/feloopy/stargazers)
