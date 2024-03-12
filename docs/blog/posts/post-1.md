@@ -73,19 +73,19 @@ _Note: Some packages might not accept a mixed group of discrete and continuous v
 
 _Note: Some packages might not accept a mixed group of discrete and continuous variables._
 
-| Package       | Link                                                               |
-| ------------- | ------------------------------------------------------------------ |
-| `copt`        | [Official](https://www.shanshu.ai/copt)                            |
-| `cplex`       | [Official](https://www.ibm.com/analytics/cplex-optimizer)          |
-| `docplex`     | [Official](https://ibmdecisionoptimization.github.io/docplex-doc/) |
-| `gurobipy`    | [Official](https://www.gurobi.com/)                                |
-| `hexaly`      | [Official](https://www.hexaly.com/)                                |
-| `highs`       | [Official](https://highs.dev/)                                     |
-| `mosek`       | [Official](https://docs.mosek.com/latest/pythonapi/index.html)     |
-| `optlang`     | [Official](https://optlang.readthedocs.io/en/latest/)              |
-| `qpsolvers`   | [Official](https://github.com/qpsolvers/qpsolvers)                 |
-| `rsome`       | [Official](https://github.com/XiongPengNUS/rsome)                  |
-| `sasoptpy`    | [Official](https://github.com/sassoftware/sasoptpy)                |
+| Package     | Link                                                               |
+| ----------- | ------------------------------------------------------------------ |
+| `copt`      | [Official](https://www.shanshu.ai/copt)                            |
+| `cplex`     | [Official](https://www.ibm.com/analytics/cplex-optimizer)          |
+| `docplex`   | [Official](https://ibmdecisionoptimization.github.io/docplex-doc/) |
+| `gurobipy`  | [Official](https://www.gurobi.com/)                                |
+| `hexaly`    | [Official](https://www.hexaly.com/)                                |
+| `highs`     | [Official](https://highs.dev/)                                     |
+| `mosek`     | [Official](https://docs.mosek.com/latest/pythonapi/index.html)     |
+| `optlang`   | [Official](https://optlang.readthedocs.io/en/latest/)              |
+| `qpsolvers` | [Official](https://github.com/qpsolvers/qpsolvers)                 |
+| `rsome`     | [Official](https://github.com/XiongPengNUS/rsome)                  |
+| `sasoptpy`  | [Official](https://github.com/sassoftware/sasoptpy)                |
 
 # MILP+IP+LP Packages
 
@@ -237,6 +237,7 @@ _Note: Some packages might not accept a mixed group of discrete and continuous v
 | Package            | Link                                                    |
 | ------------------ | ------------------------------------------------------- |
 | `feloopy`          | [Official](https://github.com/ktafakkori/feloopy)       |
+| `parmoo`           | [Official](https://github.com/parmoo/parmoo)            |
 | `pydecision`       | [Official](https://github.com/Valdecy/pyDecision)       |
 | `pymoo`            | [Official](https://pymoo.org/)                          |
 | `pymultiobjective` | [Official](https://github.com/Valdecy/pyMultiobjective) |
