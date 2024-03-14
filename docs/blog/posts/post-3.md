@@ -1,5 +1,5 @@
 ---
-draft: True 
+draft: False 
 title: "Technical documentation of decision environments in operations research"
 date: 2024-03-13
 categories:
