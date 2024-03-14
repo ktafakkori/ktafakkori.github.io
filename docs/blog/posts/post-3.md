@@ -17,6 +17,6 @@ Documenting a new model, algorithm, policy, or method in technical writing, part
 
 Herein, I provide a list of references, that can be helpful:
 
-1) Consistent notation for presenting complex optimization models in technical writing: https://www.sciencedirect.com/science/article/abs/pii/S1876735416300186
+1) [Consistent notation for presenting complex optimization models in technical writing](https://www.sciencedirect.com/science/article/abs/pii/S1876735416300186)
 
-2) INFORMS Operations Research author guidelines: https://pubsonline.informs.org/pb-assets/Mathnotationstextfinal.pdf
+2) [INFORMS Operations Research author guidelines](https://pubsonline.informs.org/pb-assets/Mathnotationstextfinal.pdf)
