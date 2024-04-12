@@ -28,4 +28,4 @@ On the other hand, we consider a single variable x. What if there are more varia
 
 In this simple example, the CPT was 4.74e3 microseconds for ten breakpoints (20 constraints and nine binary and positive variables), 5.23e4 microseconds for 100 breakpoints (200 constraints and 99 binary and positive variables), and 2.19e6 for 1000 breakpoints (2000 constraints and 999 binary and positive variables), which exponentially increases.
 
-In summary, if you want to solve an unconstrained problem like minimizing x**2 precisely using a mile solver, you would need 2000 constraints and 999 binary and positive variables!
+In summary, if you want to solve an unconstrained problem like minimizing x**2 precisely using a MILP solver, you would need 2000 constraints and 999 binary and positive variables!
