@@ -138,7 +138,7 @@ _Note: Some packages might not accept a mixed group of discrete and continuous v
 
 | Package             | Link                                                                                          |
 | ------------------- | --------------------------------------------------------------------------------------------- |
-| `choco`             | [Ofiicial](https://pypi.org/project/pychoco/)                                                 |
+| `choco`             | [Official](https://pypi.org/project/pychoco/)                                                 |
 | `cplex`             | [Official](https://www.ibm.com/analytics/cplex-cp-optimizer)                                  |
 | `cpmpy`             | [Official](https://github.com/CPMpy/cpmpy)                                                    |
 | `feloopy`           | [Official](https://github.com/ktafakkori/feloopy)                                             |
