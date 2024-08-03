@@ -72,38 +72,47 @@ $on-laptop: 800px !default;
     --primary-text-color: #202124;
 
     /* Table Rows and Header */
-    --primary-table-color: #f2f2f2;
-    --table-header-color: #757575;
+    --primary-table-color: #f8f9fa;  /* Slightly lighter than #f2f2f2 for a fresher look */
+    --table-header-color: #3c4043;   /* Darker than #5a5b5d for better contrast */
 
     /* In-text code */
-    --primary-codebg-color: #f2f2f2;
+    --primary-codebg-color: #f1f3f4; /* Slightly lighter for better differentiation */
     --primary-codetext-color: #202124;
 
     /* Terminal code */
-    --primary-terminalbg-color: #e2e2e2;
-    --primary-terminaltext-color: #212121;
+    --primary-terminalbg-color: #e8eaed; /* Slightly lighter for better readability */
+    --primary-terminaltext-color: #202124;
 }
 
 // Dark Mode Setting
-
 body.active {
     /* Background */
     --primary-bg-color: #121212;
 
     /* Text */
-    --primary-text-color: #f5f5f5;
+    --primary-text-color: #e0e0e0;
 
     /* Table Rows and Header */
-    --primary-table-color: #1f1f1f;
-    --table-header-color: #757575;
+    --primary-table-color: #242424;  /* Default table row color */
+    --secondary-table-color: #1a1a1a;  /* Alternate table row color */
+    --table-header-color: #3b3838;
 
     /* In-text code */
-    --primary-codebg-color: #1f1f1f;
-    --primary-codetext-color: #f5f5f5;
+    --primary-codebg-color: #2a2a2a;
+    --primary-codetext-color: #e0e0e0;
 
     /* Terminal code */
-    --primary-terminalbg-color: #212121;
-    --primary-terminaltext-color: #f5f5f5;
+    --primary-terminalbg-color: #2b2b2b;
+    --primary-terminaltext-color: #e0e0e0;
+}
+
+/* Apply alternating row colors for tables in dark mode */
+body.active table tr:nth-child(even) {
+    background-color: var(--primary-table-color);
+}
+
+body.active table tr:nth-child(odd) {
+    background-color: var(--secondary-table-color);
 }
 
 // Basic Link Setting
@@ -1325,24 +1334,60 @@ pre.highlight>button:focus {
     opacity: 1;
 }
 
+:root {
+    /* Spacing Unit */
+    --spacing-unit: 8px; /* Adjust this as necessary */
+
+    /* Light Mode Colors */
+    --share-bg-color-light: #f2f2f2;
+    --share-text-color-light: #141010;
+    --share-link-color-light: #0c0808;
+    --share-link-hover-color-light: #ffffff;
+
+    /* Dark Mode Colors */
+    --share-bg-color-dark: #2a2a2a;
+    --share-text-color-dark: #e0e0e0;
+    --share-link-color-dark: #dcdcdc;
+    --share-link-hover-color-dark: #ffffff;
+}
+
+body.active {
+    /* Dark Mode Colors */
+    --share-bg-color: var(--share-bg-color-dark);
+    --share-text-color: var(--share-text-color-dark);
+    --share-link-color: var(--share-link-color-dark);
+    --share-link-hover-color: var(--share-link-hover-color-dark);
+}
+
+body:not(.active) {
+    /* Light Mode Colors */
+    --share-bg-color: var(--share-bg-color-light);
+    --share-text-color: var(--share-text-color-light);
+    --share-link-color: var(--share-link-color-light);
+    --share-link-hover-color: var(--share-link-hover-color-light);
+}
+
+/* Shared Styles */
 .share-page {
     text-align: center;
-    background: var(--table-header-color);
-    color: var(--primary-codetext-color);
+    background: var(--share-bg-color);
+    color: var(--share-text-color);
     padding: 8px 15px;
     border-radius: 5px;
-    margin: 1.5 * $spacing-unit 0;
-
-    a {
-        font-weight: 700;
-        color: rgb(12, 8, 8);
-        margin-left: 10px;
-
-        &:hover {
-            border-bottom: 1px dashed #fff;
-        }
-    }
+    margin: calc(1.5 * var(--spacing-unit)) 0;
 }
+
+.share-page a {
+    font-weight: 700;
+    color: var(--share-link-color);
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.share-page a:hover {
+    border-bottom: 1px dashed var(--share-link-hover-color);
+}
+
 
 .dark-bg {
     background-color: #262626;

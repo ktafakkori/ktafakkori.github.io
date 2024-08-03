@@ -7,8 +7,8 @@ layout: default
 <div class="post-container">
   {%- for post in paginator.posts -%}
   <div class="post-box">
-    {%- if post.image -%}
-    <img src="{{- post.image | relative_url -}}" alt="" class="post-image" />
+    {%- if post.clickimage -%}
+    <img src="{{- post.clickimage | relative_url -}}" alt="" class="post-image" />
     {%- else -%} {%- assign postImage = "images/image-default.jpg" -%}
     <img src="{{- postImage | relative_url -}}" alt="" class="post-image" />
     {%- endif -%} {%- assign date_format = site.minima.date_format | default:

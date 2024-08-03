@@ -1,5 +1,5 @@
 ---
-title: "List of optimization packages in Python: Update 2023"
+title: "List of optimization packages in Python: Update 2024"
 layout: post
 description: Getting to know optimization packages in Python.
 categories:
@@ -10,6 +10,7 @@ tags:
 author:
   - Keivan Tafakkori
 image: "/images/posts/or-packages.png"
+clickimage: "/images/posts/or-packages.png"
 comments: true
 ---
 
@@ -19,7 +20,7 @@ comments: true
 
 {% include warning.html content="The current list may have errors. If you found some, you may either contact me or comment here." %}
 
-# List of Optimization Packages in Python: Update 2024
+# Introduction
 
 This article serves as a comprehensive reference for academics and experts in the following fields to get familiar with what is available for optimization in Python:
 
