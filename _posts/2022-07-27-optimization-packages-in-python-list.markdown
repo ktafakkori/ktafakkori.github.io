@@ -23,9 +23,6 @@ comments: true
 
 This article serves as a comprehensive reference for academics and experts in the following fields to get familiar with what is available for optimization in Python:
 
-<!-- more -->
-
-
 - Industrial engineering (IE)
 - Supply chain management (SCM)
 - Operations research (OR)
