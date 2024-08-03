@@ -84,7 +84,7 @@ _Note: Some packages might not accept a mixed group of discrete and continuous v
 | `docplex`        | [Official](https://ibmdecisionoptimization.Official.io/docplex-doc/) |
 | `gurobipy`       | [Official](https://www.gurobi.com/)                                  |
 | `hexaly`         | [Official](https://www.hexaly.com/)                                  |
-| `highs`          | [Official](https://highs.dev/)                                       |
+| `highspy`          | [Official](https://highs.dev/)                                       |
 | `mosek`          | [Official](https://docs.mosek.com/latest/pythonapi/index.html)       |
 | `optlang`        | [Official](https://optlang.readthedocs.io/en/latest/)                |
 | `pyoptinterface` | [Official](https://github.com/metab0t/PyOptInterface)                |
