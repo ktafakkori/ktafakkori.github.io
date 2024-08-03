@@ -1,0 +1,51 @@
+title: "FELOOP"
+
+email: 
+
+description: ""
+
+baseurl: ""
+
+url: "https://ktafakkori.github.io"
+
+twitter_username: Twitter
+
+github_username: Github
+
+linkedin_username: Linkedin
+
+youtube_username: YouTube
+
+stackoverflow_username: Stack Overflow
+
+googlescholar_username: Google Scholar
+
+rss: Subscribe
+
+author: Keivan Tafakkori
+
+copyright: "All rights reserved."
+
+production_url: "https://ktafakkori.github.io"
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-archives
+  - jekyll-include-cache
+  - jekyll-sitemap
+
+paginate: 8
+paginate_path: "/page:num/"
+
+title-logo: "/images/title-logo.png"
+
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+permalink: /:title/
+
+toc: true

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default:'en' }}">
+
+  {%- include head.html -%}
+
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/academicons.css">
+  
+  <div id="theme-toggler" class="fa fa-moon"><i class="fa fa-lightbulb-o" style="color: rgb(223, 190, 26)"></i> </i></div>
+  
+  <script>
+    let themeToggler = document.getElementById('theme-toggler');
+    let storedMode = localStorage.getItem("mode");
+
+    if (storedMode) {
+      document.body.classList.add(storedMode);
+      if (storedMode === "active") {
+        themeToggler.classList.add('fa-sun');
+      }
+    }
+
+    themeToggler.onclick = () => {
+      themeToggler.classList.toggle('fa-sun');
+
+      if (themeToggler.classList.contains('fa-sun')) {
+        localStorage.setItem("mode", "active");
+        document.body.classList.add('active');
+        document.body.classList.remove('deactive');
+      } else {
+        document.body.classList.add('deactive');
+        document.body.classList.remove('active');
+        localStorage.setItem("mode", "deactive");
+      }
+    };
+  </script>
+
+  <body>
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>

@@ -1,0 +1,102 @@
+<ul class="social-media-list">
+  {% if site.linkedin_username %}
+  <li>
+    <a href="https://www.linkedin.com/in/keivan-tafakkori" class="social-link linkedin">
+      <i class="fa fa-linkedin-square"></i>
+      <span class="username">{{ site.linkedin_username | escape }}</span>
+    </a>
+  </li>
+  {% endif %}
+  
+  {% if site.twitter_username %}
+  <li>
+    <a href="https://twitter.com/KTafakkori" class="social-link twitter">
+      <i class="fa fa-twitter"></i>
+      <span class="username">{{ site.twitter_username | escape }}</span>
+    </a>
+  </li>
+  {% endif %}
+  
+  {% if site.youtube_username %}
+  <li>
+    <a href="https://www.youtube.com/channel/UCgln8g9GjMi_Sh6P0k2DkOQ" class="social-link youtube">
+      <i class="fa fa-youtube-play"></i>
+      <span class="username">{{ site.youtube_username | escape }}</span>
+    </a>
+  </li>
+  {% endif %}
+  
+  {% if site.github_username %}
+  <li>
+    <a href="https://github.com/ktafakkori/" class="social-link github">
+      <i class="fa fa-github"></i>
+      <span class="username">{{ site.github_username | escape }}</span>
+    </a>
+  </li>
+  {% endif %}
+  
+  {% if site.stackoverflow_username %}
+  <li>
+    <a href="https://stackoverflow.com/users/19078738/keivan-tafakkori" class="social-link stackoverflow">
+      <i class="fa fa-stack-overflow"></i>
+      <span class="username">{{ site.stackoverflow_username | escape }}</span>
+    </a>
+  </li>
+  {% endif %}
+  
+  {% if site.googlescholar_username %}
+  <li>
+    <a href="https://scholar.google.com/citations?hl=en&user=eoCLWfYAAAAJ&view_op=list_works&sortby=pubdate" class="social-link googlescholar">
+      <i class="ai ai-google-scholar-square"></i>
+      <span class="username">{{ site.googlescholar_username | escape }}</span>
+    </a>
+  </li>
+  {% endif %}
+</ul>
+
+<style>
+  .social-media-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .social-media-list li {
+    margin-bottom: 0.5px;
+  }
+  
+  .social-link {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+  }
+  
+  .social-link i {
+    margin-right: 8px;
+    font-size: 24px;
+  }
+  
+  .social-link.linkedin i {
+    color: #1a59cf;
+  }
+  
+  .social-link.twitter i {
+    color: #22a3bd;
+  }
+  
+  .social-link.youtube i {
+    color: #dc1916;
+  }
+  
+  .social-link.github i {
+    color: #343534;
+  }
+  
+  .social-link.stackoverflow i {
+    color: #885512;
+  }
+  
+  .social-link.googlescholar i {
+    color: #1656aa;
+  }
+</style>

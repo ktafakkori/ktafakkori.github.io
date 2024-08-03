@@ -1,0 +1,42 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+  <div class="wrapper">
+    <h2 class="footer-heading">{{ escape }}</h2>
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <!-- Contact information -->
+        <ul class="contact-list">
+          <li class="p-name">
+            {%- if site.author -%}
+            {{ site.author | escape }}
+            {%- else -%}
+            {{ escape }}
+            {%- endif -%}
+          </li>
+          {%- if site.email -%}
+          <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          {%- endif -%}
+          {%- if site.copyright -%}
+          <li>&copy; {{ site.copyright }} {{ 'now' | date: "%Y" }}</li>
+          {%- endif -%}
+          {%- if site.rss -%}
+          <li>
+            <a href="https://ktafakkori.github.io/feed.xml">
+              <i class="fa fa-rss custom-rss-icon"></i>
+              <span>{{ site.rss | escape }}</span>
+            </a>
+          </li>
+          {%- endif -%}
+        </ul>
+      </div>
+      <div class="footer-col footer-col-2">
+        <!-- Social links -->
+        {%- include social.html -%}
+      </div>
+      <div class="footer-col footer-col-3">
+        <!-- Site description -->
+        <p>{{- site.description | escape -}}</p>
+      </div>
+    </div>
+  </div>
+</footer>
