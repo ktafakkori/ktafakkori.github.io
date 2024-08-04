@@ -79,7 +79,7 @@ _Note: Some packages might not accept a mixed group of discrete and continuous v
 
 | Package          | Link                                                               |
 | ---------------- | ------------------------------------------------------------------ |
-| `copt`           | [Official](https://www.shanshu.ai/copt)                            |
+| `coptpy`         | [Official](https://www.shanshu.ai/copt)                            |
 | `cplex`          | [Official](https://www.ibm.com/analytics/cplex-optimizer)          |
 | `docplex`        | [Official](https://ibmdecisionoptimization.github.io/docplex-doc/) |
 | `gurobipy`       | [Official](https://www.gurobi.com/)                                |
