@@ -2068,3 +2068,12 @@ body:not(.active) {
     font-size: 16px;
     color: #333;
   }
+
+
+.fa.fa-twitter{
+	font-family:sans-serif;
+}
+.fa.fa-twitter::before{
+	content:"𝕏";
+	font-size:1.2em;
+}

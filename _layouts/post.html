@@ -112,16 +112,16 @@ layout: default
 
   <div class="share-page">
     Share this on &rarr;
-    <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" 
-       rel="nofollow" target="_blank" title="Share on Twitter">Twitter</a>
+    <a href="https://x.com/intent/text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" 
+       rel="nofollow" target="_blank" title="Share on X">X</a>
     <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" 
        rel="nofollow" target="_blank" title="Share on Facebook">Facebook</a>
     <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}" 
        rel="nofollow" target="_blank" title="Share on LinkedIn">LinkedIn</a>
     <a href="https://www.reddit.com/submit?url={{ site.url }}{{ page.url }}" 
        rel="nofollow" target="_blank" title="Share on Reddit">Reddit</a>
-  </div>
-  
+</div>
+
 
   <b style="color:var(--primary-text-color);">Comments:</b>
   {%- include utterances.html -%}
