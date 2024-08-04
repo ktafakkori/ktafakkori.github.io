@@ -62,49 +62,31 @@ $content-width: 800px !default;
 $on-palm: 600px !default;
 $on-laptop: 800px !default;
 
-// (Default) Light Mode Setting
-
+/* Light Mode Setting */
 :root {
-    /* Background */
     --primary-bg-color: #ffffff;
-
-    /* Text */
     --primary-text-color: #202124;
-
-    /* Table Rows and Header */
-    --primary-table-color: #f8f9fa;  /* Slightly lighter than #f2f2f2 for a fresher look */
-    --table-header-color: #3c4043;   /* Darker than #5a5b5d for better contrast */
-
-    /* In-text code */
-    --primary-codebg-color: #f1f3f4; /* Slightly lighter for better differentiation */
+    --primary-table-color: #f8f9fa;
+    --table-header-color: #3c4043;
+    --primary-codebg-color: #f1f3f4;
     --primary-codetext-color: #202124;
-
-    /* Terminal code */
-    --primary-terminalbg-color: #e8eaed; /* Slightly lighter for better readability */
+    --primary-terminalbg-color: #e8eaed;
     --primary-terminaltext-color: #202124;
 }
 
-// Dark Mode Setting
+/* Dark Mode Setting */
 body.active {
-    /* Background */
     --primary-bg-color: #121212;
-
-    /* Text */
     --primary-text-color: #e0e0e0;
-
-    /* Table Rows and Header */
-    --primary-table-color: #242424;  /* Default table row color */
-    --secondary-table-color: #1a1a1a;  /* Alternate table row color */
+    --primary-table-color: #242424;
+    --secondary-table-color: #1a1a1a;
     --table-header-color: #3b3838;
-
-    /* In-text code */
     --primary-codebg-color: #2a2a2a;
     --primary-codetext-color: #e0e0e0;
-
-    /* Terminal code */
     --primary-terminalbg-color: #2b2b2b;
     --primary-terminaltext-color: #e0e0e0;
 }
+
 
 /* Apply alternating row colors for tables in dark mode */
 body.active table tr:nth-child(even) {
